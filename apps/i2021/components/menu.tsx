@@ -11,11 +11,14 @@ const Menu = styled.ul`
   text-align: center;
   border-bottom: 4px solid #fff;
   margin: 0 auto;
-  max-width: 75%;
   padding: 1rem 0 1rem;
   color: white;
   justify-content: center;
   box-sizing: border-box;
+  max-width: 1170px;
+  @media (max-width: 1170px) {
+    max-width: 95%;
+  }
 `;
 const MenuItem = styled.li`
   display: inline-block;

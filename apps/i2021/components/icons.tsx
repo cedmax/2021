@@ -2,7 +2,6 @@ import { ReactComponent as athletics } from '../public/icons/athletics.svg';
 import { ReactComponent as baseball } from '../public/icons/baseball.svg';
 import { ReactComponent as bocce } from '../public/icons/bocce.svg';
 import { ReactComponent as canoeing } from '../public/icons/canoeing.svg';
-import { ReactComponent as cinema } from '../public/icons/cinema.svg';
 import { ReactComponent as cycling } from '../public/icons/cycling.svg';
 import { ReactComponent as other } from '../public/icons/other.svg';
 import { ReactComponent as eaa } from '../public/icons/eaa.svg';
@@ -13,7 +12,7 @@ import { ReactComponent as gaming } from '../public/icons/gaming.svg';
 import { ReactComponent as location } from '../public/icons/location.svg';
 import { ReactComponent as martialarts } from '../public/icons/martialarts.svg';
 import { ReactComponent as motocross } from '../public/icons/motocross.svg';
-import { ReactComponent as music } from '../public/icons/music.svg';
+import { ReactComponent as entertainment } from '../public/icons/entertainment.svg';
 import { ReactComponent as olympics } from '../public/icons/olympics.svg';
 import { ReactComponent as polo } from '../public/icons/polo.svg';
 import { ReactComponent as sailing } from '../public/icons/sailing.svg';
@@ -33,7 +32,6 @@ const icons: iconTypes = {
   baseball,
   bocce,
   canoeing,
-  cinema,
   cycling,
   eaa,
   fencing,
@@ -43,7 +41,7 @@ const icons: iconTypes = {
   location,
   martialarts,
   motocross,
-  music,
+  entertainment,
   olympics,
   polo,
   sailing,

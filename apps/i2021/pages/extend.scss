@@ -8,9 +8,12 @@ h1 {
   text-align: center;
   border-bottom: 4px solid #fff;
   margin: 0 auto;
-  max-width: 75%;
   padding: 3rem 0;
   color: white;
+  max-width: 1170px;
+  @media (max-width: 1170px) {
+    max-width: 95%;
+  }
 }
 
 button.vertical-timeline-element-icon {
@@ -49,6 +52,12 @@ button.vertical-timeline-element-icon-selected {
   }
 }
 
+.vertical-timeline {
+  @media (max-width: 1170px) {
+    max-width: 90%;
+  }
+}
+
 .vertical-timeline-element-content {
   .vertical-timeline-element-title {
     padding-bottom: 0.4rem;
@@ -65,8 +74,43 @@ button.vertical-timeline-element-icon-selected {
     border-right-width: 7px;
   }
 
-  img {
+  p {
+    position: relative;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  img + .play {
+    transition: all ease-in-out 0.5s;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+  }
+
+  img:hover + .play,
+  .play:hover {
+    opacity: 1;
+    display: block;
+  }
+
+  img:hover + .play,
+  .play:hover {
+    & + .icon-video {
+      transform: translate(50%, 50%);
+      opacity: 1;
+      right: 50%;
+      bottom: 50%;
+      width: 80px;
+      height: 80px;
+      background: rgba(0, 0, 0, 0);
+    }
   }
 }
 
@@ -176,47 +220,6 @@ footer {
   text-transform: capitalize;
 }
 
-.vertical-timeline-element-content p {
-  position: relative;
-  img {
-    display: block;
-  }
-}
-
-.vertical-timeline-element-content img + .play {
-  transition: all ease-in-out 0.5s;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-  border: 0;
-  position: absolute;
-  top: 0;
-  cursor: pointer;
-
-  // &::after {
-  //   content: '';
-  //   display: block;
-  //   position: absolute;
-  //   left: 50%;
-  //   top: 50%;
-  //   transform: translate(-50%, -50%);
-  //   width: 0;
-  //   height: 0;
-  //   border-top: 50px solid transparent;
-  //   border-bottom: 50px solid transparent;
-  //   border-left: 80px solid rgba(0, 0, 0, 1);
-  // }
-}
-
-.vertical-timeline-element-content {
-  img:hover + .play,
-  .play:hover {
-    opacity: 1;
-    display: block;
-  }
-}
-
 .ytWrapper {
   background: black;
   width: 100%;
@@ -278,20 +281,5 @@ button.close::before {
 
   svg {
     fill: white;
-  }
-}
-
-.vertical-timeline-element-content {
-  img:hover + .play,
-  .play:hover {
-    & + .icon-video {
-      transform: translate(50%, 50%);
-      opacity: 1;
-      right: 50%;
-      bottom: 50%;
-      width: 80px;
-      height: 80px;
-      background: rgba(0, 0, 0, 0);
-    }
   }
 }

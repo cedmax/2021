@@ -11,7 +11,7 @@
     "date": "1st of March",
     "location": "Virtual event, US",
     "title": "Laura Pausini wins Best Original Song award at Golden Globe",
-    "type": "music",
+    "type": "entertainment",
     "img": "pausini.jpg",
     "video": "imjSm7FNmwE"
   },
@@ -35,7 +35,7 @@
     "date": "22nd of May",
     "location": "Rotterdam, NL",
     "title": "Maneskin wins Eurovision",
-    "type": "music",
+    "type": "entertainment",
     "vs": "France",
     "img": "damiano.jpg",
     "video": "RVH5dn1cxAQ"
@@ -44,7 +44,7 @@
     "date": "18th of June",
     "location": "Worldwide",
     "title": "Pixar releases Luca",
-    "type": "cinema",
+    "type": "entertainment",
     "img": "luca.jpg",
     "video": "mYfJxlgR2jw"
   },
@@ -404,7 +404,7 @@
     "date": "20th of September",
     "location": "Los Angeles, US",
     "title": "Stanley Tucci: Searching for Italy – an American travel and food show uncovering lesser-known places and exploring their cultures, cuisine and history – wins an Emmy",
-    "type": "cinema",
+    "type": "entertainment",
     "img": "tucci.jpg",
     "video": "fucxxHB7dj4"
   },
