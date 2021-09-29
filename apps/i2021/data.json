@@ -153,7 +153,8 @@
     "title": "Gianmarco Tamberi (and Mutaz Barshim) Gold Medal in Athletics Men's high jump",
     "vs": "Belarus",
     "type": "athletics",
-    "img": "barshim-tamberi"
+    "img": "barshim-tamberi",
+    "video": "rQRiS8l30xE?t=9161"
   },
   {
     "date": "1st of August",
@@ -203,7 +204,8 @@
     "title": "Antonella Palmisano Gold Medal in Women's 20km race walk",
     "vs": "Colmbia",
     "img": "palmisano",
-    "type": "athletics"
+    "type": "athletics",
+    "video": "2ARkTHJSGv8"
   },
   {
     "date": "7th of August",
@@ -259,7 +261,8 @@
     "title": "Bebe Vio Gold Medal in Women's wheelchair fencing",
     "type": "fencing",
     "vs": "China",
-    "img": "vio"
+    "img": "vio",
+    "video": "OWsm04I0Oeo"
   },
   {
     "date": "29th of August",
@@ -343,7 +346,7 @@
   {
     "date": "9th of September",
     "location": "Zurich, CH",
-    "title": "Gianmarco Tamberi first Italian to win the  Diamond League",
+    "title": "Gianmarco Tamberi first Italian to win the Diamond League",
     "type": "athletics",
     "img": "diamond"
   },
