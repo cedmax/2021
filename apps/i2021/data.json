@@ -4,7 +4,7 @@
     "location": "Katowice, PL",
     "title": "Riccardo “Reynor” Romiti wins StarCraft 2 Masters Championship, becoming the first non-Korean player to win a World Championship level trophy",
     "type": "gaming",
-    "img": "renoyr.jpg",
+    "img": "renoyr",
     "video": "A71o9yBCQCU#1900"
   },
   {
@@ -12,7 +12,7 @@
     "location": "Virtual event, US",
     "title": "Laura Pausini wins Best Original Song award at Golden Globe",
     "type": "entertainment",
-    "img": "pausini.jpg",
+    "img": "pausini",
     "video": "imjSm7FNmwE"
   },
   {
@@ -20,7 +20,7 @@
     "location": "Jasná, SK",
     "title": "Marta Bassino wins Giant Slalom World Cup",
     "type": "skiing",
-    "img": "bassino.jpg",
+    "img": "bassino",
     "video": "FAhkszxWqg4"
   },
   {
@@ -28,7 +28,7 @@
     "location": "Lenzerheide, CH",
     "title": "Sofia Goggia wins Downhill World Cup",
     "type": "skiing",
-    "img": "goggia.jpg",
+    "img": "goggia",
     "video": "vik1RqKnBq4"
   },
   {
@@ -37,7 +37,7 @@
     "title": "Maneskin wins Eurovision",
     "type": "entertainment",
     "vs": "France",
-    "img": "damiano.jpg",
+    "img": "damiano",
     "video": "RVH5dn1cxAQ"
   },
   {
@@ -45,7 +45,7 @@
     "location": "Worldwide",
     "title": "Pixar releases Luca",
     "type": "entertainment",
-    "img": "luca.jpg",
+    "img": "luca",
     "video": "mYfJxlgR2jw"
   },
   {
@@ -54,7 +54,7 @@
     "title": "Women's European Softball Championship",
     "type": "baseball",
     "vs": "Netherlands",
-    "img": "softball.jpg",
+    "img": "softball",
     "video": "RCICfcEXkgs"
   },
   {
@@ -63,7 +63,7 @@
     "title": "Dalia Kaddari Gold Medal in U23 Women's 200 metres",
     "type": "athletics",
     "vs": "Germany",
-    "img": "khaddari.jpg",
+    "img": "khaddari",
     "video": "1osEoir0nWQ"
   },
   {
@@ -72,7 +72,7 @@
     "title": "Alessandro Sibilio Gold Medal in U23 Men's 400 metres hurdles",
     "type": "athletics",
     "vs": "Germany",
-    "img": "sibilio.jpg",
+    "img": "sibilio",
     "video": "FW8GtCdE7EQ"
   },
   {
@@ -81,7 +81,7 @@
     "title": "Matteo Berrettini is the first Italian at a Wimbledon final",
     "type": "tennis",
     "vs": "Italy, nevertheless an historical achievement",
-    "img": "berrettini.jpg",
+    "img": "berrettini",
     "video": "zNMpoAo58BQ"
   },
   {
@@ -90,7 +90,7 @@
     "title": "UEFA European Football Championship",
     "type": "football",
     "vs": "England",
-    "img": "chiellini.jpg",
+    "img": "chiellini",
     "video": "WAC1RrdRG2U"
   },
   {
@@ -99,7 +99,7 @@
     "title": "Gaia Sabbatini and Marta Zenoni Gold and Silver Medals in U23 Women's 1500 metres",
     "type": "athletics",
     "vs": "Great Britain",
-    "img": "zenoni-sabatini.jpg",
+    "img": "zenoni-sabatini",
     "video": "Z3bW9sG1MEg"
   },
   {
@@ -108,7 +108,7 @@
     "title": "Nadia Battocletti Gold Medal in U23 Women's 5000 metres",
     "type": "athletics",
     "vs": "Great Britain",
-    "img": "battocletti.jpg",
+    "img": "battocletti",
     "video": "KdJIxB5hHkE"
   },
   {
@@ -117,7 +117,7 @@
     "title": "Simone Barontini Gold Medal in U23 Men's 800 metres",
     "type": "athletics",
     "vs": "Belgium",
-    "img": "barontini.jpg",
+    "img": "barontini",
     "video": "UEFC95-wAe0"
   },
   {
@@ -126,7 +126,7 @@
     "title": "Andrea Dallavalle Gold Medal in U23 Men's triple jump",
     "type": "athletics",
     "vs": "France",
-    "img": "dallavalle.jpg",
+    "img": "dallavalle",
     "video": "uxvYYqYkXrw"
   },
 
@@ -136,7 +136,7 @@
     "title": "Dell'Aquila Gold Medal in Men's 58kg Taekwondo at the Olympics",
     "type": "martialarts",
     "vs": "Tunisia",
-    "img": "taekwondo.jpg",
+    "img": "taekwondo",
     "video": "odCQSMlJwPo"
   },
   {
@@ -145,7 +145,7 @@
     "title": "Valentina Rodini and Federica Cesarini Gold Medal in Women's lightweight double sculls",
     "vs": "France",
     "type": "canoeing",
-    "img": "canoeing.jpg"
+    "img": "canoeing"
   },
   {
     "date": "1st of August",
@@ -153,7 +153,7 @@
     "title": "Gianmarco Tamberi (and Mutaz Barshim) Gold Medal in Athletics Men's high jump",
     "vs": "Belarus",
     "type": "athletics",
-    "img": "barshim-tamberi.jpg"
+    "img": "barshim-tamberi"
   },
   {
     "date": "1st of August",
@@ -161,7 +161,7 @@
     "title": "Marcell Jacobs Gold Medal in Men's 100 metres final",
     "type": "athletics",
     "vs": "USA",
-    "img": "100mt.jpg",
+    "img": "100mt",
     "video": "E895PNqSgEI"
   },
   {
@@ -170,7 +170,7 @@
     "title": "Ruggero Tita and Caterina Banti Gold Medal in Nacra 17 mixed",
     "type": "sailing",
     "vs": "Great Britain",
-    "img": "tita-banti.jpg"
+    "img": "tita-banti"
   },
   {
     "date": "4th of August",
@@ -178,14 +178,14 @@
     "title": "Filippo Ganna, Francesco Lamon, Simone Consonni and Jonathan Milan Gold Medal and World Record in men's Team pursuit",
     "type": "cycling",
     "vs": "Denmark",
-    "img": "ganna.jpg"
+    "img": "ganna"
   },
   {
     "date": "7th of August",
     "location": "Tokyo, JP",
     "title": "Massimo Stano Gold Medal in Men's 20km race walk",
     "vs": "Japan",
-    "img": "stano.jpg",
+    "img": "stano",
     "type": "athletics"
   },
   {
@@ -194,7 +194,7 @@
     "title": "Eseosa Desalu, Marcell Jacobs, Lorenzo Patta, and Filippo Tortu Gold Medal in Men's 4x100",
     "vs": "Great Britain",
     "type": "athletics",
-    "img": "4x100.jpg",
+    "img": "4x100",
     "video": "pZ2G6BoWy04"
   },
   {
@@ -202,7 +202,7 @@
     "location": "Tokyo, JP",
     "title": "Antonella Palmisano Gold Medal in Women's 20km race walk",
     "vs": "Colmbia",
-    "img": "palmisano.jpg",
+    "img": "palmisano",
     "type": "athletics"
   },
   {
@@ -211,7 +211,7 @@
     "title": "Luigi Busà Gold Medal in Men's Kumite +75kg",
     "type": "martialarts",
     "vs": "Azerbaijan",
-    "img": "busa.jpg"
+    "img": "busa"
   },
   {
     "date": "15th of August",
@@ -219,7 +219,7 @@
     "title": "Andrea Muzii wins Asian-Oceanian Open / MSO Memory Championship ",
     "type": "other",
     "vs": "Germany",
-    "img": "memory.jpg"
+    "img": "memory"
   },
   {
     "date": "15th of August",
@@ -227,7 +227,7 @@
     "title": "Camila Giorgi wins the Omnium Banque Nationale Championship",
     "vs": "Czech Republic",
     "type": "tennis",
-    "img": "giorgi.jpg"
+    "img": "giorgi"
   },
   {
     "date": "25th of August",
@@ -235,7 +235,7 @@
     "title": "Carlotta Gilli and Alessia Berra Gold and Silver Medals in S13 100m butterfly",
     "vs": "Russia",
     "type": "swimming",
-    "img": "gilli.jpg"
+    "img": "gilli"
   },
   {
     "date": "25th and 26th of August",
@@ -243,7 +243,7 @@
     "title": "Francesco Bocciardo Gold Medals in S5 Men's 100m and 200m Freestyle",
     "vs": "Spain and China",
     "type": "swimming",
-    "img": "bocciardo-1.jpg"
+    "img": "bocciardo-1"
   },
   {
     "date": "26th of August",
@@ -251,7 +251,7 @@
     "title": "Stefano Raimondi Gold Medal in SB9 Men's 100m Breaststroke",
     "vs": "Russia",
     "type": "swimming",
-    "img": "raimondi.jpg"
+    "img": "raimondi"
   },
   {
     "date": "29th of August",
@@ -259,7 +259,7 @@
     "title": "Bebe Vio Gold Medal in Women's wheelchair fencing",
     "type": "fencing",
     "vs": "China",
-    "img": "vio.jpg"
+    "img": "vio"
   },
   {
     "date": "29th of August",
@@ -267,7 +267,7 @@
     "title": "Simone Barlaam Gold Medal in S9 Men's 50m Freestyle",
     "type": "swimming",
     "vs": "Russia",
-    "img": "barlaam.jpg"
+    "img": "barlaam"
   },
   {
     "date": "29th of August",
@@ -275,7 +275,7 @@
     "title": "Xenia Francesca Palazzo, Vittoria Bianco, Giulia Terzi e Alessia Scortechini Gold Medal in 34pts Women's 4x100m Freestyle",
     "type": "swimming",
     "vs": "Australia",
-    "img": "4x100-34.jpg"
+    "img": "4x100-34"
   },
   {
     "date": "29th and 30th of August",
@@ -283,7 +283,7 @@
     "title": "Arjola Trimi Gold Medals in S3 Women's 50m Backstroke and Women's 100m Freestyle",
     "vs": "Great Britain and USA",
     "type": "swimming",
-    "img": "trimi.jpg"
+    "img": "trimi"
   },
   {
     "date": "30th of August",
@@ -291,7 +291,7 @@
     "title": "Carlotta Gilli Gold Medal in S13 Women's 200m Individual Medley",
     "vs": "USA",
     "type": "swimming",
-    "img": "gilli-2.jpg"
+    "img": "gilli-2"
   },
   {
     "date": "31st of August",
@@ -299,14 +299,14 @@
     "title": "Giulia Terzi Gold Medal in S7 Women's 100m Freestyle",
     "vs": "USA",
     "type": "swimming",
-    "img": "terzi.jpg"
+    "img": "terzi"
   },
   {
     "date": "1st of September",
     "location": "Tokyo, JP",
     "title": "Antonio Fantin Gold Medal and World Record in S6 Men's 100m Freestyle",
     "type": "swimming",
-    "img": "fantin.jpg"
+    "img": "fantin"
   },
   {
     "date": "1st of September",
@@ -314,14 +314,14 @@
     "title": "Paolo Cecchetto, Luca Mazzone and Diego Colombari Gold Medal in Mixed H1-5 Team Relay",
     "type": "cycling",
     "vs": "France",
-    "img": "relay.jpg"
+    "img": "relay"
   },
   {
     "date": "4th of September",
     "location": "Tokyo, JP",
     "title": "Ambra Sabatini, Martina Caironi and Monica Graziana Contraffatto Gold, Silver and Bronze Medals in Women's 100 metres T63",
     "type": "athletics",
-    "img": "t63.jpg",
+    "img": "t63",
     "video": "BVrfH2mND7o"
   },
   {
@@ -329,7 +329,7 @@
     "location": "Kranj, SI",
     "title": "Stefano Ghisolfi wins Lead Climbing World Cup",
     "type": "climbing",
-    "img": "ghisolfi.jpg",
+    "img": "ghisolfi",
     "video": "EzCUlv538Lk"
   },
   {
@@ -338,14 +338,14 @@
     "title": "Women's European Volleyball Championship",
     "type": "volleyball",
     "vs": "Serbia",
-    "img": "volleyw.jpg"
+    "img": "volleyw"
   },
   {
     "date": "9th of September",
     "location": "Zurich, CH",
     "title": "Gianmarco Tamberi first Italian to win the  Diamond League",
     "type": "athletics",
-    "img": "diamond.jpg"
+    "img": "diamond"
   },
   {
     "date": "12th of September",
@@ -353,7 +353,7 @@
     "title": "Sonny Colbrelli wins Men’s Elite European Road",
     "type": "cycling",
     "vs": "Belgium",
-    "img": "colbrelli.jpg"
+    "img": "colbrelli"
   },
   {
     "date": "19th of September",
@@ -361,7 +361,7 @@
     "title": "Men's European Volleyball Championship",
     "type": "volleyball",
     "vs": "Slovenia",
-    "img": "volleym.jpg"
+    "img": "volleym"
   },
   {
     "date": "19th of September",
@@ -369,7 +369,7 @@
     "title": "Filippo Ganna wins Road Cycling World Championship",
     "vs": "Belgium",
     "type": "cycling",
-    "img": "ganna-sept.jpg"
+    "img": "ganna-sept"
   },
   {
     "date": "19th of September",
@@ -377,35 +377,35 @@
     "title": "European Champion at the IX European Polo Championship",
     "vs": "Austria",
     "type": "polo",
-    "img": "polo.jpg"
+    "img": "polo"
   },
   {
     "date": "19th of September",
     "location": "Copenhagen, DK",
     "title": "Andrea Domenico Di Liberto Gold Medal K1 200 at the canoeing World Speed Championships",
     "type": "canoeing",
-    "img": "di-liberto.jpg"
+    "img": "di-liberto"
   },
   {
     "date": "19th of September",
     "location": "Copenhagen, DK",
     "title": "Daniele Santini and Nicolae Craciun Gold Medal C2 500 at the canoeing World Speed Championships",
     "type": "canoeing",
-    "img": "santini-craciun.jpg"
+    "img": "santini-craciun"
   },
   {
     "date": "20th of September",
     "location": "Martigues, FR",
     "title": "Gabriele Graziano U23 Champion and Alex Zoia & Ivan Soligon U23 duo Champions at the World Bocce Championship",
     "type": "other",
-    "img": "bocce.jpg"
+    "img": "bocce"
   },
   {
     "date": "20th of September",
     "location": "Los Angeles, US",
     "title": "Stanley Tucci: Searching for Italy – an American travel and food show uncovering lesser-known places and exploring their cultures, cuisine and history – wins an Emmy",
     "type": "entertainment",
-    "img": "tucci.jpg",
+    "img": "tucci",
     "video": "fucxxHB7dj4"
   },
   {
@@ -413,14 +413,14 @@
     "location": "Pesaro, IT",
     "title": "Winners of the Big Game World Championship",
     "type": "other",
-    "img": "fishing.jpg"
+    "img": "fishing"
   },
   {
     "date": "24th of September",
     "location": "Flanders, BE",
     "title": "Filippo Baroncini U23 Champion at the UCI Road World Championships",
     "type": "cycling",
-    "img": "baroncini.jpg"
+    "img": "baroncini"
   },
   {
     "date": "25th of September",
@@ -428,14 +428,14 @@
     "title": "Elisa Balsamo wins UCI Road World Championships",
     "type": "cycling",
     "vs": "Netherlands",
-    "img": "balsamo.jpg"
+    "img": "balsamo"
   },
   {
     "date": "25th of September",
     "location": "Lyon, FR",
     "title": "Coupe du Monde de la Pâtisserie",
     "type": "other",
-    "img": "dessert.jpg"
+    "img": "dessert"
   },
   {
     "date": "25th of September",
@@ -443,7 +443,7 @@
     "title": "Dametto Consuelo wins the 3Km Bifins at the Open Water World Championship",
     "vs": "Russia",
     "type": "swimming",
-    "img": "dametto.jpg"
+    "img": "dametto"
   },
   {
     "date": "26th of September",
@@ -451,7 +451,7 @@
     "title": "Marta Zaghet wins the 1Km Surface at the Open Water World Championship",
     "vs": "Russia",
     "type": "swimming",
-    "img": "zaghet.jpg"
+    "img": "zaghet"
   },
   {
     "date": "26th of September",
@@ -459,20 +459,20 @@
     "title": "FIP Ladies European Polo Championship",
     "vs": "England",
     "type": "polo",
-    "img": "polow.jpg"
+    "img": "polow"
   },
   {
     "date": "26th of September",
     "location": "Mantova, IT",
     "title": "2021 Motocross of Nations",
     "type": "motocross",
-    "img": "mxon.jpg"
+    "img": "mxon"
   },
   {
     "date": "26th of September",
     "location": "Peccioli, IT",
     "title": "World Heaviest Pumpkin*",
     "type": "other",
-    "img": "pumpkin.jpg"
+    "img": "pumpkin"
   }
 ]
