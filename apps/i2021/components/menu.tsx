@@ -16,7 +16,14 @@ const Menu = styled.ul`
   justify-content: center;
   box-sizing: border-box;
   max-width: 1170px;
+  transition: all 0.3s ease;
   @media (max-width: 1170px) {
+    max-width: 800px;
+  }
+  @media (max-width: 820px) {
+    max-width: 90%;
+  }
+  @media (max-width: 600px) {
     max-width: 95%;
   }
 `;
