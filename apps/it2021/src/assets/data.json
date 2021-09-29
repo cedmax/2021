@@ -438,6 +438,22 @@
     "img": "dessert.jpg"
   },
   {
+    "date": "25th of September",
+    "location": "Santa Marta, CO",
+    "title": "Dametto Consuelo wins the 3Km Bifins at the Open Water World Championship",
+    "vs": "Russia",
+    "type": "swimming",
+    "img": "dametto.jpg"
+  },
+  {
+    "date": "26th of September",
+    "location": "Santa Marta, CO",
+    "title": "Marta Zaghet wins the 1Km Surface at the Open Water World Championship",
+    "vs": "Russia",
+    "type": "swimming",
+    "img": "zaghet.jpg"
+  },
+  {
     "date": "26th of September",
     "location": "Pogliano Milanese, IT",
     "title": "FIP Ladies European Polo Championship",
