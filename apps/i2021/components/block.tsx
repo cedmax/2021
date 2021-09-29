@@ -1,6 +1,5 @@
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import icons from './icons';
-import labels from './constants';
 
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
@@ -65,7 +64,7 @@ export default function Block({
 
       {img && (
         <p>
-          <img alt={title} src={`../assets/images/${img}`} />
+          <img alt={title} src={`../images/${img}`} />
           {video && (
             <>
               <button onClick={() => playVideo(video)} className="play" />

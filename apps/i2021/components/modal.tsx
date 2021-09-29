@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import Modal from 'react-modal';
 
-Modal.setAppElement('#root');
+Modal.setAppElement('#modal-root');
 
 const style = {
   overlay: {
@@ -30,11 +30,13 @@ type modal = {
   isOpen: boolean;
 };
 
-export default memo(({ children, close, isOpen }: modal) => (
-  <Modal style={style} onRequestClose={close} isOpen={isOpen}>
-    <button onClick={close} className="close">
-      <span>close</span>
-    </button>
-    {children}
-  </Modal>
-));
+export default memo(function VideoModal({ children, close, isOpen }: modal) {
+  return (
+    <Modal style={style} onRequestClose={close} isOpen={isOpen}>
+      <button onClick={close} className="close">
+        <span>close</span>
+      </button>
+      {children}
+    </Modal>
+  );
+});

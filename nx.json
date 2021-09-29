@@ -1,5 +1,5 @@
 {
-  "npmScope": "it2021",
+  "npmScope": "i2021",
   "affected": {
     "defaultBase": "master"
   },
@@ -27,12 +27,12 @@
     ]
   },
   "projects": {
-    "it2021": {
+    "i2021": {
       "tags": []
     },
-    "it2021-e2e": {
+    "i2021-e2e": {
       "tags": [],
-      "implicitDependencies": ["it2021"]
+      "implicitDependencies": ["i2021"]
     }
   }
 }

@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import Tuber from 'react-youtube';
 
-export default memo(({ video }: { video: string }) => {
+export default memo(function Video({ video }: { video: string }) {
   const [videoId, start = '0'] = video.split('#');
 
   return videoId ? (

@@ -1,95 +1,72 @@
 {
   "version": 2,
   "projects": {
-    "it2021": {
-      "root": "apps/it2021",
-      "sourceRoot": "apps/it2021/src",
+    "i2021": {
+      "root": "apps/i2021",
+      "sourceRoot": "apps/i2021",
       "projectType": "application",
       "targets": {
         "build": {
-          "executor": "@nrwl/web:build",
+          "executor": "@nrwl/next:build",
           "outputs": ["{options.outputPath}"],
           "options": {
-            "outputPath": "dist/apps/it2021",
-            "index": "apps/it2021/src/index.html",
-            "main": "apps/it2021/src/main.tsx",
-            "polyfills": "apps/it2021/src/polyfills.ts",
-            "tsConfig": "apps/it2021/tsconfig.app.json",
-            "assets": ["apps/it2021/src/favicon.ico", "apps/it2021/src/assets"],
-            "styles": [],
-            "scripts": [],
-            "webpackConfig": "@nrwl/react/plugins/webpack"
+            "root": "apps/i2021",
+            "outputPath": "dist/apps/i2021"
           },
           "configurations": {
-            "production": {
-              "fileReplacements": [
-                {
-                  "replace": "apps/it2021/src/environments/environment.ts",
-                  "with": "apps/it2021/src/environments/environment.prod.ts"
-                }
-              ],
-              "optimization": true,
-              "outputHashing": "all",
-              "sourceMap": false,
-              "extractCss": true,
-              "namedChunks": false,
-              "extractLicenses": true,
-              "vendorChunk": false,
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
-                }
-              ]
-            }
+            "production": {}
           }
         },
         "serve": {
-          "executor": "@nrwl/web:dev-server",
+          "executor": "@nrwl/next:server",
           "options": {
-            "buildTarget": "it2021:build",
-            "hmr": true
+            "buildTarget": "i2021:build",
+            "dev": true
           },
           "configurations": {
             "production": {
-              "buildTarget": "it2021:build:production",
-              "hmr": false
+              "buildTarget": "i2021:build:production",
+              "dev": false
             }
+          }
+        },
+        "export": {
+          "executor": "@nrwl/next:export",
+          "options": {
+            "buildTarget": "i2021:build:production"
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/i2021"],
+          "options": {
+            "jestConfig": "apps/i2021/jest.config.js",
+            "passWithNoTests": true
           }
         },
         "lint": {
           "executor": "@nrwl/linter:eslint",
           "outputs": ["{options.outputFile}"],
           "options": {
-            "lintFilePatterns": ["apps/it2021/**/*.{ts,tsx,js,jsx}"]
-          }
-        },
-        "test": {
-          "executor": "@nrwl/jest:jest",
-          "outputs": ["coverage/apps/it2021"],
-          "options": {
-            "jestConfig": "apps/it2021/jest.config.js",
-            "passWithNoTests": true
+            "lintFilePatterns": ["apps/i2021/**/*.{ts,tsx,js,jsx}"]
           }
         }
       }
     },
-    "it2021-e2e": {
-      "root": "apps/it2021-e2e",
-      "sourceRoot": "apps/it2021-e2e/src",
+    "i2021-e2e": {
+      "root": "apps/i2021-e2e",
+      "sourceRoot": "apps/i2021-e2e/src",
       "projectType": "application",
       "targets": {
         "e2e": {
           "executor": "@nrwl/cypress:cypress",
           "options": {
-            "cypressConfig": "apps/it2021-e2e/cypress.json",
-            "devServerTarget": "it2021:serve",
-            "tsConfig": "apps/it2021-e2e/tsconfig.json"
+            "cypressConfig": "apps/i2021-e2e/cypress.json",
+            "devServerTarget": "i2021:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "it2021:serve:production"
+              "devServerTarget": "i2021:serve:production"
             }
           }
         },
@@ -97,7 +74,7 @@
           "executor": "@nrwl/linter:eslint",
           "outputs": ["{options.outputFile}"],
           "options": {
-            "lintFilePatterns": ["apps/it2021-e2e/**/*.{js,ts}"]
+            "lintFilePatterns": ["apps/i2021-e2e/**/*.{js,ts}"]
           }
         }
       }
@@ -120,7 +97,12 @@
         "style": "styled-components",
         "linter": "eslint"
       }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "styled-components",
+        "linter": "eslint"
+      }
     }
-  },
-  "defaultProject": "it2021"
+  }
 }
