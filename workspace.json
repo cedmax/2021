@@ -52,32 +52,6 @@
           }
         }
       }
-    },
-    "i2021-e2e": {
-      "root": "apps/i2021-e2e",
-      "sourceRoot": "apps/i2021-e2e/src",
-      "projectType": "application",
-      "targets": {
-        "e2e": {
-          "executor": "@nrwl/cypress:cypress",
-          "options": {
-            "cypressConfig": "apps/i2021-e2e/cypress.json",
-            "devServerTarget": "i2021:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "i2021:serve:production"
-            }
-          }
-        },
-        "lint": {
-          "executor": "@nrwl/linter:eslint",
-          "outputs": ["{options.outputFile}"],
-          "options": {
-            "lintFilePatterns": ["apps/i2021-e2e/**/*.{js,ts}"]
-          }
-        }
-      }
     }
   },
   "cli": {
@@ -104,5 +78,6 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "defaultProject": "i2021"
 }

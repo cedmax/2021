@@ -29,10 +29,6 @@
   "projects": {
     "i2021": {
       "tags": []
-    },
-    "i2021-e2e": {
-      "tags": [],
-      "implicitDependencies": ["i2021"]
     }
   }
 }
