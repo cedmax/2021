@@ -69,7 +69,7 @@ export default function Body({ data }: bodyProps) {
       />
       <VerticalTimeline>
         {list.map((event: blockProps) => (
-          <Block playVideo={playVideo} {...event} />
+          <Block key={event.title} playVideo={playVideo} {...event} />
         ))}
       </VerticalTimeline>
       <Modal close={closeModal} isOpen={!!playing}>

@@ -1,10 +1,10 @@
 module.exports = {
-  displayName: 'it2021',
+  displayName: 'i2021',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nrwl/react/plugins/jest',
     '^.+\\.[tj]sx?$': 'babel-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/it2021',
+  coverageDirectory: '../../coverage/apps/i2021',
 };
