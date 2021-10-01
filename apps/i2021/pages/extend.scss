@@ -94,6 +94,10 @@ button.vertical-timeline-element-icon-selected {
       display: block;
       width: 100%;
     }
+
+    + p {
+      font-size: 80%;
+    }
   }
 
   img + .play {

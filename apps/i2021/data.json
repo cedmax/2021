@@ -305,12 +305,13 @@
     "img": "terzi"
   },
   {
-    "date": "1st of September",
+    "date": "1st to 4th of September",
     "location": "Maribor, SI",
-    "title": "Cinzia Noziglia and Alessandro Rigamonti win the Barebow Mixed Team Gold Medal at the European 3D Championships",
+    "title": "Italy heads the Medal Table at the European 3D Championships",
     "type": "archery",
-    "vs": "Russia",
-    "img": "noziglia-rigamonti"
+    "vs": "Austria",
+    "img": "noziglia-rigamonti",
+    "extended": "with gold medals by Cinzia Noziglia and Alessandro Rigamonti (Barebow Mixed Team); Cinzia Noziglia, Luana Bassi and Irene Franchini (Women Team); Irene Franchini (Compound Women); Michela Donati (Instinctive Women)"
   },
   {
     "date": "1st of September",
@@ -326,14 +327,6 @@
     "type": "cycling",
     "vs": "France",
     "img": "relay"
-  },
-  {
-    "date": "3rd of September",
-    "location": "Maribor, SI",
-    "title": "Cinzia Noziglia, Luana Bassi and Irene Franchini win the Women Team Gold Medal at the European 3D Championships",
-    "type": "archery",
-    "vs": "Austria",
-    "img": "archery-women"
   },
   {
     "date": "4th of September",
@@ -353,22 +346,6 @@
   },
   {
     "date": "4th of September",
-    "location": "Maribor, SI",
-    "title": "Irene Franchini win the Compound Women Gold Medal at the European 3D Championships",
-    "type": "archery",
-    "vs": "Finland",
-    "img": "franchini"
-  },
-  {
-    "date": "4th of September",
-    "location": "Maribor, SI",
-    "title": "Michela Donati and Sabrina Vannini win the Instinctive Women Gold and the Bronze Medals at the European 3D Championships",
-    "type": "archery",
-    "vs": "Finland",
-    "img": "donati-vannini"
-  },
-  {
-    "date": "4th of September",
     "location": "Belgrade, RS",
     "title": "Women's European Volleyball Championship",
     "type": "volleyball",
@@ -381,6 +358,15 @@
     "title": "Gianmarco Tamberi first Italian to win the Diamond League",
     "type": "athletics",
     "img": "diamond"
+  },
+  {
+    "date": "9th to 12th of September",
+    "location": "Porec, HR",
+    "title": "Italy heads the Medal Table at the European Field Championships",
+    "type": "archery",
+    "vs": "Sweden",
+    "img": "field-archery",
+    "extended": "with gold medals by Chiara Rebagliati (Recurve Women); Sara Ret (Compound Women); Michea Godano (Compoind Men); Cinzia Noziglia (Barebow Women); Matteo Seghetta (Barebow Junior Men); Eleonora MEloni (Barebow Junior Women);  Massimiliano Mandia (Recurve Men FQT)"
   },
   {
     "date": "12th of September",

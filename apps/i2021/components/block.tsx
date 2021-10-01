@@ -14,6 +14,7 @@ type blockProps = {
   date: string;
   img?: string;
   vs?: string;
+  extended?: string;
   video?: string;
   playVideo: (a: string) => void;
 };
@@ -47,6 +48,7 @@ export default function Block({
   type,
   date,
   img,
+  extended,
   vs,
   video,
   playVideo,
@@ -64,17 +66,20 @@ export default function Block({
       </h4>
 
       {img && (
-        <p>
-          <img alt={title} src={`../images/${img}.jpg`} />
-          {video && (
-            <>
-              <button onClick={() => playVideo(video)} className="play" />
-              <span className="icon-size icon-video">
-                <VideoIcon />
-              </span>
-            </>
-          )}
-        </p>
+        <>
+          <p>
+            <img alt={title} src={`../images/${img}.jpg`} />
+            {video && (
+              <>
+                <button onClick={() => playVideo(video)} className="play" />
+                <span className="icon-size icon-video">
+                  <VideoIcon />
+                </span>
+              </>
+            )}
+          </p>
+          <p>{extended}</p>
+        </>
       )}
     </VerticalTimelineElement>
   );
