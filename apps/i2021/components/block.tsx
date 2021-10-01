@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import icons from './icons';
+import { format, parse } from 'date-fns';
 
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
@@ -11,7 +12,7 @@ type blockProps = {
   location: string;
   title: string;
   type: string;
-  date: string;
+  date: Array<string>;
   img?: string;
   vs?: string;
   extended?: string;
@@ -42,6 +43,18 @@ const getIcon = (location: string) => {
   }
 };
 
+const transformDate = (dates: Array<string>): string => {
+  const parsedDates = dates.map((date) => parse(date, 'd/L/y', new Date()));
+  const result = [];
+  if (parsedDates.length > 1) {
+    result.push(format(parsedDates.shift(), 'do') + ' to ');
+  }
+  result.push(
+    format(parsedDates[0], 'do') + ' of ' + format(parsedDates[0], 'MMMM')
+  );
+  return result.join('');
+};
+
 export default function Block({
   location,
   title,
@@ -55,7 +68,11 @@ export default function Block({
 }: blockProps) {
   const Icon = icons[type];
   return (
-    <VerticalTimelineElement className="flag-color" date={date} icon={<Icon />}>
+    <VerticalTimelineElement
+      className="flag-color"
+      date={transformDate(date)}
+      icon={<Icon />}
+    >
       <h3 className="vertical-timeline-element-title">{title}</h3>
       <h4 className="vertical-timeline-element-subtitle">
         <span>

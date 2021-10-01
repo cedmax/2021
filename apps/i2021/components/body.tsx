@@ -10,7 +10,7 @@ type blockProps = {
   location: string;
   title: string;
   type: string;
-  date: string;
+  date: Array<string>;
   img?: string;
   vs?: string;
   video?: string;

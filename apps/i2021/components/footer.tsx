@@ -2,7 +2,7 @@ type blockProps = {
   location: string;
   title: string;
   type: string;
-  date: string;
+  date: Array<string>;
   img?: string;
   vs?: string;
   video?: string;
@@ -48,7 +48,6 @@ export default function footer({ filter, updateList, data }: footerProps) {
           🇮🇹
         </span>
       </small>
-      <small>* ok, this is just to take the piss</small>
     </footer>
   );
 }
