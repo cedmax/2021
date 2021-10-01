@@ -1,4 +1,5 @@
 import { ReactComponent as athletics } from '../public/icons/athletics.svg';
+import { ReactComponent as archery } from '../public/icons/archery.svg';
 import { ReactComponent as baseball } from '../public/icons/baseball.svg';
 import { ReactComponent as bocce } from '../public/icons/bocce.svg';
 import { ReactComponent as canoeing } from '../public/icons/canoeing.svg';
@@ -28,6 +29,7 @@ type iconTypes = {
 };
 
 const icons: iconTypes = {
+  archery,
   athletics,
   baseball,
   bocce,
