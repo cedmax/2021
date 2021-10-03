@@ -518,6 +518,13 @@
   },
   {
     "date": ["3/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Roma Roller Teams wins Small Group Gold Medal at the Artistic Skating World Championships",
+    "type": "other",
+    "img": "skating"
+  },
+  {
+    "date": ["3/10/2021"],
     "location": "Roubaix, FR",
     "title": "Sonny Colbrelli wins the Paris-Roubaix",
     "type": "cycling",
