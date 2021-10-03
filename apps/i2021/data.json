@@ -519,7 +519,7 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Roma Roller Teams wins Small Group Gold Medal at the Artistic Skating World Championships",
+    "title": "Roma Roller Teams' Small Group and Sofia Paronetto's Junior Ladies Inline Skating Gold Medals at the Artistic Skating World Championships",
     "type": "other",
     "img": "skating"
   },
@@ -536,6 +536,7 @@
     "location": "Roubaix, FR",
     "title": "Sonny Colbrelli wins the Paris-Roubaix",
     "type": "cycling",
+    "vs": "Belgium",
     "img": "colbelli"
   },
   {
