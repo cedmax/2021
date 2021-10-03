@@ -529,5 +529,12 @@
     "title": "Sonny Colbrelli wins the Paris-Roubaix",
     "type": "cycling",
     "img": "colbelli"
+  },
+  {
+    "date": ["3/10/2021"],
+    "location": "Cagliari, IT",
+    "title": "FIVB Volleyball Men's U21 World Championship",
+    "type": "volleyball",
+    "img": "volley-u21"
   }
 ]
