@@ -525,6 +525,14 @@
   },
   {
     "date": ["3/10/2021"],
+    "location": "Saint-Cyr-Sur-Mer, FR",
+    "title": "Giuseppe Barone wins the Heavy Weight Gold Medal at the European Windsurfer Championship",
+    "type": "sailing",
+    "vs": "Netherlands",
+    "img": "barone"
+  },
+  {
+    "date": ["3/10/2021"],
     "location": "Roubaix, FR",
     "title": "Sonny Colbrelli wins the Paris-Roubaix",
     "type": "cycling",
@@ -535,6 +543,7 @@
     "location": "Cagliari, IT",
     "title": "FIVB Volleyball Men's U21 World Championship",
     "type": "volleyball",
-    "img": "volley-u21"
+    "img": "volley-u21",
+    "vs": "Russia"
   }
 ]
