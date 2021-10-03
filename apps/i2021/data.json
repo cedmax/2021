@@ -515,5 +515,12 @@
     "type": "other",
     "img": "cricket",
     "extended": "For the 2nd time in history, and the first in 23 years"
+  },
+  {
+    "date": ["3/10/2021"],
+    "location": "Roubaix, FR",
+    "title": "Sonny Colbrelli wins the Paris-Roubaix",
+    "type": "cycling",
+    "img": "colbelli"
   }
 ]
