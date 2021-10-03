@@ -85,7 +85,7 @@ export default function Block({
       {img && (
         <>
           <p>
-            <img alt={title} src={`../images/${img}.jpg`} />
+            <img alt={title} src={`../images/${img}.webp`} />
             {video && (
               <>
                 <button onClick={() => playVideo(video)} className="play" />
