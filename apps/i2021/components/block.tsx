@@ -90,7 +90,11 @@ export default memo(function Block({
             <LazyLoadImage alt={title} src={`../images/${img}.webp`} />
             {video && (
               <>
-                <button onClick={() => playVideo(video)} className="play" />
+                <button
+                  aria-label={`play video of "${title}"`}
+                  onClick={() => playVideo(video)}
+                  className="play"
+                />
                 <span className="icon-size icon-video">
                   <VideoIcon />
                 </span>
