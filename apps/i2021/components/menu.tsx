@@ -129,7 +129,7 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
           return (
             <MenuItem key={type}>
               <button
-                name={`See only ${labels[type] || type}${
+                aria-label={`See only ${labels[type] || type}${
                   availableTypes[type] ? ` (${availableTypes[type]})` : ''
                 }`}
                 data-tip={`${labels[type] || type}${
@@ -154,7 +154,7 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
           return (
             <MenuMonthItem key={month}>
               <button
-                name={`See only ${month}`}
+                aria-label={`See only ${month}`}
                 disabled={!availableMonths[monthIdx]}
                 data-selected={selected === monthIdx}
                 onClick={() => filter(monthIdx)}
