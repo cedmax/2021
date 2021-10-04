@@ -309,7 +309,7 @@
   {
     "date": ["1/9/2021", "4/9/2021"],
     "location": "Maribor, SI",
-    "title": "Italy heads the Medal Table at the European 3D Championships",
+    "title": "Italy tops the Medal Table at the European 3D Championships",
     "type": "archery",
     "vs": "Austria",
     "img": "noziglia-rigamonti",
@@ -372,7 +372,7 @@
   {
     "date": ["9/9/2021", "12/9/2021"],
     "location": "Porec, HR",
-    "title": "Italy heads the Medal Table at the European Field Championships",
+    "title": "Italy tops the Medal Table at the European Field Championships",
     "type": "archery",
     "vs": "Sweden",
     "img": "field-archery",
@@ -512,17 +512,31 @@
     "date": ["29/9/2021"],
     "location": "Malaga, ES",
     "title": "Italy beat England in a Cricket match at the European Championship T10",
-    "type": "other",
+    "type": "cricket",
     "img": "cricket",
     "extended": "For the 2nd time in history, and the first in 23 years"
   },
   {
+    "date": ["30/9/2021"],
+    "location": "Asunción, PY",
+    "title": "Sofia Paronetto wins Junior Ladies Inline Skating Gold Medals at the Artistic Skating World Championships",
+    "type": "skating",
+    "img": "paronetto"
+  },
+  {
     "date": ["1/10/2021"],
     "location": "Milan, IT",
-    "title": "Daniele Scardina is the New WBO Intercontinental Super Middleweight Champion",
-    "type": "other",
+    "title": "Daniele Scardina is the new WBO Intercontinental Super Middleweight Champion",
+    "type": "boxing",
     "vs": "Germany",
     "img": "scardina"
+  },
+  {
+    "date": ["1/10/2021"],
+    "location": "Milan, IT",
+    "title": "Francesco Patera is the new WBO Intercontinental Lightweight Champion",
+    "type": "boxing",
+    "img": "patera"
   },
   {
     "date": ["2/10/2021"],
@@ -534,9 +548,26 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Roma Roller Team's Small Group and Sofia Paronetto's Junior Ladies Inline Skating Gold Medals at the Artistic Skating World Championships",
-    "type": "other",
-    "img": "skating"
+    "title": "Roma Roller Team wins Small Group Gold Medal at the Artistic Skating World Championships",
+    "type": "skating",
+    "img": "skating",
+    "video": "f6BJ6vWoWB0"
+  },
+  {
+    "date": ["3/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Francesco Barletta wins Junior Men Solo Dance Gold Medal at the Artistic Skating World Championships",
+    "type": "skating",
+    "img": "barletta",
+    "video": "gYTCAXfc7-c"
+  },
+  {
+    "date": ["3/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Roberta Sasso wins Junior Ladies Solo Dance Gold Medal at the Artistic Skating World Championships",
+    "type": "skating",
+    "img": "sasso",
+    "video": "mnFn27RvuMY"
   },
   {
     "date": ["3/10/2021"],

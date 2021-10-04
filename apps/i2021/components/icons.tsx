@@ -23,6 +23,9 @@ import { ReactComponent as tennis } from '../public/icons/tennis.svg';
 import { ReactComponent as video } from '../public/icons/video.svg';
 import { ReactComponent as volleyball } from '../public/icons/volleyball.svg';
 import { ReactComponent as climbing } from '../public/icons/climbing.svg';
+import { ReactComponent as skating } from '../public/icons/skating.svg';
+import { ReactComponent as boxing } from '../public/icons/boxing.svg';
+import { ReactComponent as cricket } from '../public/icons/cricket.svg';
 
 type iconTypes = {
   [key: string]: React.ComponentType;
@@ -49,10 +52,13 @@ const icons: iconTypes = {
   sailing,
   skiing,
   swimming,
+  boxing,
+  cricket,
   tennis,
   video,
   volleyball,
   other,
+  skating,
   climbing,
 };
 
