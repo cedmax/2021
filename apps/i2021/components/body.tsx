@@ -5,6 +5,7 @@ import Menu from './menu';
 import Video from './video';
 import Modal from './modal';
 import Footer from './footer';
+import { getMonth, parse } from 'date-fns';
 
 type blockProps = {
   location: string;
@@ -20,22 +21,19 @@ type bodyProps = {
   data: Array<blockProps>;
 };
 
-type opType = { type: string; location: string };
-
-type availableTypes = string[];
+type opType = { type: string; location: string; date: Array<string> };
 
 export default function Body({ data }: bodyProps) {
   const [playing, setPlaying] = useState('');
   const [[filter, list], updateList] = useState(['', data]);
-  const [availableTypes] = useState<availableTypes>(
-    Array.from(new Set(data.map(({ type }: opType) => type))).sort()
-  );
+
   const playVideo = useCallback((video) => {
     setPlaying(video);
   }, []);
   const closeModal = useCallback(() => {
     setPlaying('');
   }, []);
+
   const filterList = useCallback(
     (newFilter) => {
       updateList(([filter]) => {
@@ -43,7 +41,12 @@ export default function Body({ data }: bodyProps) {
           return ['', data];
         }
         let newList;
-        if (newFilter === 'olympics') {
+        if (!isNaN(newFilter)) {
+          newList = data.filter(
+            ({ date: [initialDate] }: opType) =>
+              getMonth(parse(initialDate, 'd/L/y', new Date())) === newFilter
+          );
+        } else if (newFilter === 'olympics') {
           newList = data.filter(
             ({ location }: opType) => location === 'Tokyo, JP'
           );
@@ -60,13 +63,10 @@ export default function Body({ data }: bodyProps) {
     },
     [data]
   );
+
   return (
     <>
-      <Menu
-        selected={filter}
-        availableTypes={availableTypes}
-        filter={filterList}
-      />
+      <Menu selected={filter} data={data} filter={filterList} />
       <VerticalTimeline>
         {list.map((event: blockProps) => (
           <Block key={event.title} playVideo={playVideo} {...event} />
