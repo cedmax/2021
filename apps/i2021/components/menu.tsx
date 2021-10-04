@@ -88,7 +88,7 @@ type menuProps = {
 };
 
 export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
-  const [[eventsOlympics, eventsEaa]] = useState<Array<numbers>>([
+  const [[eventsOlympics, eventsEaa]] = useState<Array<number>>([
     data.filter(({ location }) => location === 'Tokyo, JP').length,
     data.filter(({ location }) => location === 'Tallin, EE').length,
   ]);
