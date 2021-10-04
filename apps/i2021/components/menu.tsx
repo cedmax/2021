@@ -129,6 +129,9 @@ export default function Block({ selected, data, filter }: menuProps) {
           return (
             <MenuItem key={type}>
               <button
+                name={`See only ${labels[type] || type}${
+                  availableTypes[type] ? ` (${availableTypes[type]})` : ''
+                }`}
                 data-tip={`${labels[type] || type}${
                   availableTypes[type] ? ` (${availableTypes[type]})` : ''
                 }`}
@@ -151,6 +154,7 @@ export default function Block({ selected, data, filter }: menuProps) {
           return (
             <MenuMonthItem key={month}>
               <button
+                name={`See only ${month}`}
                 disabled={!availableMonths[monthIdx]}
                 data-selected={selected === monthIdx}
                 onClick={() => filter(monthIdx)}
