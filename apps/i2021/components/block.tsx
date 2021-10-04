@@ -3,6 +3,7 @@ import { memo } from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import icons from './icons';
 import { format, parse } from 'date-fns';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
@@ -86,7 +87,7 @@ export default memo(function Block({
       {img && (
         <>
           <p>
-            <img alt={title} src={`../images/${img}.webp`} />
+            <LazyLoadImage alt={title} src={`../images/${img}.webp`} />
             {video && (
               <>
                 <button onClick={() => playVideo(video)} className="play" />
