@@ -12,7 +12,7 @@ const events = require('./data.json')
     };
   });
 
-describe('videos are still available', () => {
+describe.skip('videos are still available', () => {
   for (const { title, video } of events) {
     test(`validating "${title}: ${video}"`, async () => {
       const { data } = await axios.get(`http://noembed.com/embed?url=${video}`);
