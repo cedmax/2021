@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import { memo } from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import icons from './icons';
 import { format, parse } from 'date-fns';
@@ -55,7 +56,7 @@ const transformDate = (dates: Array<string>): string => {
   return result.join('');
 };
 
-export default function Block({
+export default memo(function Block({
   location,
   title,
   type,
@@ -100,4 +101,4 @@ export default function Block({
       )}
     </VerticalTimelineElement>
   );
-}
+});

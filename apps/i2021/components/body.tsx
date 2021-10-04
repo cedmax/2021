@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, memo } from 'react';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import Block from './block';
 import Menu from './menu';
@@ -23,7 +23,7 @@ type bodyProps = {
 
 type opType = { type: string; location: string; date: Array<string> };
 
-export default function Body({ data }: bodyProps) {
+export default memo(function Body({ data }: bodyProps) {
   const [playing, setPlaying] = useState('');
   const [[filter, list], updateList] = useState(['', data]);
 
@@ -78,4 +78,4 @@ export default function Body({ data }: bodyProps) {
       <Footer filter={filter} updateList={updateList} data={data} />
     </>
   );
-}
+});

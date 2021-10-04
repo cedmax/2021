@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, memo } from 'react';
 import styled from 'styled-components';
 import icons from './icons';
 import labels from './constants';
@@ -87,7 +87,7 @@ type menuProps = {
   filter: (a: string | number) => void;
 };
 
-export default function Block({ selected, data, filter }: menuProps) {
+export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
   const [[eventsOlympics, eventsEaa]] = useState<Array<numbers>>([
     data.filter(({ location }) => location === 'Tokyo, JP').length,
     data.filter(({ location }) => location === 'Tallin, EE').length,
@@ -171,4 +171,4 @@ export default function Block({ selected, data, filter }: menuProps) {
       </Menu>
     </>
   );
-}
+});

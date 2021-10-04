@@ -1,3 +1,5 @@
+import { memo } from 'react';
+
 type blockProps = {
   location: string;
   title: string;
@@ -14,7 +16,7 @@ type footerProps = {
   data: Array<blockProps>;
 };
 
-export default function footer({ filter, updateList, data }: footerProps) {
+export default memo(function footer({ filter, updateList, data }: footerProps) {
   return (
     <footer>
       {filter && (
@@ -50,4 +52,4 @@ export default function footer({ filter, updateList, data }: footerProps) {
       </small>
     </footer>
   );
-}
+});
