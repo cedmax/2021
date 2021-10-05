@@ -592,5 +592,13 @@
     "type": "volleyball",
     "img": "volley-u21",
     "vs": "Russia"
+  },
+  {
+    "date": ["5/10/2021"],
+    "location": "Stockholm, SE",
+    "title": "Giorgio Parisi wins 2021 Nobel Prize in Physics",
+    "type": "entertainment",
+    "img": "parisi",
+    "extended": "The prize was awarded for the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales. He will be sharing it with Syukuro Manabe and Klaus Hasselmann for their work in the physical modeling of Earth’s climate, quantifying variability and reliably predicting global warming."
   }
 ]
