@@ -5,11 +5,10 @@ const path = './apps/i2021';
 
 const data = require(`.${path}/data.json`).reduce(
   (acc, { img, ...itemData }) => {
-    let imgData = img;
-    if (typeof imgData === 'string') {
-      const { width, height } = sizeOf(`${path}/public/images/${img}.webp`);
-      imgData = { slug: img, width, height };
-    }
+    const slug = typeof img === 'string' ? img : img.slug;
+    const { width, height } = sizeOf(`${path}/public/images/${slug}.webp`);
+    imgData = { slug, width, height };
+
     return [
       ...acc,
       {

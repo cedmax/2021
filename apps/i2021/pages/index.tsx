@@ -3,6 +3,8 @@ import ReactTooltip from 'react-tooltip';
 import data from '../data.json';
 import Body from '../components/body';
 
+const dataOrdered = data.reverse();
+
 const Wrapper = styled.main`
   font-family: Arial, Helvetica, sans-serif;
 `;
@@ -16,7 +18,7 @@ export default function App() {
         </span>{' '}
         How was your 2021?
       </h1>
-      <Body data={data} />
+      <Body data={dataOrdered} />
       {typeof window !== 'undefined' && (
         <ReactTooltip effect="solid" className="tooltip" />
       )}

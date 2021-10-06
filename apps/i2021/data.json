@@ -161,6 +161,18 @@
     }
   },
   {
+    "date": ["6/7/2021"],
+    "location": "Pecetto, IT",
+    "title": "World Largest Cherry",
+    "type": "other",
+    "extended": " A Carmen cherry, harvested by brothers Giuseppe and Alberto Rosso, clocked in at 33 grams",
+    "img": {
+      "slug": "cherry",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
     "date": ["7/7/2021", "11/7/2021"],
     "location": "Racice, CZ",
     "title": "World Rowing Under 23 Championships",

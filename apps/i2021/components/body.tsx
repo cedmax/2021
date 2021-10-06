@@ -16,7 +16,7 @@ type opType = { type: string; location: string; date: Array<string> };
 
 export default memo(function Body({ data }: bodyProps) {
   const [playing, setPlaying] = useState('');
-  const [[filter, list], updateList] = useState(['', data.reverse()]);
+  const [[filter, list], updateList] = useState(['', data]);
 
   const playVideo = useCallback((video) => {
     setPlaying(video);
