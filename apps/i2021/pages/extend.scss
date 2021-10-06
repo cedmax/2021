@@ -352,3 +352,7 @@ button.close::before {
     aspect-ratio: calc(var(--aspect-ratio));
   }
 }
+
+button[disabled] {
+  cursor: default;
+}
