@@ -25,7 +25,7 @@ type opType = { type: string; location: string; date: Array<string> };
 
 export default memo(function Body({ data }: bodyProps) {
   const [playing, setPlaying] = useState('');
-  const [[filter, list], updateList] = useState(['', data]);
+  const [[filter, list], updateList] = useState(['', data.reverse()]);
 
   const playVideo = useCallback((video) => {
     setPlaying(video);
@@ -53,6 +53,10 @@ export default memo(function Body({ data }: bodyProps) {
         } else if (newFilter === 'eaa') {
           newList = data.filter(
             ({ location }: opType) => location === 'Tallin, EE'
+          );
+        } else if (newFilter === 'aswc') {
+          newList = data.filter(
+            ({ location }: opType) => location === 'Asunción, PY'
           );
         } else {
           newList = data.filter(({ type }: opType) => type === newFilter);

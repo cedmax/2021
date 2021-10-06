@@ -26,12 +26,14 @@ import { ReactComponent as climbing } from '../public/icons/climbing.svg';
 import { ReactComponent as skating } from '../public/icons/skating.svg';
 import { ReactComponent as boxing } from '../public/icons/boxing.svg';
 import { ReactComponent as cricket } from '../public/icons/cricket.svg';
+import { ReactComponent as aswc } from '../public/icons/aswc.svg';
 
 type iconTypes = {
   [key: string]: React.ComponentType;
 };
 
 const icons: iconTypes = {
+  aswc,
   archery,
   athletics,
   baseball,

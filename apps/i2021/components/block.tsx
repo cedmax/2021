@@ -7,6 +7,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
+const Aswc = icons.aswc;
+
 const LocationIcon = icons.location;
 const VideoIcon = icons.video;
 
@@ -34,6 +36,12 @@ const getIcon = (location: string) => {
       return (
         <span className="icon-size icon-size-bk">
           <Eaa />
+        </span>
+      );
+    case 'Asunción, PY':
+      return (
+        <span className="icon-size icon-size-bk">
+          <Aswc />
         </span>
       );
     default:

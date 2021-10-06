@@ -1,5 +1,14 @@
 [
   {
+    "date": ["21/2/2021"],
+    "location": "Aucland, NZ",
+    "title": "Luna Rossa wins the Prada Cup",
+    "type": "sailing",
+    "img": "luna-rossa",
+    "vs": "United Kingdom",
+    "video": "QldJ0OWZLyg"
+  },
+  {
     "date": ["28/2/2021"],
     "location": "Katowice, PL",
     "title": "Riccardo “Reynor” Romiti wins StarCraft 2 Masters Championship",

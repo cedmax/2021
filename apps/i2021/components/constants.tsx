@@ -7,6 +7,7 @@ const labels: labelsType = {
   martialarts: 'Martial Arts',
   olympics: 'Olympics & Paralympics',
   eaa: 'European Athletics U23 Championships',
+  aswc: 'Artistic Skating World Championships',
 };
 
 export default labels;
