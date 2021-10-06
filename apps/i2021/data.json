@@ -910,6 +910,18 @@
     }
   },
   {
+    "date": ["4/10/2021"],
+    "location": "Budoni, IT",
+    "title": "Fabrizio Bellia wins the 50+ section at the European Senior Chess Championship",
+    "type": "other",
+    "vs": "Germany",
+    "img": {
+      "slug": "bellia",
+      "width": 800,
+      "height": 449
+    }
+  },
+  {
     "date": ["5/10/2021"],
     "location": "Stockholm, SE",
     "title": "Giorgio Parisi wins Nobel Prize in Physics",
