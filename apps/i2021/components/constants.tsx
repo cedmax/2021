@@ -4,6 +4,7 @@ type labelsType = {
 const labels: labelsType = {
   entertainment: 'Culture',
   other: 'Other Rewards',
+  canoeing: 'Canoeing and Rowing',
   martialarts: 'Martial Arts',
   olympics: 'Olympics & Paralympics',
   eaa: 'European Athletics U23 Championships',

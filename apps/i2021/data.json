@@ -88,6 +88,18 @@
     }
   },
   {
+    "date": ["5/6/2021"],
+    "location": "Belgrade, RS",
+    "title": "Pro Recco wins the Water Polo LEN Champions League",
+    "type": "swimming",
+    "vs": "Hungary",
+    "img": {
+      "slug": "recco",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
     "date": ["18/6/2021"],
     "location": "Worldwide",
     "title": "Pixar releases Luca",
@@ -101,6 +113,17 @@
     }
   },
   {
+    "date": ["18/6/2021"],
+    "location": "Kaiserwinkl-Walchsee, AT",
+    "title": "Bianca Seregni and Michele Bortolomedi win U23 and overall Europe Triathlon Aquathlon Championships",
+    "type": "other",
+    "img": {
+      "slug": "triathlon",
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
     "date": ["3/7/2021"],
     "location": "Friuli-Venezia Giulia, IT",
     "title": "Women's European Softball Championship",
@@ -111,6 +134,32 @@
       "slug": "softball",
       "width": 800,
       "height": 602
+    }
+  },
+  {
+    "date": ["4/7/2021"],
+    "location": "Warsaw, PL",
+    "title": "Kata European Judo Championships",
+    "type": "martialarts",
+    "vs": "Netherlands",
+    "extended": "With Gold Medals in Kime No Kata (Yuri Ferretti and Andrea Giani Contini), Nage No Kata (Mauro Collini and Tommaso Rondinini) and Ju No Kata (Giovanni e Angelica Tarabelli)",
+    "img": {
+      "slug": "kata",
+      "width": 800,
+      "height": 378
+    }
+  },
+  {
+    "date": ["7/7/2021", "11/7/2021"],
+    "location": "Racice, CZ",
+    "title": "World Rowing Under 23 Championships",
+    "type": "canoeing",
+    "vs": "Germany",
+    "extended": "Italy tops the medal table with Gold Medals by Maria Zerboni and Samantha Premerl (Lightweight Women’s Pair); Greta Martinelli, Ilaria Corazza, Elena Sali and Arianna Passin (Women Quadruple Sculls); Aniello Sabbatino, Andrea Carando, Nunzio Di Colandrea and Davide Verità (Men Coxed Four); Silvia Crosio (Lightweight Women’s Single Sculls)",
+    "img": {
+      "slug": "rowing",
+      "width": 800,
+      "height": 533
     }
   },
   {
@@ -477,10 +526,10 @@
   {
     "date": ["1/9/2021", "4/9/2021"],
     "location": "Maribor, SI",
-    "title": "Italy tops the Medal Table at the European 3D Championships",
+    "title": "European 3D Championships",
     "type": "archery",
     "vs": "Austria",
-    "extended": "with gold medals by Cinzia Noziglia and Alessandro Rigamonti (Barebow Mixed Team); Cinzia Noziglia, Luana Bassi and Irene Franchini (Women Team); Irene Franchini (Compound Women); Michela Donati (Instinctive Women)",
+    "extended": "Italy tops the medal table with Gold Medals by Cinzia Noziglia and Alessandro Rigamonti (Barebow Mixed Team); Cinzia Noziglia, Luana Bassi and Irene Franchini (Women Team); Irene Franchini (Compound Women); Michela Donati (Instinctive Women)",
     "img": {
       "slug": "noziglia-rigamonti",
       "width": 800,
@@ -572,10 +621,10 @@
   {
     "date": ["9/9/2021", "12/9/2021"],
     "location": "Porec, HR",
-    "title": "Italy tops the Medal Table at the European Field Championships",
+    "title": "European Field Championships",
     "type": "archery",
     "vs": "Sweden",
-    "extended": "with gold medals by Chiara Rebagliati (Recurve Women); Sara Ret (Compound Women); Michea Godano (Compoind Men); Cinzia Noziglia (Barebow Women); Matteo Seghetta (Barebow Junior Men); Eleonora MEloni (Barebow Junior Women);  Massimiliano Mandia (Recurve Men FQT)",
+    "extended": "Italy tops the Medal Table with Gold Medals by Chiara Rebagliati (Recurve Women); Sara Ret (Compound Women); Michea Godano (Compoind Men); Cinzia Noziglia (Barebow Women); Matteo Seghetta (Barebow Junior Men); Eleonora MEloni (Barebow Junior Women);  Massimiliano Mandia (Recurve Men FQT)",
     "img": {
       "slug": "field-archery",
       "width": 800,
@@ -639,6 +688,18 @@
       "slug": "di-liberto",
       "width": 800,
       "height": 639
+    }
+  },
+  {
+    "date": ["19/9/202"],
+    "location": "Terracina, IT",
+    "title": "Beach Tennis World Championships",
+    "type": "tennis",
+    "extended": "Tommaso Giovannini and Nikita Burmakin win the Men Tournament – against the Italian couple Doriano Beccaccioli and Mattia Spoto; Giulia Gasparri and Ninny Valentini the Women tournament",
+    "img": {
+      "slug": "gasparri-valentini",
+      "width": 800,
+      "height": 533
     }
   },
   {
