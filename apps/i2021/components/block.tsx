@@ -73,14 +73,14 @@ export default memo(function Block({
       date={transformDate(date)}
       icon={<Icon />}
     >
-      <h3 className="vertical-timeline-element-title">{title}</h3>
-      <h4 className="vertical-timeline-element-subtitle">
+      <h2 className="vertical-timeline-element-title">{title}</h2>
+      <h3 className="vertical-timeline-element-subtitle">
         <span>
           {getIcon(location)}
           {location}
         </span>
         <small> {vs && `Runner-up: ${vs}`}</small>
-      </h4>
+      </h3>
 
       {img && (
         <>

@@ -23,19 +23,31 @@ h1 {
   }
 }
 
+.vertical-timeline-element-content {
+  color: white;
+
+  h2,
+  h3 {
+    color: inherit;
+  }
+  h3 {
+    font-size: 100%;
+  }
+}
+
 button.vertical-timeline-element-icon {
   cursor: pointer;
 }
 
-h4 {
+h3 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-}
 
-h4 small {
-  font-weight: normal;
-  font-style: italic;
+  small {
+    font-weight: normal;
+    font-style: italic;
+  }
 }
 
 button.vertical-timeline-element-icon-selected {
@@ -136,6 +148,7 @@ button.vertical-timeline-element-icon-selected {
   .vertical-timeline-element-content {
     background: #008c45;
     color: white;
+    box-shadow: 0 3px 0 #006a23;
   }
   .vertical-timeline-element-content-arrow {
     border-right-color: #008c45;
@@ -146,6 +159,7 @@ button.vertical-timeline-element-icon-selected {
   .vertical-timeline-element-content {
     background: #f4f5f0;
     color: black;
+    box-shadow: 0 3px 0 #bbb;
   }
   .vertical-timeline-element-content-arrow {
     border-right-color: #f4f5f0;
@@ -161,6 +175,7 @@ button.vertical-timeline-element-icon-selected {
   .vertical-timeline-element-content {
     background: #cd212a;
     color: white;
+    box-shadow: 0 3px 0 #ab0008;
   }
   .vertical-timeline-element-content-arrow {
     border-right-color: #cd212a;
