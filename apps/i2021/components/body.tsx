@@ -6,19 +6,10 @@ import Video from './video';
 import Modal from './modal';
 import Footer from './footer';
 import { getMonth, parse } from 'date-fns';
-
-type blockProps = {
-  location: string;
-  title: string;
-  type: string;
-  date: Array<string>;
-  img?: string;
-  vs?: string;
-  video?: string;
-};
+import { dataProps, blockProps } from './types';
 
 type bodyProps = {
-  data: Array<blockProps>;
+  data: Array<dataProps>;
 };
 
 type opType = { type: string; location: string; date: Array<string> };

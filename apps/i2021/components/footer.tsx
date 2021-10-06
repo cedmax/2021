@@ -1,14 +1,5 @@
 import { memo } from 'react';
-
-type blockProps = {
-  location: string;
-  title: string;
-  type: string;
-  date: Array<string>;
-  img?: string;
-  vs?: string;
-  video?: string;
-};
+import { blockProps } from './types';
 
 type footerProps = {
   filter: string;

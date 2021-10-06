@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import icons from './icons';
 import labels from './constants';
 import { format, getMonth, parse } from 'date-fns';
+import { blockProps } from './types';
 
 const Menu = styled.ul`
   padding: 0;
@@ -66,16 +67,6 @@ const MenuMonthItem = styled.li`
     }
   }
 `;
-
-type blockProps = {
-  location: string;
-  title: string;
-  type: string;
-  date: Array<string>;
-  img?: string;
-  vs?: string;
-  video?: string;
-};
 
 type availableTypes = {
   [id: string]: number;

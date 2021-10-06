@@ -1,613 +1,1066 @@
 [
   {
-    "date": ["21/2/2021"],
+    "date": [
+      "21/2/2021"
+    ],
     "location": "Aucland, NZ",
     "title": "Luna Rossa wins the Prada Cup",
     "type": "sailing",
-    "img": "luna-rossa",
     "vs": "United Kingdom",
-    "video": "QldJ0OWZLyg"
+    "video": "QldJ0OWZLyg",
+    "img": {
+      "slug": "luna-rossa",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["28/2/2021"],
+    "date": [
+      "28/2/2021"
+    ],
     "location": "Katowice, PL",
     "title": "Riccardo “Reynor” Romiti wins StarCraft 2 Masters Championship",
     "type": "gaming",
-    "img": "renoyr",
     "vs": "South Korea",
     "video": "A71o9yBCQCU#1900",
-    "extended": "Becoming the first non-Korean player to win a World Championship level trophy"
+    "extended": "Becoming the first non-Korean player to win a World Championship level trophy",
+    "img": {
+      "slug": "renoyr",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["1/3/2021"],
+    "date": [
+      "1/3/2021"
+    ],
     "location": "Virtual event, US",
     "title": "Laura Pausini wins Best Original Song award at Golden Globe",
     "type": "entertainment",
-    "img": "pausini",
-    "video": "imjSm7FNmwE"
+    "video": "imjSm7FNmwE",
+    "img": {
+      "slug": "pausini",
+      "width": 800,
+      "height": 528
+    }
   },
   {
-    "date": ["3/3/2021"],
+    "date": [
+      "3/3/2021"
+    ],
     "location": "Jasná, SK",
     "title": "Marta Bassino wins Giant Slalom World Cup",
     "type": "skiing",
-    "img": "bassino",
-    "video": "FAhkszxWqg4"
+    "video": "FAhkszxWqg4",
+    "img": {
+      "slug": "bassino",
+      "width": 800,
+      "height": 580
+    }
   },
   {
-    "date": ["17/3/2021"],
+    "date": [
+      "17/3/2021"
+    ],
     "location": "Lenzerheide, CH",
     "title": "Sofia Goggia wins Downhill World Cup",
     "type": "skiing",
-    "img": "goggia",
-    "video": "vik1RqKnBq4"
+    "video": "vik1RqKnBq4",
+    "img": {
+      "slug": "goggia",
+      "width": 800,
+      "height": 1067
+    }
   },
   {
-    "date": ["22/5/2021"],
+    "date": [
+      "22/5/2021"
+    ],
     "location": "Rotterdam, NL",
     "title": "Maneskin wins Eurovision",
     "type": "entertainment",
     "vs": "France",
-    "img": "damiano",
-    "video": "RVH5dn1cxAQ"
+    "video": "RVH5dn1cxAQ",
+    "img": {
+      "slug": "damiano",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["18/6/2021"],
+    "date": [
+      "18/6/2021"
+    ],
     "location": "Worldwide",
     "title": "Pixar releases Luca",
     "type": "entertainment",
-    "img": "luca",
     "video": "mYfJxlgR2jw",
-    "extended": "a celebration of Italian culture and wonderful landscapes"
+    "extended": "a celebration of Italian culture and wonderful landscapes",
+    "img": {
+      "slug": "luca",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["3/7/2021"],
+    "date": [
+      "3/7/2021"
+    ],
     "location": "Friuli-Venezia Giulia, IT",
     "title": "Women's European Softball Championship",
     "type": "baseball",
     "vs": "Netherlands",
-    "img": "softball",
-    "video": "RCICfcEXkgs"
+    "video": "RCICfcEXkgs",
+    "img": {
+      "slug": "softball",
+      "width": 800,
+      "height": 602
+    }
   },
   {
-    "date": ["10/7/2021"],
+    "date": [
+      "10/7/2021"
+    ],
     "location": "Tallin, EE",
     "title": "Dalia Kaddari Gold Medal in U23 Women's 200 metres",
     "type": "athletics",
     "vs": "Germany",
-    "img": "kaddari",
-    "video": "1osEoir0nWQ"
+    "video": "1osEoir0nWQ",
+    "img": {
+      "slug": "kaddari",
+      "width": 800,
+      "height": 519
+    }
   },
   {
-    "date": ["10/7/2021"],
+    "date": [
+      "10/7/2021"
+    ],
     "location": "Tallin, EE",
     "title": "Alessandro Sibilio Gold Medal in U23 Men's 400 metres hurdles",
     "type": "athletics",
     "vs": "Germany",
-    "img": "sibilio",
-    "video": "FW8GtCdE7EQ"
+    "video": "FW8GtCdE7EQ",
+    "img": {
+      "slug": "sibilio",
+      "width": 800,
+      "height": 497
+    }
   },
   {
-    "date": ["11/7/2021"],
+    "date": [
+      "11/7/2021"
+    ],
     "location": "London, UK",
     "title": "Matteo Berrettini is the first Italian at a Wimbledon final",
     "type": "tennis",
-    "img": "berrettini",
-    "video": "zNMpoAo58BQ"
+    "video": "zNMpoAo58BQ",
+    "img": {
+      "slug": "berrettini",
+      "width": 800,
+      "height": 600
+    }
   },
   {
-    "date": ["11/7/2021"],
+    "date": [
+      "11/7/2021"
+    ],
     "location": "London, UK",
     "title": "UEFA European Football Championship",
     "type": "football",
     "vs": "England",
-    "img": "chiellini",
-    "video": "WAC1RrdRG2U"
+    "video": "WAC1RrdRG2U",
+    "img": {
+      "slug": "chiellini",
+      "width": 800,
+      "height": 600
+    }
   },
   {
-    "date": ["11/7/2021"],
+    "date": [
+      "11/7/2021"
+    ],
     "location": "Tallin, EE",
     "title": "Gaia Sabbatini and Marta Zenoni Gold and Silver Medals in U23 Women's 1500 metres",
     "type": "athletics",
     "vs": "Great Britain",
-    "img": "zenoni-sabatini",
-    "video": "Z3bW9sG1MEg"
+    "video": "Z3bW9sG1MEg",
+    "img": {
+      "slug": "zenoni-sabatini",
+      "width": 800,
+      "height": 600
+    }
   },
   {
-    "date": ["11/7/2021"],
+    "date": [
+      "11/7/2021"
+    ],
     "location": "Tallin, EE",
     "title": "Nadia Battocletti Gold Medal in U23 Women's 5000 metres",
     "type": "athletics",
     "vs": "Great Britain",
-    "img": "battocletti",
-    "video": "KdJIxB5hHkE"
+    "video": "KdJIxB5hHkE",
+    "img": {
+      "slug": "battocletti",
+      "width": 800,
+      "height": 506
+    }
   },
   {
-    "date": ["11/7/2021"],
+    "date": [
+      "11/7/2021"
+    ],
     "location": "Tallin, EE",
     "title": "Simone Barontini Gold Medal in U23 Men's 800 metres",
     "type": "athletics",
     "vs": "Belgium",
-    "img": "barontini",
-    "video": "UEFC95-wAe0"
+    "video": "UEFC95-wAe0",
+    "img": {
+      "slug": "barontini",
+      "width": 800,
+      "height": 436
+    }
   },
   {
-    "date": ["11/7/2021"],
+    "date": [
+      "11/7/2021"
+    ],
     "location": "Tallin, EE",
     "title": "Andrea Dallavalle Gold Medal in U23 Men's triple jump",
     "type": "athletics",
     "vs": "France",
-    "img": "dallavalle",
-    "video": "uxvYYqYkXrw"
+    "video": "uxvYYqYkXrw",
+    "img": {
+      "slug": "dallavalle",
+      "width": 800,
+      "height": 496
+    }
   },
-
   {
-    "date": ["24/7/2021"],
+    "date": [
+      "24/7/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Dell'Aquila Gold Medal in Men's 58kg Taekwondo at the Olympics",
     "type": "martialarts",
     "vs": "Tunisia",
-    "img": "taekwondo",
-    "video": "odCQSMlJwPo"
+    "video": "odCQSMlJwPo",
+    "img": {
+      "slug": "taekwondo",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["28/7/2021"],
+    "date": [
+      "28/7/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Valentina Rodini and Federica Cesarini Gold Medal in Women's lightweight double sculls",
     "vs": "France",
     "type": "canoeing",
-    "img": "canoeing"
+    "img": {
+      "slug": "canoeing",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["1/8/2021"],
+    "date": [
+      "1/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Gianmarco Tamberi (and Mutaz Barshim) Gold Medal in Athletics Men's high jump",
     "vs": "Belarus",
     "type": "athletics",
-    "img": "barshim-tamberi",
-    "video": "rQRiS8l30xE?t=9161"
+    "video": "rQRiS8l30xE?t=9161",
+    "img": {
+      "slug": "barshim-tamberi",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["1/8/2021"],
+    "date": [
+      "1/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Marcell Jacobs Gold Medal in Men's 100 metres final",
     "type": "athletics",
     "vs": "USA",
-    "img": "100mt",
-    "video": "E895PNqSgEI"
+    "video": "E895PNqSgEI",
+    "img": {
+      "slug": "100mt",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["3/8/2021"],
+    "date": [
+      "3/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Ruggero Tita and Caterina Banti Gold Medal in Nacra 17 mixed",
     "type": "sailing",
     "vs": "Great Britain",
-    "img": "tita-banti"
+    "img": {
+      "slug": "tita-banti",
+      "width": 800,
+      "height": 548
+    }
   },
   {
-    "date": ["4/8/2021"],
+    "date": [
+      "4/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Filippo Ganna, Francesco Lamon, Simone Consonni and Jonathan Milan Gold Medal and World Record in men's Team pursuit",
     "type": "cycling",
     "vs": "Denmark",
-    "img": "ganna"
+    "img": {
+      "slug": "ganna",
+      "width": 800,
+      "height": 532
+    }
   },
   {
-    "date": ["7/8/2021"],
+    "date": [
+      "7/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Massimo Stano Gold Medal in Men's 20km race walk",
     "vs": "Japan",
-    "img": "stano",
-    "type": "athletics"
+    "type": "athletics",
+    "img": {
+      "slug": "stano",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["6/8/2021"],
+    "date": [
+      "6/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Eseosa Desalu, Marcell Jacobs, Lorenzo Patta, and Filippo Tortu Gold Medal in Men's 4x100",
     "vs": "Great Britain",
     "type": "athletics",
-    "img": "4x100",
-    "video": "pZ2G6BoWy04"
+    "video": "pZ2G6BoWy04",
+    "img": {
+      "slug": "4x100",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["7/8/2021"],
+    "date": [
+      "7/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Antonella Palmisano Gold Medal in Women's 20km race walk",
     "vs": "Colmbia",
-    "img": "palmisano",
     "type": "athletics",
-    "video": "2ARkTHJSGv8"
+    "video": "2ARkTHJSGv8",
+    "img": {
+      "slug": "palmisano",
+      "width": 800,
+      "height": 574
+    }
   },
   {
-    "date": ["7/8/2021"],
+    "date": [
+      "7/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Luigi Busà Gold Medal in Men's Kumite +75kg",
     "type": "martialarts",
     "vs": "Azerbaijan",
-    "img": "busa"
+    "img": {
+      "slug": "busa",
+      "width": 800,
+      "height": 550
+    }
   },
   {
-    "date": ["15/8/2021"],
+    "date": [
+      "15/8/2021"
+    ],
     "location": "Virtual Event",
     "title": "Andrea Muzii wins Asian-Oceanian Open / MSO Memory Championship ",
     "type": "other",
     "vs": "Germany",
-    "img": "memory"
+    "img": {
+      "slug": "memory",
+      "width": 800,
+      "height": 453
+    }
   },
   {
-    "date": ["15/8/2021"],
+    "date": [
+      "15/8/2021"
+    ],
     "location": "Montreal, CA",
     "title": "Camila Giorgi wins the Omnium Banque Nationale Championship",
     "vs": "Czech Republic",
     "type": "tennis",
-    "img": "giorgi"
+    "img": {
+      "slug": "giorgi",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["25/8/2021"],
+    "date": [
+      "25/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Carlotta Gilli and Alessia Berra Gold and Silver Medals in S13 100m butterfly",
     "vs": "Russia",
     "type": "swimming",
-    "img": "gilli"
+    "img": {
+      "slug": "gilli",
+      "width": 800,
+      "height": 453
+    }
   },
   {
-    "date": ["25/8/2021", "26/8/2021"],
+    "date": [
+      "25/8/2021",
+      "26/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Francesco Bocciardo Gold Medals in S5 Men's 100m and 200m Freestyle",
     "vs": "Spain and China",
     "type": "swimming",
-    "img": "bocciardo-1"
+    "img": {
+      "slug": "bocciardo-1",
+      "width": 800,
+      "height": 600
+    }
   },
   {
-    "date": ["26/8/2021"],
+    "date": [
+      "26/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Stefano Raimondi Gold Medal in SB9 Men's 100m Breaststroke",
     "vs": "Russia",
     "type": "swimming",
-    "img": "raimondi"
+    "img": {
+      "slug": "raimondi",
+      "width": 800,
+      "height": 530
+    }
   },
   {
-    "date": ["29/8/2021"],
+    "date": [
+      "29/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Bebe Vio Gold Medal in Women's wheelchair fencing",
     "type": "fencing",
     "vs": "China",
-    "img": "vio",
-    "video": "OWsm04I0Oeo"
+    "video": "OWsm04I0Oeo",
+    "img": {
+      "slug": "vio",
+      "width": 800,
+      "height": 500
+    }
   },
   {
-    "date": ["29/8/2021"],
+    "date": [
+      "29/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Simone Barlaam Gold Medal in S9 Men's 50m Freestyle",
     "type": "swimming",
     "vs": "Russia",
-    "img": "barlaam"
+    "img": {
+      "slug": "barlaam",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["29/8/2021"],
+    "date": [
+      "29/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Xenia Francesca Palazzo, Vittoria Bianco, Giulia Terzi e Alessia Scortechini Gold Medal in 34pts Women's 4x100m Freestyle",
     "type": "swimming",
     "vs": "Australia",
-    "img": "4x100-34"
+    "img": {
+      "slug": "4x100-34",
+      "width": 800,
+      "height": 510
+    }
   },
   {
-    "date": ["29/8/2021", "30/8/2021"],
+    "date": [
+      "29/8/2021",
+      "30/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Arjola Trimi Gold Medals in S3 Women's 50m Backstroke and Women's 100m Freestyle",
     "vs": "Great Britain and USA",
     "type": "swimming",
-    "img": "trimi"
+    "img": {
+      "slug": "trimi",
+      "width": 800,
+      "height": 449
+    }
   },
   {
-    "date": ["30/8/2021"],
+    "date": [
+      "30/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Carlotta Gilli Gold Medal in S13 Women's 200m Individual Medley",
     "vs": "USA",
     "type": "swimming",
-    "img": "gilli-2"
+    "img": {
+      "slug": "gilli-2",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["31/8/2021"],
+    "date": [
+      "31/8/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Giulia Terzi Gold Medal in S7 Women's 100m Freestyle",
     "vs": "USA",
     "type": "swimming",
-    "img": "terzi"
+    "img": {
+      "slug": "terzi",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["1/9/2021", "4/9/2021"],
+    "date": [
+      "1/9/2021",
+      "4/9/2021"
+    ],
     "location": "Maribor, SI",
     "title": "Italy tops the Medal Table at the European 3D Championships",
     "type": "archery",
     "vs": "Austria",
-    "img": "noziglia-rigamonti",
-    "extended": "with gold medals by Cinzia Noziglia and Alessandro Rigamonti (Barebow Mixed Team); Cinzia Noziglia, Luana Bassi and Irene Franchini (Women Team); Irene Franchini (Compound Women); Michela Donati (Instinctive Women)"
+    "extended": "with gold medals by Cinzia Noziglia and Alessandro Rigamonti (Barebow Mixed Team); Cinzia Noziglia, Luana Bassi and Irene Franchini (Women Team); Irene Franchini (Compound Women); Michela Donati (Instinctive Women)",
+    "img": {
+      "slug": "noziglia-rigamonti",
+      "width": 800,
+      "height": 600
+    }
   },
   {
-    "date": ["1/9/2021"],
+    "date": [
+      "1/9/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Antonio Fantin Gold Medal and World Record in S6 Men's 100m Freestyle",
     "type": "swimming",
-    "img": "fantin"
+    "img": {
+      "slug": "fantin",
+      "width": 800,
+      "height": 451
+    }
   },
   {
-    "date": ["1/9/2021"],
+    "date": [
+      "1/9/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Paolo Cecchetto, Luca Mazzone and Diego Colombari Gold Medal in Mixed H1-5 Team Relay",
     "type": "cycling",
     "vs": "France",
-    "img": "relay"
+    "img": {
+      "slug": "relay",
+      "width": 800,
+      "height": 631
+    }
   },
   {
-    "date": ["4/9/2021"],
+    "date": [
+      "4/9/2021"
+    ],
     "location": "Tokyo, JP",
     "title": "Ambra Sabatini, Martina Caironi and Monica Graziana Contraffatto Gold, Silver and Bronze Medals in Women's 100 metres T63",
     "type": "athletics",
-    "img": "t63",
-    "video": "BVrfH2mND7o"
+    "video": "BVrfH2mND7o",
+    "img": {
+      "slug": "t63",
+      "width": 800,
+      "height": 462
+    }
   },
   {
-    "date": ["4/9/2021"],
+    "date": [
+      "4/9/2021"
+    ],
     "location": "Kranj, SI",
     "title": "Stefano Ghisolfi wins Lead Climbing World Cup",
     "type": "climbing",
-    "img": "ghisolfi",
-    "video": "EzCUlv538Lk"
+    "video": "EzCUlv538Lk",
+    "img": {
+      "slug": "ghisolfi",
+      "width": 800,
+      "height": 534
+    }
   },
   {
-    "date": ["4/9/2021"],
+    "date": [
+      "4/9/2021"
+    ],
     "location": "Belgrade, RS",
     "title": "Women's European Volleyball Championship",
     "type": "volleyball",
     "vs": "Serbia",
-    "img": "volleyw"
+    "img": {
+      "slug": "volleyw",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["5/9/2021"],
+    "date": [
+      "5/9/2021"
+    ],
     "location": "Istanbul, TR",
     "title": "Dario Costa broke the world record of longest tunnel flight by plane",
     "type": "other",
-    "img": "flight",
-    "video": "iFrHAixcI44"
+    "video": "iFrHAixcI44",
+    "img": {
+      "slug": "flight",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["9/9/2021"],
+    "date": [
+      "9/9/2021"
+    ],
     "location": "Zurich, CH",
     "title": "Gianmarco Tamberi first Italian to win the Diamond League",
     "type": "athletics",
-    "img": "diamond"
+    "img": {
+      "slug": "diamond",
+      "width": 800,
+      "height": 472
+    }
   },
   {
-    "date": ["9/9/2021", "12/9/2021"],
+    "date": [
+      "9/9/2021",
+      "12/9/2021"
+    ],
     "location": "Porec, HR",
     "title": "Italy tops the Medal Table at the European Field Championships",
     "type": "archery",
     "vs": "Sweden",
-    "img": "field-archery",
-    "extended": "with gold medals by Chiara Rebagliati (Recurve Women); Sara Ret (Compound Women); Michea Godano (Compoind Men); Cinzia Noziglia (Barebow Women); Matteo Seghetta (Barebow Junior Men); Eleonora MEloni (Barebow Junior Women);  Massimiliano Mandia (Recurve Men FQT)"
+    "extended": "with gold medals by Chiara Rebagliati (Recurve Women); Sara Ret (Compound Women); Michea Godano (Compoind Men); Cinzia Noziglia (Barebow Women); Matteo Seghetta (Barebow Junior Men); Eleonora MEloni (Barebow Junior Women);  Massimiliano Mandia (Recurve Men FQT)",
+    "img": {
+      "slug": "field-archery",
+      "width": 800,
+      "height": 321
+    }
   },
   {
-    "date": ["12/9/2021"],
+    "date": [
+      "12/9/2021"
+    ],
     "location": "Trento, IT",
     "title": "Sonny Colbrelli wins Men’s Elite European Road",
     "type": "cycling",
     "vs": "Belgium",
-    "img": "colbrelli"
+    "img": {
+      "slug": "colbrelli",
+      "width": 800,
+      "height": 457
+    }
   },
   {
-    "date": ["19/9/2021"],
+    "date": [
+      "19/9/2021"
+    ],
     "location": "Katowice, PL",
     "title": "Men's European Volleyball Championship",
     "type": "volleyball",
     "vs": "Slovenia",
-    "img": "volleym"
+    "img": {
+      "slug": "volleym",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["19/9/2021"],
+    "date": [
+      "19/9/2021"
+    ],
     "location": "Flanders, BE",
     "title": "Filippo Ganna wins Road Cycling World Championship",
     "vs": "Belgium",
     "type": "cycling",
-    "img": "ganna-sept"
+    "img": {
+      "slug": "ganna-sept",
+      "width": 800,
+      "height": 553
+    }
   },
   {
-    "date": ["19/9/2021"],
+    "date": [
+      "19/9/2021"
+    ],
     "location": "Sotogrande, ES",
     "title": "European Champion at the IX European Polo Championship",
     "vs": "Austria",
     "type": "polo",
-    "img": "polo"
+    "img": {
+      "slug": "polo",
+      "width": 800,
+      "height": 534
+    }
   },
   {
-    "date": ["19/9/2021"],
+    "date": [
+      "19/9/2021"
+    ],
     "location": "Copenhagen, DK",
     "title": "Andrea Domenico Di Liberto Gold Medal K1 200 at the canoeing World Speed Championships",
     "type": "canoeing",
-    "img": "di-liberto"
+    "img": {
+      "slug": "di-liberto",
+      "width": 800,
+      "height": 639
+    }
   },
   {
-    "date": ["19/9/2021"],
+    "date": [
+      "19/9/2021"
+    ],
     "location": "Copenhagen, DK",
     "title": "Daniele Santini and Nicolae Craciun Gold Medal C2 500 at the canoeing World Speed Championships",
     "type": "canoeing",
-    "img": "santini-craciun"
+    "img": {
+      "slug": "santini-craciun",
+      "width": 800,
+      "height": 449
+    }
   },
   {
-    "date": ["20/9/2021"],
+    "date": [
+      "20/9/2021"
+    ],
     "location": "Martigues, FR",
     "title": "Gabriele Graziano U23 Champion and Alex Zoia & Ivan Soligon U23 duo Champions at the World Bocce Championship",
     "type": "other",
-    "img": "bocce"
+    "img": {
+      "slug": "bocce",
+      "width": 800,
+      "height": 571
+    }
   },
   {
-    "date": ["20/9/2021"],
+    "date": [
+      "20/9/2021"
+    ],
     "location": "Los Angeles, US",
     "title": "Stanley Tucci: Searching for Italy wins an Emmy",
     "type": "entertainment",
-    "img": "tucci",
     "video": "fucxxHB7dj4",
-    "extended": "The show is an American travel and food show uncovering Italian lesser-known places and exploring their cultures, cuisine and history"
+    "extended": "The show is an American travel and food show uncovering Italian lesser-known places and exploring their cultures, cuisine and history",
+    "img": {
+      "slug": "tucci",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["24/9/2021"],
+    "date": [
+      "24/9/2021"
+    ],
     "location": "Pesaro, IT",
     "title": "Winners of the Big Game World Championship",
     "type": "other",
-    "img": "fishing"
+    "img": {
+      "slug": "fishing",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["24/9/2021"],
+    "date": [
+      "24/9/2021"
+    ],
     "location": "Flanders, BE",
     "title": "Filippo Baroncini U23 Champion at the UCI Road World Championships",
     "type": "cycling",
-    "img": "baroncini"
+    "img": {
+      "slug": "baroncini",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["25/9/2021"],
+    "date": [
+      "25/9/2021"
+    ],
     "location": "Flanders, BE",
     "title": "Elisa Balsamo wins UCI Road World Championships",
     "type": "cycling",
     "vs": "Netherlands",
-    "img": "balsamo"
+    "img": {
+      "slug": "balsamo",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["25/9/2021"],
+    "date": [
+      "25/9/2021"
+    ],
     "location": "Lyon, FR",
     "title": "Coupe du Monde de la Pâtisserie",
     "type": "other",
-    "img": "dessert"
+    "img": {
+      "slug": "dessert",
+      "width": 800,
+      "height": 453
+    }
   },
   {
-    "date": ["25/9/2021"],
+    "date": [
+      "25/9/2021"
+    ],
     "location": "Santa Marta, CO",
     "title": "Dametto Consuelo wins the 3Km Bifins at the Open Water World Championship",
     "vs": "Russia",
     "type": "swimming",
-    "img": "dametto"
+    "img": {
+      "slug": "dametto",
+      "width": 800,
+      "height": 495
+    }
   },
   {
-    "date": ["26/9/2021"],
+    "date": [
+      "26/9/2021"
+    ],
     "location": "Santa Marta, CO",
     "title": "Marta Zaghet wins the 1Km Surface at the Open Water World Championship",
     "vs": "Russia",
     "type": "swimming",
-    "img": "zaghet"
+    "img": {
+      "slug": "zaghet",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["26/9/2021"],
+    "date": [
+      "26/9/2021"
+    ],
     "location": "Pogliano Milanese, IT",
     "title": "FIP Ladies European Polo Championship",
     "vs": "England",
     "type": "polo",
-    "img": "polow"
+    "img": {
+      "slug": "polow",
+      "width": 800,
+      "height": 533
+    }
   },
   {
-    "date": ["26/9/2021"],
+    "date": [
+      "26/9/2021"
+    ],
     "location": "Mantova, IT",
     "title": "2021 Motocross of Nations",
     "type": "motocross",
-    "img": "mxon"
+    "img": {
+      "slug": "mxon",
+      "width": 800,
+      "height": 534
+    }
   },
   {
-    "date": ["26/9/2021"],
+    "date": [
+      "26/9/2021"
+    ],
     "location": "Peccioli, IT",
     "title": "World Heaviest Pumpkin*",
     "type": "other",
-    "img": "pumpkin",
-    "extended": "* ok, this is just to take the piss"
+    "extended": "* ok, this is just to take the piss",
+    "img": {
+      "slug": "pumpkin",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["29/9/2021"],
+    "date": [
+      "29/9/2021"
+    ],
     "location": "Malaga, ES",
     "title": "Italy beat England in a Cricket match at the European Championship T10",
     "type": "cricket",
-    "img": "cricket",
-    "extended": "For the 2nd time in history, and the first in 23 years"
+    "extended": "For the 2nd time in history, and the first in 23 years",
+    "img": {
+      "slug": "cricket",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["30/9/2021"],
+    "date": [
+      "30/9/2021"
+    ],
     "location": "Asunción, PY",
     "title": "Sofia Paronetto wins Junior Ladies Inline Skating Gold Medals at the Artistic Skating World Championships",
     "type": "skating",
-    "img": "paronetto"
+    "img": {
+      "slug": "paronetto",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["1/10/2021"],
+    "date": [
+      "1/10/2021"
+    ],
     "location": "Milan, IT",
     "title": "Daniele Scardina is the new WBO Intercontinental Super Middleweight Champion",
     "type": "boxing",
     "vs": "Germany",
-    "img": "scardina"
+    "img": {
+      "slug": "scardina",
+      "width": 800,
+      "height": 1000
+    }
   },
   {
-    "date": ["1/10/2021"],
+    "date": [
+      "1/10/2021"
+    ],
     "location": "Milan, IT",
     "title": "Francesco Patera is the new WBO Intercontinental Lightweight Champion",
     "type": "boxing",
-    "img": "patera"
+    "img": {
+      "slug": "patera",
+      "width": 800,
+      "height": 532
+    }
   },
   {
-    "date": ["2/10/2021"],
+    "date": [
+      "2/10/2021"
+    ],
     "location": "Brno, CZ",
     "title": "Quantin is the World Winner at the World Dog Show",
     "type": "other",
-    "img": "quantin"
+    "img": {
+      "slug": "quantin",
+      "width": 800,
+      "height": 568
+    }
   },
   {
-    "date": ["3/10/2021"],
+    "date": [
+      "3/10/2021"
+    ],
     "location": "Asunción, PY",
     "title": "Roma Roller Team wins Small Group Gold Medal at the Artistic Skating World Championships",
     "type": "skating",
-    "img": "skating",
-    "video": "f6BJ6vWoWB0"
+    "video": "f6BJ6vWoWB0",
+    "img": {
+      "slug": "skating",
+      "width": 800,
+      "height": 532
+    }
   },
   {
-    "date": ["3/10/2021"],
+    "date": [
+      "3/10/2021"
+    ],
     "location": "Asunción, PY",
     "title": "Francesco Barletta wins Junior Men Solo Dance Gold Medal at the Artistic Skating World Championships",
     "type": "skating",
-    "img": "barletta",
-    "video": "gYTCAXfc7-c"
+    "video": "gYTCAXfc7-c",
+    "img": {
+      "slug": "barletta",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["3/10/2021"],
+    "date": [
+      "3/10/2021"
+    ],
     "location": "Asunción, PY",
     "title": "Roberta Sasso wins Junior Ladies Solo Dance Gold Medal at the Artistic Skating World Championships",
     "type": "skating",
-    "img": "sasso",
-    "video": "mnFn27RvuMY"
+    "video": "mnFn27RvuMY",
+    "img": {
+      "slug": "sasso",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["3/10/2021"],
+    "date": [
+      "3/10/2021"
+    ],
     "location": "Saint-Cyr-Sur-Mer, FR",
     "title": "Giuseppe Barone wins the Heavy Weight Gold Medal at the European Windsurfer Championship",
     "type": "sailing",
     "vs": "Netherlands",
-    "img": "barone"
+    "img": {
+      "slug": "barone",
+      "width": 800,
+      "height": 500
+    }
   },
   {
-    "date": ["3/10/2021"],
+    "date": [
+      "3/10/2021"
+    ],
     "location": "Roubaix, FR",
     "title": "Sonny Colbrelli wins the Paris-Roubaix",
     "type": "cycling",
     "vs": "Belgium",
-    "img": "colbrelli-pr"
+    "img": {
+      "slug": "colbrelli-pr",
+      "width": 800,
+      "height": 581
+    }
   },
   {
-    "date": ["3/10/2021"],
+    "date": [
+      "3/10/2021"
+    ],
     "location": "Cagliari, IT",
     "title": "FIVB Volleyball Men's U21 World Championship",
     "type": "volleyball",
-    "img": "volley-u21",
-    "vs": "Russia"
+    "vs": "Russia",
+    "img": {
+      "slug": "volley-u21",
+      "width": 800,
+      "height": 450
+    }
   },
   {
-    "date": ["5/10/2021"],
+    "date": [
+      "5/10/2021"
+    ],
     "location": "Stockholm, SE",
     "title": "Giorgio Parisi wins Nobel Prize in Physics",
     "type": "entertainment",
-    "img": "parisi",
-    "extended": "The prize was awarded for the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales. He will be sharing it with Syukuro Manabe and Klaus Hasselmann for their work in the physical modeling of Earth’s climate, quantifying variability and reliably predicting global warming."
+    "extended": "The prize was awarded for the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales. He will be sharing it with Syukuro Manabe and Klaus Hasselmann for their work in the physical modeling of Earth’s climate, quantifying variability and reliably predicting global warming.",
+    "img": {
+      "slug": "parisi",
+      "width": 800,
+      "height": 534
+    }
   }
 ]

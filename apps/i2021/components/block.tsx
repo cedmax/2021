@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import { memo } from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { AspectRatio } from 'react-aspect-ratio'; // Recommended: if you are using React > 15.6
 import icons from './icons';
 import { format, parse } from 'date-fns';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { blockProps } from './types';
 
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
@@ -11,18 +13,6 @@ const Aswc = icons.aswc;
 
 const LocationIcon = icons.location;
 const VideoIcon = icons.video;
-
-type blockProps = {
-  location: string;
-  title: string;
-  type: string;
-  date: Array<string>;
-  img?: string;
-  vs?: string;
-  extended?: string;
-  video?: string;
-  playVideo: (a: string) => void;
-};
 
 const getIcon = (location: string) => {
   switch (location) {
@@ -95,7 +85,9 @@ export default memo(function Block({
       {img && (
         <>
           <p>
-            <LazyLoadImage alt={title} src={`../images/${img}.webp`} />
+            <AspectRatio ratio={(img.width / img.height).toFixed()}>
+              <LazyLoadImage alt={title} src={`../images/${img.slug}.webp`} />
+            </AspectRatio>
             {video && (
               <>
                 <button
