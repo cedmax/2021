@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import ReactTooltip from 'react-tooltip';
 import data from '../data.json';
 import Body from '../components/body';
+import Banner from '../components/banner';
 
 const dataOrdered = data.reverse();
 
@@ -12,6 +13,7 @@ const Wrapper = styled.main`
 export default function App() {
   return (
     <Wrapper>
+      <Banner />
       <h1>
         <span aria-label="Italy flag" role="img">
           🇮🇹
