@@ -124,6 +124,17 @@
     }
   },
   {
+    "date": ["20/6/2021"],
+    "location": "Londong, UK",
+    "title": "Matteo Berrettini wins at his first appearence at the Queen's Club cinch Championship",
+    "type": "tennis",
+    "img": {
+      "slug": "queens",
+      "width": 800,
+      "height": 524
+    }
+  },
+  {
     "date": ["3/7/2021"],
     "location": "Friuli-Venezia Giulia, IT",
     "title": "Women's European Softball Championship",
@@ -341,18 +352,6 @@
     }
   },
   {
-    "date": ["7/8/2021"],
-    "location": "Tokyo, JP",
-    "title": "Massimo Stano Gold Medal in Men's 20km race walk",
-    "vs": "Japan",
-    "type": "athletics",
-    "img": {
-      "slug": "stano",
-      "width": 800,
-      "height": 450
-    }
-  },
-  {
     "date": ["6/8/2021"],
     "location": "Tokyo, JP",
     "title": "Eseosa Desalu, Marcell Jacobs, Lorenzo Patta, and Filippo Tortu Gold Medal in Men's 4x100",
@@ -363,6 +362,18 @@
       "slug": "4x100",
       "width": 800,
       "height": 533
+    }
+  },
+  {
+    "date": ["7/8/2021"],
+    "location": "Tokyo, JP",
+    "title": "Massimo Stano Gold Medal in Men's 20km race walk",
+    "vs": "Japan",
+    "type": "athletics",
+    "img": {
+      "slug": "stano",
+      "width": 800,
+      "height": 450
     }
   },
   {
@@ -388,6 +399,29 @@
       "slug": "busa",
       "width": 800,
       "height": 550
+    }
+  },
+  {
+    "date": ["8/8/2021"],
+    "location": "Washington, US",
+    "title": "Jennik Sinner, 19yo, wins the Citi Open becoming the youngest winner",
+    "type": "tennis",
+    "img": {
+      "slug": "sinner",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "date": ["11/08/2021"],
+    "location": "Siracusa, IT",
+    "title": "Hottest Recorded Temperature in Europe's History: 48.8ºC",
+    "type": "weather",
+    "extended": "Hardly something to be celebrating: this is the symptom of something terrible happening to our planet, but it's a unique event putting Italy yet again on the map in this weird 2021, and it deserves to be here",
+    "img": {
+      "slug": "hottest",
+      "width": 800,
+      "height": 324
     }
   },
   {
@@ -968,6 +1002,18 @@
       "slug": "volley-u21",
       "width": 800,
       "height": 450
+    }
+  },
+  {
+    "date": ["4/10/2021"],
+    "location": "Rossiglione, IT",
+    "title": "Greatest 12-hour rainfall in Europe on record: 740.6mm",
+    "type": "weather",
+    "extended": "Nothing to celebrate: the heavy raining caused a dire situation involving floodings and risk for people's lives. Still it's a unique event happening in 2021 in Italy and it's worth recording it here",
+    "img": {
+      "slug": "rain",
+      "width": 800,
+      "height": 484
     }
   },
   {
