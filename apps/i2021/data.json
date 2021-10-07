@@ -364,6 +364,18 @@
     }
   },
   {
+    "date": ["5/8/2021", "8/8/2021"],
+    "location": "Malaga, ES",
+    "title": "World Championship Fosse Universelle - Universal Trench",
+    "type": "other",
+    "extended": "Gold Medals by Cosimo Luca Salinaro (Individual Men Junior); Gildo Grondona (Individual Men Veteran); Giuliano Fabbri (Inidividual Men Master); Alessandro Camisotti, Guglielmo De Julio and Stefano Narducci (Men National Team); Stefania Oliva, Bianca Revello And Silvia Munno (Ladies National Team); Gabriele Fabbri, Cosimo Luca Salinaro and Riccardo Aldo Sposato (Junior National Team)",
+    "img": {
+      "slug": "fossa",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
     "date": ["6/8/2021"],
     "location": "Tokyo, JP",
     "title": "Eseosa Desalu, Marcell Jacobs, Lorenzo Patta, and Filippo Tortu Gold Medal in Men's 4x100",
