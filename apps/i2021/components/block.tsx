@@ -2,7 +2,7 @@
 import { memo } from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { AspectRatio } from 'react-aspect-ratio'; // Recommended: if you are using React > 15.6
-import icons from './icons';
+import * as icons from './icons';
 import { format, parse } from 'date-fns';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { blockProps } from './types';

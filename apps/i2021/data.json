@@ -1181,5 +1181,17 @@
       "width": 800,
       "height": 499
     }
+  },
+  {
+    "date": ["11/10/2021"],
+    "location": "Ferrara, IT",
+    "title": "Italy's National Down Syndrome Basketball Team wins the European Championship",
+    "type": "basketball",
+    "vs": "Turkey",
+    "img": {
+      "slug": "basket",
+      "width": 800,
+      "height": 600
+    }
   }
 ]
