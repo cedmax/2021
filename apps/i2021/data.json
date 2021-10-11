@@ -289,6 +289,19 @@
     }
   },
   {
+    "date": ["17/7/2021"],
+    "location": "Dean’s Blue Hole, BS",
+    "title": "Alessia Zecchini win the Women Vertical Blue Freediving International Competition, beating 3 world records while at it",
+    "type": "swimming",
+    "vs": "Turkey",
+    "video": "ZgMBpLkNqIw",
+    "img": {
+      "slug": "vertical-blue",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
     "date": ["24/7/2021"],
     "location": "Tokyo, JP",
     "title": "Dell'Aquila Gold Medal in Men's 58kg Taekwondo at the Olympics",
@@ -958,6 +971,18 @@
   },
   {
     "date": ["3/10/2021"],
+    "location": "Eremo di San Paolo, IT",
+    "title": "Laura Rogora makes first repeat of 9b/+, becoming the first woman to climb a route of this difficulty.",
+    "type": "climbing",
+    "video": "O6KKSjutlyg",
+    "img": {
+      "slug": "rogora",
+      "width": 800,
+      "height": 581
+    }
+  },
+  {
+    "date": ["3/10/2021"],
     "location": "Asunción, PY",
     "title": "Roma Roller Team wins Small Group Gold Medal",
     "type": "skating",
@@ -1086,6 +1111,17 @@
       "slug": "tarlazzi",
       "width": 800,
       "height": 443
+    }
+  },
+  {
+    "date": ["8/10/2021"],
+    "location": "Kaş, TR",
+    "title": "Alessia Zecchini is the World Champion in Constant Weight Freediving without Fins",
+    "type": "swimming",
+    "img": {
+      "slug": "kas",
+      "width": 800,
+      "height": 800
     }
   },
   {
