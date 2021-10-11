@@ -108,13 +108,13 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
   const [allTypes] = useState([
     'olympics',
     'eaa',
-    //'aswc',
+    'aswc',
     ...Object.keys(availableTypes).sort(),
   ]);
 
   availableTypes.olympics = eventsOlympics;
   availableTypes.eaa = eventsEaa;
-  //availableTypes.aswc = eventsAswc;
+  availableTypes.aswc = eventsAswc;
 
   return (
     <>

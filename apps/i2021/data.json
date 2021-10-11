@@ -914,7 +914,7 @@
   {
     "date": ["30/9/2021"],
     "location": "Asunción, PY",
-    "title": "Sofia Paronetto Junior Ladies Inline Skating Gold Medals at the Artistic Skating World Championships",
+    "title": "Sofia Paronetto Junior Ladies Inline Skating Gold Medals",
     "type": "skating",
     "img": {
       "slug": "paronetto",
@@ -959,7 +959,7 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Roma Roller Team wins Small Group Gold Medal at the Artistic Skating World Championships",
+    "title": "Roma Roller Team wins Small Group Gold Medal",
     "type": "skating",
     "video": "f6BJ6vWoWB0",
     "img": {
@@ -971,7 +971,7 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Francesco Barletta Junior Men Solo Dance Gold Medal at the Artistic Skating World Championships",
+    "title": "Francesco Barletta Junior Men Solo Dance Gold Medal",
     "type": "skating",
     "video": "gYTCAXfc7-c",
     "img": {
@@ -983,7 +983,7 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Roberta Sasso Junior Ladies Solo Dance Gold Medal at the Artistic Skating World Championships",
+    "title": "Roberta Sasso Junior Ladies Solo Dance Gold Medal",
     "type": "skating",
     "video": "mnFn27RvuMY",
     "img": {
@@ -1054,6 +1054,18 @@
   },
   {
     "date": ["5/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Giada Luppi win the Junior Women Free Skating Gold Medal",
+    "type": "skating",
+    "video": "UpERUQkXvbI",
+    "img": {
+      "slug": "luppi",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
+    "date": ["5/10/2021"],
     "location": "Stockholm, SE",
     "title": "Giorgio Parisi wins Nobel Prize in Physics",
     "type": "entertainment",
@@ -1062,6 +1074,76 @@
       "slug": "parisi",
       "width": 800,
       "height": 534
+    }
+  },
+  {
+    "date": ["8/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Rebecca Tarlazzi and Letizia Ghiroldi won Gold and Silver Medals in Women Free Skating",
+    "type": "skating",
+    "video": "CIqywzd0-Yg",
+    "img": {
+      "slug": "tarlazzi",
+      "width": 800,
+      "height": 443
+    }
+  },
+  {
+    "date": ["9/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Roberta Sasso and Gherardo Aliteri Degrassi win the Junior Mixed Couple Dance Gold Medal",
+    "type": "skating",
+    "img": {
+      "slug": "sasso-degrassi",
+      "width": 800,
+      "height": 800
+    }
+  },
+  {
+    "date": ["9/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Asya Sofia Testoni and Giovanni Piccolantonio win the Mixed Couple Dance Gold Medal",
+    "type": "skating",
+    "video": "j9iDhW3V_F0",
+    "img": {
+      "slug": "testoni",
+      "width": 800,
+      "height": 800
+    }
+  },
+  {
+    "date": ["9/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Alice Piazzi and Alessandro Bozzini win the Junior Mixed Couple Gold Medal",
+    "type": "skating",
+    "img": {
+      "slug": "piazzi",
+      "width": 800,
+      "height": 800
+    }
+  },
+  {
+    "date": ["9/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Rebecca Tarlazzi and Luca Lucaroni win the Mixed Couple Gold Medal",
+    "type": "skating",
+    "video": "9DXBUaS4tME",
+    "img": {
+      "slug": "lucaroni",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "date": ["9/10/2021"],
+    "location": "Asunción, PY",
+    "title": "Celebrity win the Quartet Mixed Gold Medal",
+    "type": "skating",
+    "extended": "Celebrity is a skating team from Verona composed by Irene Fattori, Chiara Bertani, Anna Miglioranzi and Giada Togni. The Silver Medal went to another Italian team, Neovis",
+    "img": {
+      "slug": "celebrity",
+      "width": 800,
+      "height": 499
     }
   }
 ]
