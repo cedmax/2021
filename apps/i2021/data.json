@@ -1054,6 +1054,18 @@
     }
   },
   {
+    "date": ["3/10/2021"],
+    "location": "Worldwide",
+    "title": "Salmo's album \"Flop\" debuted at #1 on Spotify Top Global Album Debuts",
+    "type": "entertainment",
+    "video": "sosw_tG_t0g",
+    "img": {
+      "slug": "salmo",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
     "date": ["4/10/2021"],
     "location": "Rossiglione, IT",
     "title": "Greatest 12-hour rainfall in Europe on record: 740.6mm",
