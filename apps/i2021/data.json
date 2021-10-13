@@ -1254,5 +1254,18 @@
       "width": 800,
       "height": 600
     }
+  },
+  {
+    "date": ["13/10/2021"],
+    "location": "Paris, FR",
+    "title": "According to Le Figaro: \"For the first time, the French consume more mozzarella than camembert\"",
+    "type": "other",
+    "vs": "Camembert",
+    "extended": "<a target=\"_blank\" rel=\"noreferrer noopener\"  href=\"https://www.lefigaro.fr/actualite-france/pour-la-premiere-fois-les-francais-consomment-plus-de-mozzarella-que-de-camembert-20211013\">source</a>",
+    "img": {
+      "slug": "mozzarella",
+      "width": 800,
+      "height": 533
+    }
   }
 ]

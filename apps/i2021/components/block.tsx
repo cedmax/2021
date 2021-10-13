@@ -107,7 +107,7 @@ export default memo(function Block({
               )}{' '}
             </AspectRatio>
           </p>
-          <p>{extended}</p>
+          <p dangerouslySetInnerHTML={{ __html: extended }}></p>
         </>
       )}
     </VerticalTimelineElement>
