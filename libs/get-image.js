@@ -29,12 +29,14 @@ const path = './apps/i2021';
   await webp.cwebp(newFilename, newFilename.replace('.jpg', '.webp'), '-q 75');
 
   const data = require(`.${path}/data.json`);
+
   if (data.find(({ img }) => img === slug)) {
     const newData = data.reduce((acc, { img, ...itemData }) => {
-      const slug = typeof img === 'string' ? img : img.slug;
-      const { width, height } = sizeOf(`${path}/public/images/${slug}.webp`);
-      imgData = { slug, width, height };
-
+      let imgData = img;
+      if (slug === imgData) {
+        const { width, height } = sizeOf(`${path}/public/images/${slug}.webp`);
+        imgData = { slug, width, height };
+      }
       return [
         ...acc,
         {

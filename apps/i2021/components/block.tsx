@@ -10,7 +10,7 @@ import { blockProps } from './types';
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
 const Aswc = icons.aswc;
-
+const TriGames = icons.trigames;
 const LocationIcon = icons.location;
 const VideoIcon = icons.video;
 
@@ -32,6 +32,12 @@ const getIcon = (location: string) => {
       return (
         <span className="icon-size icon-size-bk">
           <Aswc />
+        </span>
+      );
+    case 'Ferrara, IT':
+      return (
+        <span className="icon-size icon-size-bk">
+          <TriGames />
         </span>
       );
     default:

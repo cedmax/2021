@@ -79,10 +79,13 @@ type menuProps = {
 };
 
 export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
-  const [[eventsOlympics, eventsEaa, eventsAswc]] = useState<Array<number>>([
+  const [[eventsOlympics, eventsEaa, eventsAswc, eventsTrigames]] = useState<
+    Array<number>
+  >([
     data.filter(({ location }) => location === 'Tokyo, JP').length,
     data.filter(({ location }) => location === 'Tallin, EE').length,
     data.filter(({ location }) => location === 'Asunción, PY').length,
+    data.filter(({ location }) => location === 'Ferrara, IT').length,
   ]);
   const [availableTypes] = useState<availableTypes>(
     data.reduce((acc, item) => {
@@ -109,11 +112,13 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
     'olympics',
     'eaa',
     'aswc',
+    'trigames',
     ...Object.keys(availableTypes).sort(),
   ]);
 
   availableTypes.olympics = eventsOlympics;
   availableTypes.eaa = eventsEaa;
+  availableTypes.trigames = eventsTrigames;
   availableTypes.aswc = eventsAswc;
 
   return (

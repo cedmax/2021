@@ -892,7 +892,7 @@
   {
     "date": ["26/9/2021"],
     "location": "Mantova, IT",
-    "title": "2021 Motocross of Nations",
+    "title": "Motocross of Nations",
     "type": "motocross",
     "img": {
       "slug": "mxon",
@@ -1087,6 +1087,55 @@
       "slug": "bellia",
       "width": 800,
       "height": 449
+    }
+  },
+  {
+    "date": ["4/10/2021", "10/10/2021"],
+    "location": "Ferrara, IT",
+    "title": "Italy Gold Medals at the SUDS Open Euro TriGames Judo Championsip",
+    "type": "martialarts",
+    "extended": "by Davide Migliore (Judo, -60 kg); Francesco Verrengia (Judo, -73 kg) and Martina Tomba (Judo, -52 kg)",
+    "img": {
+      "slug": "migliore",
+      "width": 800,
+      "height": 453
+    }
+  },
+  {
+    "date": ["4/10/2021", "10/10/2021"],
+    "location": "Ferrara, IT",
+    "title": "Italy Gold Medals at the SUDS Open Euro TriGames Tennis Championsip",
+    "type": "tennis",
+    "extended": "by Sommese/Sailerova (Mixed Double); Vietti/Bezzi (Man Double); Emanuele Bezzi (Man Single)",
+    "img": {
+      "slug": "biezzi",
+      "width": 800,
+      "height": 1067
+    }
+  },
+  {
+    "date": ["4/10/2021", "10/10/2021"],
+    "location": "Ferrara, IT",
+    "title": "Italy tops the Medal Table at the SUDS Open Euro TriGames Athletic Championsip",
+    "type": "athletics",
+    "extended": "with Gold Medals by Andrea Piacentini (100mt & 200mt);Chiara Statzu (Mosaic 400mt & 800mt); Chiara Zeni (100mt & 200mt); Daniel Gerini (Discus throw); Federico Giannini (Triathlon); Gabriele Rondi (Long Jump); Giulia Pertile (800mt & 1500mt Race Walk); Nando D’Agostino (800mt Race Walk & 1500mt Race Walk, with a World Record in the 800mt); Nicole Orlando (Shot Put); Nicole Orlando (Javelin Throw); Nicole Orlando (Discus throw); Nicole Orlando (Long Jump); Nicole Orlando (Triathlon, with a WR); Silvia Preti (Mosaic Javelin & Discus Throw); Tiziano Capitani (400mt); Spano, Orlando, Zendri & Zeni (4×100); Mancioli, Rondi, Capitani & Piacentini (4×100); Mancioli, Capitani, Nieddu & Casarin (4×400); Pertile, Orlando, Zendri & Zeni (4×400)",
+    "img": {
+      "slug": "orlando",
+      "width": 800,
+      "height": 764
+    }
+  },
+  {
+    "date": ["4/10/2021", "10/10/2021"],
+    "location": "Ferrara, IT",
+    "title": "Italy tops the Medal Table at the SUDS Open Euro TriGames Swimming Championship",
+    "type": "swimming",
+    "vs": "Portugal",
+    "extended": "with Gold Medals by Sabrina Chiappa (100 backstroke & 100 mixed, 50, 100 & 200 breaststroke, 100 mixed); Andrea Scotti (200 Butterfly); Dalila Vignando (200 Mixed W); Francesco Piccinini (200 Mixed & 400 Freestyle); Giammaria Roncato (200 backstroke); Maria Bresciani (200 Butterfly); Martina Villanova (800 & 1500 Freestyle); Paolo Zaffaroni (100 Breaststroke); Bresciani, Chiappa, Villanova & Ostani (4×50 Freestyle); Franza, Chiappa, Bresciani & Ostani (4×50 Mixed); Villanova, Ostani, Chiappa & Bresciani (4×100 Freestyle); Vignando, Chiappa, Bresciani & Villanova (4×100 Mixed); Ostani, Villanova, Vignando & Bresciani (4×200 Freestyle) and, in synchronised swimming, by Francesca Nicosia (solo tech), Marta Cantero (solo free)",
+    "img": {
+      "slug": "chiappa",
+      "width": 800,
+      "height": 533
     }
   },
   {

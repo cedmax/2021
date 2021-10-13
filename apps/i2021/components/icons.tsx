@@ -26,6 +26,7 @@ export { ReactComponent as skating } from '../public/icons/skating.svg';
 export { ReactComponent as skiing } from '../public/icons/skiing.svg';
 export { ReactComponent as swimming } from '../public/icons/swimming.svg';
 export { ReactComponent as tennis } from '../public/icons/tennis.svg';
+export { ReactComponent as trigames } from '../public/icons/trigames.svg';
 export { ReactComponent as video } from '../public/icons/video.svg';
 export { ReactComponent as volleyball } from '../public/icons/volleyball.svg';
 export { ReactComponent as weather } from '../public/icons/weather.svg';

@@ -49,6 +49,10 @@ export default memo(function Body({ data }: bodyProps) {
           newList = data.filter(
             ({ location }: opType) => location === 'Asunción, PY'
           );
+        } else if (newFilter === 'trigames') {
+          newList = data.filter(
+            ({ location }: opType) => location === 'Ferrara, IT'
+          );
         } else {
           newList = data.filter(({ type }: opType) => type === newFilter);
         }
