@@ -9,6 +9,7 @@ export type dataProps = {
     height: number;
   };
   vs?: string;
+  link?: string;
   extended?: string;
   video?: string;
 };

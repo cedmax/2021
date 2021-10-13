@@ -70,6 +70,7 @@ export default memo(function Block({
   extended,
   vs,
   video,
+  link,
   playVideo,
 }: blockProps) {
   const Icon = icons[type];
@@ -107,7 +108,17 @@ export default memo(function Block({
               )}{' '}
             </AspectRatio>
           </p>
-          <p dangerouslySetInnerHTML={{ __html: extended }}></p>
+          {(extended || link) && (
+            <p>
+              {extended}
+              {extended && <br />}
+              {link && (
+                <a href={link} rel="noopener noreferrer" target="_blank">
+                  source
+                </a>
+              )}
+            </p>
+          )}
         </>
       )}
     </VerticalTimelineElement>
