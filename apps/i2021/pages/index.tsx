@@ -1,29 +1,23 @@
-import styled from 'styled-components';
-import ReactTooltip from 'react-tooltip';
-import data from '../data.json';
-import Body from '../components/body';
-import Banner from '../components/banner';
+import data from '../data';
+import Head from 'next/head';
+import Layout from '../components/layout';
 
-const dataOrdered = data.reverse();
+export const getStaticProps = async () => {
+  return {
+    props: {
+      data,
+    },
+  };
+};
 
-const Wrapper = styled.main`
-  font-family: Arial, Helvetica, sans-serif;
-`;
-
-export default function App() {
+export default function App({ data }) {
   return (
-    <Wrapper>
-      <Banner />
-      <h1>
-        <span aria-label="Italy flag" role="img">
-          🇮🇹
-        </span>{' '}
-        How was your 2021?
-      </h1>
-      <Body data={dataOrdered} />
-      {typeof window !== 'undefined' && (
-        <ReactTooltip effect="solid" className="tooltip" />
-      )}
-    </Wrapper>
+    <>
+      <Head>
+        <meta property="og:image" content="https://2021.dsgn.it/italians.jpg" />
+        <meta property="og:url" content="https://2021.dsgn.it/" />
+      </Head>
+      <Layout data={data} />
+    </>
   );
 }

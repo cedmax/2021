@@ -6,6 +6,7 @@ import * as icons from './icons';
 import { format, parse } from 'date-fns';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { blockProps } from './types';
+import ShareIcon from './share-icon';
 
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
@@ -73,12 +74,11 @@ export default memo(function Block({
   link,
   playVideo,
 }: blockProps) {
-  const Icon = icons[type];
   return (
     <VerticalTimelineElement
       className="flag-color"
       date={transformDate(date)}
-      icon={<Icon />}
+      icon={<ShareIcon slug={img.slug} icon={icons[type]} />}
     >
       <h2 className="vertical-timeline-element-title">{title}</h2>
       <h3 className="vertical-timeline-element-subtitle">
@@ -94,7 +94,7 @@ export default memo(function Block({
           <p>
             <AspectRatio ratio={(img.width / img.height).toFixed(2)}>
               <LazyLoadImage alt={title} src={`../images/${img.slug}.webp`} />
-              {video && (
+              {video && playVideo && (
                 <>
                   <button
                     aria-label={`play video of "${title}"`}

@@ -165,6 +165,7 @@
     "location": "Pecetto, IT",
     "title": "World Largest Cherry",
     "type": "other",
+    "link": "https://www.atlasobscura.com/articles/largest-cherry",
     "extended": " A Carmen cherry, harvested by brothers Giuseppe and Alberto Rosso, clocked in at 33 grams",
     "img": {
       "slug": "cherry",
@@ -304,7 +305,7 @@
   {
     "date": ["24/7/2021"],
     "location": "Tokyo, JP",
-    "title": "Dell'Aquila Gold Medal in Men's 58kg Taekwondo at the Olympics",
+    "title": "Dell'Aquila Gold Medal in Men's 58kg Taekwondo",
     "type": "martialarts",
     "vs": "Tunisia",
     "video": "odCQSMlJwPo",
@@ -454,6 +455,7 @@
     "location": "Siracusa, IT",
     "title": "Hottest Recorded Temperature in Europe's History: 48.8ºC",
     "type": "weather",
+    "link": "https://twitter.com/metoffice/status/1425508578366984200",
     "extended": "Hardly something to be celebrating: this is the symptom of something terrible happening to our planet, but it's a unique event putting Italy yet again on the map in this weird 2021, and it deserves to be here",
     "img": {
       "slug": "hottest",
@@ -847,6 +849,8 @@
     "location": "Lyon, FR",
     "title": "Coupe du Monde de la Pâtisserie",
     "type": "other",
+    "vs": "Japan",
+    "link": "https://www.facebook.com/CoupeMondePatisserie/posts/4263267760388253",
     "img": {
       "slug": "dessert",
       "width": 800,
@@ -906,6 +910,7 @@
     "title": "World Heaviest Pumpkin*",
     "type": "other",
     "extended": "* ok, this is just to take the piss",
+    "link": "https://www.insider.com/italy-wins-worlds-biggest-pumpkin-crown-and-belgium-is-not-happy-2021-10",
     "img": {
       "slug": "pumpkin",
       "width": 800,
@@ -1070,6 +1075,7 @@
     "location": "Rossiglione, IT",
     "title": "Greatest 12-hour rainfall in Europe on record: 740.6mm",
     "type": "weather",
+    "link": "https://www.washingtonpost.com/weather/2021/10/05/italy-record-rainfall-/",
     "extended": "Nothing to celebrate: the heavy raining caused a dire situation involving floodings and risk for people's lives. Still it's a unique event happening in 2021 in Italy and it's worth recording it here",
     "img": {
       "slug": "rain",
@@ -1155,6 +1161,7 @@
     "location": "Stockholm, SE",
     "title": "Giorgio Parisi wins Nobel Prize in Physics",
     "type": "entertainment",
+    "link": "https://www.nature.com/articles/d43978-021-00122-6",
     "extended": "The prize was awarded for the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales. He will be sharing it with Syukuro Manabe and Klaus Hasselmann for their work in the physical modeling of Earth’s climate, quantifying variability and reliably predicting global warming.",
     "img": {
       "slug": "parisi",
@@ -1258,7 +1265,7 @@
   {
     "date": ["13/10/2021"],
     "location": "Paris, FR",
-    "title": "According to Le Figaro: \"For the first time, the French consume more mozzarella than camembert\"",
+    "title": "For the first time, the French consume more mozzarella than camembert",
     "type": "other",
     "vs": "Camembert",
     "link": "https://www.lefigaro.fr/actualite-france/pour-la-premiere-fois-les-francais-consomment-plus-de-mozzarella-que-de-camembert-20211013",

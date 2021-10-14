@@ -1,5 +1,6 @@
 body {
   background: #1a65ea;
+  font-family: Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
@@ -256,7 +257,6 @@ footer {
 }
 
 .tooltip {
-  font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
 }
 
@@ -362,4 +362,15 @@ button.close::before {
 
 button[disabled] {
   cursor: default;
+}
+
+.ReactModal__Content {
+  .vertical-timeline-element-icon,
+  .vertical-timeline-element-content-arrow {
+    display: none;
+  }
+  .vertical-timeline-element,
+  .vertical-timeline-element-content {
+    margin: 0;
+  }
 }

@@ -16,8 +16,6 @@ function CustomApp({ Component, pageProps }: AppProps) {
           content="It looks like Italy did well"
         />
         <meta name="description" content="It looks like Italy did well" />
-        <meta property="og:image" content="https://2021.dsgn.it/italians.jpg" />
-        <meta property="og:url" content="https://2021.dsgn.it/" />
         <meta name="twitter:card" content="summary_large_image" />
 
         <meta property="og:site_name" content="How was your 2021?" />

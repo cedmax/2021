@@ -22,6 +22,7 @@ export { ReactComponent as olympics } from '../public/icons/olympics.svg';
 export { ReactComponent as other } from '../public/icons/other.svg';
 export { ReactComponent as polo } from '../public/icons/polo.svg';
 export { ReactComponent as sailing } from '../public/icons/sailing.svg';
+export { ReactComponent as share } from '../public/icons/share.svg';
 export { ReactComponent as skating } from '../public/icons/skating.svg';
 export { ReactComponent as skiing } from '../public/icons/skiing.svg';
 export { ReactComponent as swimming } from '../public/icons/swimming.svg';

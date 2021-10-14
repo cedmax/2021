@@ -66,7 +66,7 @@ export default memo(function Body({ data }: bodyProps) {
   return (
     <>
       <Menu selected={filter} data={data} filter={filterList} />
-      <VerticalTimeline>
+      <VerticalTimeline animate={false}>
         {list.map((event: blockProps) => (
           <Block key={event.title} playVideo={playVideo} {...event} />
         ))}
