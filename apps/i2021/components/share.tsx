@@ -1,11 +1,6 @@
 import { useCallback } from 'react';
 import { useClipboard } from 'use-clipboard-copy';
 import {
-  getFacebookUrl,
-  getLinkedinUrl,
-  getTwitterUrl,
-} from '@phntms/react-share';
-import {
   facebook,
   linkedin,
   twitter,
@@ -13,12 +8,16 @@ import {
   copy as Copy,
 } from './icons';
 
-const OpenWindow = ({ url, icon: Icon }) => (
+const OpenWindow = ({ shareUrl, url, icon: Icon }) => (
   <a
-    href={url}
+    href={shareUrl + encodeURIComponent(url)}
     onClick={(e) => {
       e.preventDefault();
-      window.open(url, 'sharer', 'width=550,height=450');
+      window.open(
+        shareUrl + encodeURIComponent(url),
+        'sharer',
+        'width=800,height=600'
+      );
     }}
   >
     <Icon />
@@ -36,8 +35,7 @@ const ShareBlock = ({ slug, title }) => {
   const navigatorShare = useCallback(
     () =>
       navigator.share({
-        title,
-        text: 'Check out web.dev.',
+        text: title,
         url: shareData.url,
       }),
     [shareData.url, title]
@@ -50,21 +48,18 @@ const ShareBlock = ({ slug, title }) => {
   return (
     <div className="sharer">
       <OpenWindow
-        url={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
-          shareData.url
-        )}`}
+        url={shareData.url}
+        shareUrl="https://www.facebook.com/sharer/sharer.php?u="
         icon={facebook}
       />
       <OpenWindow
-        url={`https://twitter.com/share?text=${encodeURIComponent(
-          '#italiansdoitbetter'
-        )}&url=${encodeURIComponent(shareData.url)}`}
+        url={shareData.url}
+        shareUrl="https://twitter.com/share?url="
         icon={twitter}
       />
       <OpenWindow
-        url={`http://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(
-          shareData.url
-        )}&title=${encodeURIComponent(shareData.title)}`}
+        url={shareData.url}
+        shareUrl="https://www.linkedin.com/sharing/share-offsite/?url="
         icon={linkedin}
       />
       <a onClick={isNativeShare ? navigatorShare : copyShare}>

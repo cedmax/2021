@@ -5,13 +5,12 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "export": "nx build && nx export",
+    "export": "nx export",
     "test": "nx test"
   },
   "private": true,
   "dependencies": {
     "@nrwl/next": "^12.9.0",
-    "@phntms/react-share": "^0.0.4",
     "@types/react-modal": "^3.12.1",
     "@types/react-vertical-timeline-component": "^3.0.1",
     "core-js": "^3.6.5",
