@@ -988,7 +988,7 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Roma Roller Team wins Small Group Gold Medal",
+    "title": "Roma Roller Team wins Small Group Skating Gold Medal",
     "type": "skating",
     "video": "f6BJ6vWoWB0",
     "img": {
@@ -1000,7 +1000,7 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Francesco Barletta Junior Men Solo Dance Gold Medal",
+    "title": "Francesco Barletta Junior Men Solo Dance Skating Gold Medal",
     "type": "skating",
     "video": "gYTCAXfc7-c",
     "img": {
@@ -1012,7 +1012,7 @@
   {
     "date": ["3/10/2021"],
     "location": "Asunción, PY",
-    "title": "Roberta Sasso Junior Ladies Solo Dance Gold Medal",
+    "title": "Roberta Sasso Junior Ladies Solo Dance Skating Gold Medal",
     "type": "skating",
     "video": "mnFn27RvuMY",
     "img": {
@@ -1194,7 +1194,7 @@
   {
     "date": ["9/10/2021"],
     "location": "Asunción, PY",
-    "title": "Roberta Sasso and Gherardo Aliteri Degrassi win the Junior Mixed Couple Dance Gold Medal",
+    "title": "Roberta Sasso and Gherardo Aliteri Degrassi win the Junior Mixed Couple Dance Skating Gold Medal",
     "type": "skating",
     "img": {
       "slug": "sasso-degrassi",
@@ -1205,7 +1205,7 @@
   {
     "date": ["9/10/2021"],
     "location": "Asunción, PY",
-    "title": "Asya Sofia Testoni and Giovanni Piccolantonio win the Mixed Couple Dance Gold Medal",
+    "title": "Asya Sofia Testoni and Giovanni Piccolantonio win the Mixed Couple Dance Skating Gold Medal",
     "type": "skating",
     "video": "j9iDhW3V_F0",
     "img": {
@@ -1217,7 +1217,7 @@
   {
     "date": ["9/10/2021"],
     "location": "Asunción, PY",
-    "title": "Alice Piazzi and Alessandro Bozzini win the Junior Mixed Couple Gold Medal",
+    "title": "Alice Piazzi and Alessandro Bozzini win the Junior Mixed Couple Skating Gold Medal",
     "type": "skating",
     "img": {
       "slug": "piazzi",
@@ -1228,7 +1228,7 @@
   {
     "date": ["9/10/2021"],
     "location": "Asunción, PY",
-    "title": "Rebecca Tarlazzi and Luca Lucaroni win the Mixed Couple Gold Medal",
+    "title": "Rebecca Tarlazzi and Luca Lucaroni win the Mixed Couple Skating Gold Medal",
     "type": "skating",
     "video": "9DXBUaS4tME",
     "img": {
@@ -1240,7 +1240,7 @@
   {
     "date": ["9/10/2021"],
     "location": "Asunción, PY",
-    "title": "Celebrity win the Quartet Mixed Gold Medal",
+    "title": "Celebrity win the Quartet Mixed Skating Gold Medal",
     "type": "skating",
     "extended": "Celebrity is a skating team from Verona composed by Irene Fattori, Chiara Bertani, Anna Miglioranzi and Giada Togni. The Silver Medal went to another Italian team, Neovis",
     "img": {

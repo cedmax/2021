@@ -5,7 +5,7 @@ import { AspectRatio } from 'react-aspect-ratio'; // Recommended: if you are usi
 import * as icons from './icons';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { blockProps } from './types';
-import ShareIcon from './share-icon';
+import TimelineIcon from './timeline-icon';
 import { transformDate } from './helpers';
 
 const Olympics = icons.olympics;
@@ -66,7 +66,7 @@ export default memo(function Block({
     <VerticalTimelineElement
       className="flag-color"
       date={transformDate(date)}
-      icon={<ShareIcon title={title} slug={img.slug} icon={icons[type]} />}
+      icon={<TimelineIcon title={title} slug={img.slug} icon={icons[type]} />}
     >
       <h2 id={img.slug} className="vertical-timeline-element-title">
         {title}
