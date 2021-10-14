@@ -4,6 +4,7 @@ import {
   facebook,
   linkedin,
   twitter,
+  tumblr,
   share as Share,
   copy as Copy,
 } from './icons';
@@ -49,13 +50,18 @@ const ShareBlock = ({ slug, title }) => {
     <div className="sharer">
       <OpenWindow
         url={shareData.url}
+        shareUrl="https://twitter.com/share?url="
+        icon={twitter}
+      />
+      <OpenWindow
+        url={shareData.url}
         shareUrl="https://www.facebook.com/sharer.php?u="
         icon={facebook}
       />
       <OpenWindow
         url={shareData.url}
-        shareUrl="https://twitter.com/share?url="
-        icon={twitter}
+        shareUrl="http://www.tumblr.com/share?s=&v=3&u="
+        icon={tumblr}
       />
       <OpenWindow
         url={shareData.url}
