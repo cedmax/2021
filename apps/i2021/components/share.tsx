@@ -16,7 +16,7 @@ const OpenWindow = ({ shareUrl, url, icon: Icon }) => (
       window.open(
         shareUrl + encodeURIComponent(url),
         'sharer',
-        'width=800,height=600'
+        'width=560,height=640'
       );
     }}
   >
@@ -49,7 +49,7 @@ const ShareBlock = ({ slug, title }) => {
     <div className="sharer">
       <OpenWindow
         url={shareData.url}
-        shareUrl="https://www.facebook.com/sharer/sharer.php?u="
+        shareUrl="https://www.facebook.com/sharer.php?p[url]="
         icon={facebook}
       />
       <OpenWindow
