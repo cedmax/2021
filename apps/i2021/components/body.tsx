@@ -1,4 +1,4 @@
-import { useState, useCallback, memo } from 'react';
+import { useState, useCallback, memo, useRef } from 'react';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import Block from './block';
 import Menu from './menu';
@@ -66,7 +66,7 @@ export default memo(function Body({ data }: bodyProps) {
   return (
     <>
       <Menu selected={filter} data={data} filter={filterList} />
-      <VerticalTimeline>
+      <VerticalTimeline animate={false}>
         {list.map((event: blockProps) => (
           <Block key={event.title} playVideo={playVideo} {...event} />
         ))}
