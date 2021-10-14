@@ -1,16 +1,12 @@
-import { memo, useState } from 'react';
-import { share } from './icons';
-import { useRouter } from 'next/router';
-const ShareIcon = ({ icon, slug }) => {
-  const [Icon, setIcon] = useState(icon);
-  const router = useRouter();
+import { memo } from 'react';
+import Share from './share';
+
+const ShareIcon = ({ icon: Icon, slug, title }) => {
   return (
-    <Icon
-      onClick={() => router.push(`/${slug}`, null, { shallow: true })}
-      style={{ cursor: 'pointer' }}
-      onMouseOver={() => setIcon(share)}
-      onMouseOut={() => setIcon(icon)}
-    />
+    <div className="sharer-wrapper">
+      <Icon style={{ cursor: 'pointer' }} />
+      <Share slug={slug} title={title} />
+    </div>
   );
 };
 

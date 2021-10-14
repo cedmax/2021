@@ -2,6 +2,7 @@ body {
   background: #1a65ea;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -94,6 +95,7 @@ button.vertical-timeline-element-icon-selected {
 
 .vertical-timeline-element-content {
   .vertical-timeline-element-title {
+    scroll-margin-top: 1.5em;
     padding-bottom: 0.4rem;
     font-size: 150%;
   }
@@ -373,4 +375,23 @@ button[disabled] {
   .vertical-timeline-element-content {
     margin: 0;
   }
+}
+
+.sharer {
+  visibility: hidden;
+
+  a {
+    margin: 15px auto 0;
+    display: block;
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+      0 3px 0 4px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+  }
+}
+
+.sharer-wrapper:hover .sharer {
+  visibility: visible;
 }

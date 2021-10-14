@@ -3,10 +3,10 @@ import { memo } from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { AspectRatio } from 'react-aspect-ratio'; // Recommended: if you are using React > 15.6
 import * as icons from './icons';
-import { format, parse } from 'date-fns';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { blockProps } from './types';
 import ShareIcon from './share-icon';
+import { transformDate } from './helpers';
 
 const Olympics = icons.olympics;
 const Eaa = icons.eaa;
@@ -50,18 +50,6 @@ const getIcon = (location: string) => {
   }
 };
 
-const transformDate = (dates: Array<string>): string => {
-  const parsedDates = dates.map((date) => parse(date, 'd/L/y', new Date()));
-  const result = [];
-  if (parsedDates.length > 1) {
-    result.push(format(parsedDates.shift(), 'do') + ' to ');
-  }
-  result.push(
-    format(parsedDates[0], 'do') + ' of ' + format(parsedDates[0], 'MMMM')
-  );
-  return result.join('');
-};
-
 export default memo(function Block({
   location,
   title,
@@ -78,9 +66,11 @@ export default memo(function Block({
     <VerticalTimelineElement
       className="flag-color"
       date={transformDate(date)}
-      icon={<ShareIcon slug={img.slug} icon={icons[type]} />}
+      icon={<ShareIcon title={title} slug={img.slug} icon={icons[type]} />}
     >
-      <h2 className="vertical-timeline-element-title">{title}</h2>
+      <h2 id={img.slug} className="vertical-timeline-element-title">
+        {title}
+      </h2>
       <h3 className="vertical-timeline-element-subtitle">
         <span>
           {getIcon(location)}

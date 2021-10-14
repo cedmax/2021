@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "@nrwl/next": "^12.9.0",
+    "@phntms/react-share": "^0.0.4",
     "@types/react-modal": "^3.12.1",
     "@types/react-vertical-timeline-component": "^3.0.1",
     "core-js": "^3.6.5",
@@ -27,7 +28,8 @@
     "react-youtube": "^7.13.1",
     "regenerator-runtime": "0.13.7",
     "styled-components": "5.2.1",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "use-clipboard-copy": "^0.2.0"
   },
   "devDependencies": {
     "@nrwl/cli": "12.9.0",

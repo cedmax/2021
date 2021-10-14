@@ -1,7 +1,9 @@
+import { useEffect } from 'react';
 import data from '../data';
 import Head from 'next/head';
 import Layout from '../components/layout';
-import Prominent from '../components/prominent';
+import Share from '../components/share';
+import { transformDate } from '../components/helpers';
 
 export const getStaticProps = async ({ params: { id } }) => {
   const prominent = data.filter(({ img: { slug } }) => slug === id)[0];
@@ -23,9 +25,21 @@ export const getStaticPaths = async () => {
 };
 
 export default function App({ data, slug, prominent }) {
+  useEffect(() => {
+    document.getElementById(slug).scrollIntoView();
+  }, [slug]);
+
   return (
     <>
       <Head>
+        <title>{prominent.title}</title>
+        <meta property="og:title" content={prominent.title} />
+        <meta name="description" content={transformDate(prominent.date)} />
+        <meta property="og:site_name" content="How was your 2021?" />
+        <meta
+          property="og:description"
+          content={transformDate(prominent.date)}
+        />
         <meta
           property="og:image"
           content={`https://2021.dsgn.it/images/${slug}.jpg`}
@@ -33,7 +47,7 @@ export default function App({ data, slug, prominent }) {
         <meta property="og:url" content={`https://2021.dsgn.it/${slug}`} />
       </Head>
       <Layout data={data} />
-      <Prominent event={prominent} />
+      <Share event={prominent} />
     </>
   );
 }

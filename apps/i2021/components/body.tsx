@@ -1,4 +1,4 @@
-import { useState, useCallback, memo } from 'react';
+import { useState, useCallback, memo, useRef } from 'react';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import Block from './block';
 import Menu from './menu';
