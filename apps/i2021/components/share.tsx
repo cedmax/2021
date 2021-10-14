@@ -49,7 +49,7 @@ const ShareBlock = ({ slug, title }) => {
     <div className="sharer">
       <OpenWindow
         url={shareData.url}
-        shareUrl="https://www.facebook.com/sharer.php?p[url]="
+        shareUrl="https://www.facebook.com/sharer.php?u="
         icon={facebook}
       />
       <OpenWindow
