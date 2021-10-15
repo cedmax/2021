@@ -450,6 +450,18 @@
     }
   },
   {
+    "date": ["9/8/2021"],
+    "location": "Trieste, IT",
+    "title": "Alessandra Buonanno has become the first Italian woman to win the Dirac medal",
+    "type": "entertainment",
+    "extended": "The Dirac Medal is the name of four awards in the field of theoretical physics, computational chemistry, and mathematics, awarded by different organizations, named in honour of Professor Paul Dirac, one of the great theoretical physicists of the 20th century. Professor Buonanno is honored for pioneering accurate and rapid computation of waveforms that are crucial in detecting gravitational waves.",
+    "img": {
+      "slug": "buonanno",
+      "width": 800,
+      "height": 517
+    }
+  },
+  {
     "date": ["11/08/2021"],
     "location": "Siracusa, IT",
     "title": "Hottest Recorded Temperature in Europe's History: 48.8ºC",
