@@ -66,7 +66,14 @@ export default memo(function Block({
     <VerticalTimelineElement
       className="flag-color"
       date={transformDate(date)}
-      icon={<TimelineIcon title={title} slug={img.slug} icon={icons[type]} />}
+      icon={
+        <TimelineIcon
+          className={type}
+          title={title}
+          slug={img.slug}
+          icon={icons[type]}
+        />
+      }
     >
       <h2 id={img.slug} className="vertical-timeline-element-title">
         {title}

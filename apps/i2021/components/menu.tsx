@@ -141,7 +141,7 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
                   ' vertical-timeline-element-icon-selected'
                 }`}
               >
-                <Icon />
+                <Icon className={`icon-${type}`} />
               </button>
             </MenuItem>
           );

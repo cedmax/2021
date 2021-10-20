@@ -2,7 +2,7 @@ import { memo, useState, useEffect } from 'react';
 import Share from './share';
 import NativeShare from './native-share';
 
-const ShareIcon = ({ icon: Icon, slug, title }) => {
+const ShareIcon = ({ icon: Icon, slug, title, className }) => {
   const [isNativeShare, setNativeShare] = useState(false);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const ShareIcon = ({ icon: Icon, slug, title }) => {
 
   return (
     <>
-      <Icon />
+      <Icon className={`icon-${className}`} />
       <div className="sharer-wrapper">
         {isNativeShare ? (
           <NativeShare slug={slug} title={title} />
