@@ -1285,5 +1285,28 @@
       "width": 800,
       "height": 533
     }
+  },
+  {
+    "date": ["17/10/2021"],
+    "location": "Cluj-Napoca, RO",
+    "title": "Group Gold Medals in All Around, 5 Balls, and 4 Clubs & 3 Hoops at the World Challenge Cup",
+    "type": "gymnastic",
+    "vs": "Germany",
+    "img": {
+      "slug": "farfalle",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
+    "date": ["20/10/2021"],
+    "location": "Roubaix, FR",
+    "title": "Martina Fidanza wins the Gold Medal in Scratch at the UCI Track Cycling World Championships",
+    "type": "cycling",
+    "img": {
+      "slug": "fidanza",
+      "width": 800,
+      "height": 532
+    }
   }
 ]
