@@ -21,7 +21,10 @@ export default class CustomDocument extends Document<{
   render() {
     return (
       <Html lang="en">
-        <Head>{this.props.styleTags}</Head>
+        <Head>
+          {this.props.styleTags}
+          <link rel="canonical" href="https://2021.dsgn.it" />
+        </Head>
         <body>
           <Main />
           <NextScript />
