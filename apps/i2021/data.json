@@ -1345,5 +1345,28 @@
       "width": 800,
       "height": 453
     }
+  },
+  {
+    "date": ["24/10/2021"],
+    "location": "Roubaix, FR",
+    "title": "Elia Viviani wins the Gold Medal in Elimination at the UCI Track Cycling World Championships",
+    "type": "cycling",
+    "vs": "Belgium",
+    "img": {
+      "slug": "viviani",
+      "width": 800,
+      "height": 606
+    }
+  },
+  {
+    "date": ["24/10/2021"],
+    "location": "Antwerp, BE",
+    "title": "Jennik Sinner wins the 2021 European Open",
+    "type": "tennis",
+    "img": {
+      "slug": "sinner-euopen",
+      "width": 800,
+      "height": 427
+    }
   }
 ]
