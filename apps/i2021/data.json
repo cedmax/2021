@@ -1368,5 +1368,29 @@
       "width": 800,
       "height": 427
     }
+  },
+  {
+    "date": ["31/10/2021"],
+    "location": "Kitakyushu, JP",
+    "vs": "Russia",
+    "title": "4 Clubs & 3 Hoops Gold Medal at the World Championships",
+    "type": "gymnastic",
+    "img": {
+      "slug": "hoops-clubs",
+      "width": 800,
+      "height": 485
+    }
+  },
+  {
+    "date": ["31/10/2021"],
+    "location": "Malmö, SE",
+    "vs": "Sweden",
+    "title": "American Football European Champions",
+    "type": "americanfootball",
+    "img": {
+      "slug": "american-football",
+      "width": 800,
+      "height": 585
+    }
   }
 ]

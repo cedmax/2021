@@ -10,6 +10,7 @@ export { ReactComponent as climbing } from '../public/icons/climbing.svg';
 export { ReactComponent as copy } from '../public/icons/copy.svg';
 export { ReactComponent as cricket } from '../public/icons/cricket.svg';
 export { ReactComponent as cycling } from '../public/icons/cycling.svg';
+export { ReactComponent as americanfootball } from '../public/icons/american-football.svg';
 export { ReactComponent as eaa } from '../public/icons/eaa.svg';
 export { ReactComponent as entertainment } from '../public/icons/entertainment.svg';
 export { ReactComponent as facebook } from '../public/icons/facebook.svg';
