@@ -1347,6 +1347,18 @@
     }
   },
   {
+    "date": ["23/10/2021"],
+    "location": "Pescara, IT",
+    "title": "Women European Deaf Basketball Championships",
+    "type": "basketball",
+    "vs": "Russia",
+    "img": {
+      "slug": "women-basket",
+      "width": 800,
+      "height": 572
+    }
+  },
+  {
     "date": ["24/10/2021"],
     "location": "Roubaix, FR",
     "title": "Elia Viviani wins the Gold Medal in Elimination at the UCI Track Cycling World Championships",
