@@ -6,6 +6,7 @@ const labels: labelsType = {
   other: 'Other Rewards',
   canoeing: 'Canoeing and Rowing',
   martialarts: 'Martial Arts',
+  americanfootball: 'American Football',
   olympics: 'Olympics & Paralympics',
   eaa: 'European Athletics U23 Championships',
   aswc: 'Artistic Skating World Championships',
