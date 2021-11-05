@@ -4,16 +4,13 @@ const sharp = require('sharp');
 const webp = require('webp-converter');
 const fs = require('fs');
 const sizeOf = require('image-size');
-
+const prettier = require('prettier');
 const path = './apps/i2021';
 
 (async () => {
-  const { slug, url } = await prompt([
-    {
-      type: 'input',
-      name: 'slug',
-      message: 'What slug do you want to use?',
-    },
+  const slug = process.argv.slice(2)[0];
+
+  const { url } = await prompt([
     {
       type: 'input',
       name: 'url',
@@ -48,7 +45,9 @@ const path = './apps/i2021';
 
     fs.writeFileSync(
       `${path}/data.json`,
-      JSON.stringify(newData, null, 2),
+      prettier.format(JSON.stringify(newData, null, 2), {
+        filepath: `${path}/data.json`,
+      }),
       'utf8'
     );
   }

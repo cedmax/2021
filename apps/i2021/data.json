@@ -1299,6 +1299,17 @@
     }
   },
   {
+    "date": ["17/10/2021"],
+    "location": "Nantes, FR",
+    "title": "Coupe d’Europe de la Boulangerie",
+    "type": "other",
+    "img": {
+      "slug": "boulangerie",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
     "date": ["20/10/2021"],
     "location": "Roubaix, FR",
     "title": "Martina Fidanza wins the Gold Medal in Scratch at the UCI Track Cycling World Championships",
@@ -1430,6 +1441,17 @@
   },
   {
     "date": ["31/10/2021"],
+    "location": "Extremadura, ES",
+    "title": "Federico Spinazzé wins the U23 World Triathlon Cross Championships",
+    "type": "other",
+    "img": {
+      "slug": "spinazze",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "date": ["31/10/2021"],
     "location": "Malmö, SE",
     "vs": "Sweden",
     "title": "American Football European Champions",
@@ -1438,6 +1460,65 @@
       "slug": "american-football",
       "width": 800,
       "height": 585
+    }
+  },
+  {
+    "date": ["31/10/2021"],
+    "location": "Online, Worldwide",
+    "vs": "South Korea",
+    "title": "Leonardo Bonanomi is the Pokémon Players Cup at Pokémon Global Exhibition",
+    "type": "other",
+    "video": "IeoxvTQER-c",
+    "img": {
+      "slug": "pokemon",
+      "width": 800,
+      "height": 453
+    }
+  },
+  {
+    "date": ["2/11/2021"],
+    "location": "Sant Boi, ES",
+    "vs": "Netherland",
+    "title": "Women's Softball European Masters Cup",
+    "type": "baseball",
+    "img": {
+      "slug": "softball-masters",
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
+    "date": ["3/11/2021"],
+    "location": "Kazam, RU",
+    "vs": "Russia",
+    "title": "Martina Carraro wins the Gold Medal in 100m Breaststroke at the European Short Course Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "carraro",
+      "width": 800,
+      "height": 788
+    }
+  },
+  {
+    "date": ["5/11/2021"],
+    "location": "Kazam, RU",
+    "title": "Michele Lamberti, Nicolò Martinenghi, Marco Orsi and Lorenzo Zazzeri win the Gold Medal and set a new World Record in 4x50 at the European Short Course Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "4x50",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "date": ["5/11/2021"],
+    "location": "Kazam, RU",
+    "title": "Nicolò Martinenghi wins the Gold Medal in 100m Breaststroke at the European Short Course Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "martinenghi",
+      "width": 800,
+      "height": 533
     }
   }
 ]
