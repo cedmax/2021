@@ -1287,6 +1287,18 @@
     }
   },
   {
+    "date": ["16/10/2021"],
+    "location": "Alassio, IT",
+    "title": "Women and Senior Men World Bocce Championship",
+    "type": "other",
+    "extended": "Valentina Basei and Francesca Carlini win the Women Duo Gold Medal, Luigi Grattapaglia and Simone Nari the Senior Duo Gold Medal and Caterina Venturini wins the Single Women Gold Medal",
+    "img": {
+      "slug": "bocce-women-senior",
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
     "date": ["17/10/2021"],
     "location": "Cluj-Napoca, RO",
     "title": "Group Gold Medals in All Around, 5 Balls, and 4 Clubs & 3 Hoops at the World Challenge Cup",
