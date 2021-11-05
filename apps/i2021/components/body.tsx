@@ -71,6 +71,7 @@ export default memo(function Body({ data }: bodyProps) {
           <Block key={event.title} playVideo={playVideo} {...event} />
         ))}
       </VerticalTimeline>
+
       <Modal close={closeModal} isOpen={!!playing}>
         <Video video={playing} />
       </Modal>

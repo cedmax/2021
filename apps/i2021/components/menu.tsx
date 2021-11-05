@@ -28,6 +28,18 @@ const Menu = styled.ul`
   @media (max-width: 600px) {
     max-width: 95%;
   }
+
+  a,
+  a:link,
+  a:visited {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 `;
 const MenuItem = styled.li`
   display: inline-block;
@@ -168,6 +180,18 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
             </MenuMonthItem>
           );
         })}
+      </Menu>
+      <Menu as="div">
+        <span>
+          Did I miss anything?{' '}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://m.me/cedmax"
+          >
+            Send me the link
+          </a>
+        </span>
       </Menu>
     </>
   );
