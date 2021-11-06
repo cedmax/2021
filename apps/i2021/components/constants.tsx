@@ -2,7 +2,7 @@ type labelsType = {
   [key: string]: string;
 };
 const labels: labelsType = {
-  entertainment: 'Culture',
+  entertainment: 'Food & Culture',
   other: 'Other Rewards',
   canoeing: 'Canoeing and Rowing',
   martialarts: 'Martial Arts',

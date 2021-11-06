@@ -1277,7 +1277,7 @@
     "date": ["13/10/2021"],
     "location": "Paris, FR",
     "title": "For the first time, the French consume more mozzarella than camembert",
-    "type": "other",
+    "type": "entertainment",
     "vs": "Camembert",
     "link": "https://www.lefigaro.fr/actualite-france/pour-la-premiere-fois-les-francais-consomment-plus-de-mozzarella-que-de-camembert-20211013",
     "img": {
@@ -1419,7 +1419,7 @@
     "date": ["28/10/2021"],
     "location": "London, UK",
     "title": "Champagne & Sparkling Wine World Championships",
-    "type": "other",
+    "type": "entertainment",
     "vs": "France",
     "extended": "Well in excess of 1000 sparkling wines were judged over 2 weeks with Italy taking the top of the leader board spot triumphing with 58 Gold and 129 Silver medals. France followed taking home 52 golds and 50 silver medals.",
     "img": {
@@ -1539,7 +1539,7 @@
     "date": ["4/11/2021"],
     "location": "Oviedo, ES",
     "title": "Parmigiano Reggiano gets 126 Medals, 7 of which Super Gold, at the World Cheese Awards",
-    "type": "other",
+    "type": "entertainment",
     "extended": "The best cheese overall was the Spanish Olavidia from Quesos y Besos, but Parmigiano Reggiano was the most awarded type of cheese",
     "img": {
       "slug": "parmigiano",
