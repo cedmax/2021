@@ -2,6 +2,7 @@ import { useState, useCallback, memo, useRef } from 'react';
 import { VerticalTimeline } from 'react-vertical-timeline-component';
 import Block from './block';
 import Menu from './menu';
+import Map from './map';
 import Video from './video';
 import Modal from './modal';
 import Footer from './footer';
@@ -16,7 +17,16 @@ type opType = { type: string; location: string; date: Array<string> };
 
 export default memo(function Body({ data }: bodyProps) {
   const [playing, setPlaying] = useState('');
+  const [mapVisibile, setMapVisibile] = useState(false);
+
   const [[filter, list], updateList] = useState(['', data]);
+
+  const showMap = useCallback(() => {
+    setMapVisibile(true);
+  }, []);
+  const hideMap = useCallback(() => {
+    setMapVisibile(false);
+  }, []);
 
   const playVideo = useCallback((video) => {
     setPlaying(video);
@@ -43,7 +53,7 @@ export default memo(function Body({ data }: bodyProps) {
           );
         } else if (newFilter === 'eaa') {
           newList = data.filter(
-            ({ location }: opType) => location === 'Tallin, EE'
+            ({ location }: opType) => location === 'Tallinn, EE'
           );
         } else if (newFilter === 'aswc') {
           newList = data.filter(
@@ -65,7 +75,12 @@ export default memo(function Body({ data }: bodyProps) {
 
   return (
     <>
-      <Menu selected={filter} data={data} filter={filterList} />
+      <Menu
+        showMap={showMap}
+        selected={filter}
+        data={data}
+        filter={filterList}
+      />
       <VerticalTimeline animate={false}>
         {list.map((event: blockProps) => (
           <Block key={event.title} playVideo={playVideo} {...event} />
@@ -75,6 +90,7 @@ export default memo(function Body({ data }: bodyProps) {
       <Modal close={closeModal} isOpen={!!playing}>
         <Video video={playing} />
       </Modal>
+      <Map data={data} close={hideMap} isOpen={!!mapVisibile} />
       <Footer filter={filter} updateList={updateList} data={data} />
     </>
   );

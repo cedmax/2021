@@ -1,7 +1,7 @@
 [
   {
     "date": ["16/2/2021"],
-    "location": "Cortina, IT",
+    "location": "Cortina d'Ampezzo, IT",
     "title": "Marta Bassino (and Katharina Liensberger) Parallel Giant Slalom Gold Medal at the FIS Alpine World Ski Championships",
     "type": "skiing",
     "video": "atzPs3EeN3w",
@@ -13,7 +13,7 @@
   },
   {
     "date": ["21/2/2021"],
-    "location": "Aucland, NZ",
+    "location": "Auckland, NZ",
     "title": "Luna Rossa wins the Prada Cup",
     "type": "sailing",
     "vs": "United Kingdom",
@@ -40,7 +40,7 @@
   },
   {
     "date": ["1/3/2021"],
-    "location": "Virtual event, US",
+    "location": "Virtual Event, US",
     "title": "Laura Pausini wins Best Original Song award at Golden Globe",
     "type": "entertainment",
     "video": "imjSm7FNmwE",
@@ -125,7 +125,7 @@
   },
   {
     "date": ["20/6/2021"],
-    "location": "Londong, UK",
+    "location": "London, UK",
     "title": "Matteo Berrettini wins at his first appearence at the Queen's Club cinch Championship",
     "type": "tennis",
     "img": {
@@ -188,7 +188,7 @@
   },
   {
     "date": ["10/7/2021"],
-    "location": "Tallin, EE",
+    "location": "Tallinn, EE",
     "title": "Dalia Kaddari Gold Medal in U23 Women's 200 metres",
     "type": "athletics",
     "vs": "Germany",
@@ -201,7 +201,7 @@
   },
   {
     "date": ["10/7/2021"],
-    "location": "Tallin, EE",
+    "location": "Tallinn, EE",
     "title": "Alessandro Sibilio Gold Medal in U23 Men's 400 metres hurdles",
     "type": "athletics",
     "vs": "Germany",
@@ -239,7 +239,7 @@
   },
   {
     "date": ["11/7/2021"],
-    "location": "Tallin, EE",
+    "location": "Tallinn, EE",
     "title": "Gaia Sabbatini and Marta Zenoni Gold and Silver Medals in U23 Women's 1500 metres",
     "type": "athletics",
     "vs": "Great Britain",
@@ -252,7 +252,7 @@
   },
   {
     "date": ["11/7/2021"],
-    "location": "Tallin, EE",
+    "location": "Tallinn, EE",
     "title": "Nadia Battocletti Gold Medal in U23 Women's 5000 metres",
     "type": "athletics",
     "vs": "Great Britain",
@@ -265,7 +265,7 @@
   },
   {
     "date": ["11/7/2021"],
-    "location": "Tallin, EE",
+    "location": "Tallinn, EE",
     "title": "Simone Barontini Gold Medal in U23 Men's 800 metres",
     "type": "athletics",
     "vs": "Belgium",
@@ -278,7 +278,7 @@
   },
   {
     "date": ["11/7/2021"],
-    "location": "Tallin, EE",
+    "location": "Tallinn, EE",
     "title": "Andrea Dallavalle Gold Medal in U23 Men's triple jump",
     "type": "athletics",
     "vs": "France",
@@ -378,7 +378,7 @@
   },
   {
     "date": ["5/8/2021", "8/8/2021"],
-    "location": "Malaga, ES",
+    "location": "Málaga, ES",
     "title": "World Championship Fosse Universelle - Universal Trench",
     "type": "other",
     "extended": "Gold Medals by Cosimo Luca Salinaro (Individual Men Junior); Gildo Grondona (Individual Men Veteran); Giuliano Fabbri (Inidividual Men Master); Alessandro Camisotti, Guglielmo De Julio and Stefano Narducci (Men National Team); Stefania Oliva, Bianca Revello And Silvia Munno (Ladies National Team); Gabriele Fabbri, Cosimo Luca Salinaro and Riccardo Aldo Sposato (Junior National Team)",
@@ -488,7 +488,7 @@
   },
   {
     "date": ["15/8/2021"],
-    "location": "Montreal, CA",
+    "location": "Montréal, CA",
     "title": "Camila Giorgi wins the Omnium Banque Nationale Championship",
     "vs": "Czech Republic",
     "type": "tennis",
@@ -693,7 +693,7 @@
   },
   {
     "date": ["9/9/2021"],
-    "location": "Zurich, CH",
+    "location": "Zürich, CH",
     "title": "Gianmarco Tamberi first Italian to win the Diamond League",
     "type": "athletics",
     "img": {
@@ -704,7 +704,7 @@
   },
   {
     "date": ["9/9/2021", "12/9/2021"],
-    "location": "Porec, HR",
+    "location": "Poreč, HR",
     "title": "European Field Championships",
     "type": "archery",
     "vs": "Sweden",
@@ -930,7 +930,7 @@
   },
   {
     "date": ["29/9/2021"],
-    "location": "Malaga, ES",
+    "location": "Málaga, ES",
     "title": "Italy beat England in a Cricket match at the European Championship T10",
     "type": "cricket",
     "extended": "For the 2nd time in history, and the first in 23 years",
@@ -1035,7 +1035,7 @@
   },
   {
     "date": ["3/10/2021"],
-    "location": "Saint-Cyr-Sur-Mer, FR",
+    "location": "Saint-Cyr-sur-Mer, FR",
     "title": "Giuseppe Barone Heavy Weight Gold Medal at the European Windsurfer Championship",
     "type": "sailing",
     "vs": "Netherlands",
@@ -1395,7 +1395,7 @@
   },
   {
     "date": ["24/10/2021"],
-    "location": "Antwerp, BE",
+    "location": "Antwerpen, BE",
     "title": "Jennik Sinner wins the 2021 European Open",
     "type": "tennis",
     "img": {
@@ -1476,7 +1476,7 @@
   },
   {
     "date": ["31/10/2021"],
-    "location": "Online, Worldwide",
+    "location": "Virtual Event",
     "vs": "South Korea",
     "title": "Leonardo Bonanomi is the Pokémon Players Cup at Pokémon Global Exhibition",
     "type": "other",
@@ -1489,7 +1489,7 @@
   },
   {
     "date": ["2/11/2021"],
-    "location": "Sant Boi, ES",
+    "location": "Sant Boi de Llobregat, ES",
     "vs": "Netherland",
     "title": "Women's Softball European Masters Cup",
     "type": "baseball",
@@ -1501,7 +1501,7 @@
   },
   {
     "date": ["3/11/2021"],
-    "location": "Kazam, RU",
+    "location": "Kazan, RU",
     "vs": "Russia",
     "title": "Martina Carraro wins the Gold Medal in 100m Breaststroke at the European Short Course Championships",
     "type": "swimming",
@@ -1513,7 +1513,7 @@
   },
   {
     "date": ["5/11/2021"],
-    "location": "Kazam, RU",
+    "location": "Kazan, RU",
     "title": "Michele Lamberti, Nicolò Martinenghi, Marco Orsi and Lorenzo Zazzeri win the Gold Medal and set a new World Record in 4x50 at the European Short Course Championships",
     "type": "swimming",
     "img": {
@@ -1524,7 +1524,7 @@
   },
   {
     "date": ["5/11/2021"],
-    "location": "Kazam, RU",
+    "location": "Kazan, RU",
     "title": "Nicolò Martinenghi wins the Gold Medal in 100m Breaststroke at the European Short Course Championships",
     "type": "swimming",
     "img": {

@@ -23,7 +23,7 @@ const getIcon = (location: string) => {
           <Olympics />
         </span>
       );
-    case 'Tallin, EE':
+    case 'Tallinn, EE':
       return (
         <span className="icon-size icon-size-bk">
           <Eaa />

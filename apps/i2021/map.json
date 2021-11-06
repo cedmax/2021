@@ -1,0 +1,218 @@
+[
+  {
+    "location": "Cortina d'Ampezzo, IT",
+    "coordinates": [12.13903, 46.5369]
+  },
+  {
+    "location": "Auckland, NZ",
+    "coordinates": [174.76349, -36.84853]
+  },
+  {
+    "location": "Katowice, PL",
+    "coordinates": [19.02754, 50.25841]
+  },
+  {
+    "location": "Lenzerheide, CH",
+    "coordinates": [9.55905, 46.72215]
+  },
+  {
+    "location": "Rotterdam, NL",
+    "coordinates": [4.47917, 51.9225]
+  },
+  {
+    "location": "Belgrade, RS",
+    "coordinates": [20.46513, 44.80401]
+  },
+  {
+    "location": "London, UK",
+    "coordinates": [-0.12574, 51.50853]
+  },
+  {
+    "location": "Warsaw, PL",
+    "coordinates": [21.01178, 52.22977]
+  },
+  {
+    "location": "Pecetto, IT",
+    "coordinates": [7.75107, 45.0176]
+  },
+  {
+    "location": "Tallinn, EE",
+    "coordinates": [24.75353, 59.43696]
+  },
+  {
+    "location": "Tokyo, JP",
+    "coordinates": [139.69171, 35.6895]
+  },
+  {
+    "location": "Málaga, ES",
+    "coordinates": [-4.42034, 36.72016]
+  },
+  {
+    "location": "Washington, US",
+    "coordinates": [-82.73931, 33.73679]
+  },
+  {
+    "location": "Trieste, IT",
+    "coordinates": [13.77678, 45.64953]
+  },
+  {
+    "location": "Siracusa, IT",
+    "coordinates": [15.28664, 37.07542]
+  },
+  {
+    "location": "Montréal, CA",
+    "coordinates": [-73.58781, 45.50884]
+  },
+  {
+    "location": "Maribor, SI",
+    "coordinates": [15.64667, 46.55472]
+  },
+  {
+    "location": "Kranj, SI",
+    "coordinates": [14.35561, 46.23887]
+  },
+  {
+    "location": "Istanbul, TR",
+    "coordinates": [28.94966, 41.01384]
+  },
+  {
+    "location": "Zürich, CH",
+    "coordinates": [8.55, 47.36667]
+  },
+  {
+    "location": "Poreč, HR",
+    "coordinates": [13.59511, 45.22567]
+  },
+  {
+    "location": "Trento, IT",
+    "coordinates": [11.12108, 46.06787]
+  },
+  {
+    "location": "Copenhagen, DK",
+    "coordinates": [12.56553, 55.67594]
+  },
+  {
+    "location": "Terracina, IT",
+    "coordinates": [13.24359, 41.29174]
+  },
+  {
+    "location": "Martigues, FR",
+    "coordinates": [5.05526, 43.40735]
+  },
+  {
+    "location": "Los Angeles, US",
+    "coordinates": [-118.24368, 34.05223]
+  },
+  {
+    "location": "Pesaro, IT",
+    "coordinates": [12.9164, 43.90921]
+  },
+  {
+    "location": "Lyon, FR",
+    "coordinates": [4.84671, 45.74846]
+  },
+  {
+    "location": "Santa Marta, CO",
+    "coordinates": [-74.19904, 11.24079]
+  },
+  {
+    "location": "Pogliano Milanese, IT",
+    "coordinates": [8.99403, 45.53786]
+  },
+  {
+    "location": "Mantova, IT",
+    "coordinates": [10.79784, 45.16031]
+  },
+  {
+    "location": "Peccioli, IT",
+    "coordinates": [10.7172, 43.54963]
+  },
+  {
+    "location": "Asunción, PY",
+    "coordinates": [-57.647, -25.28646]
+  },
+  {
+    "location": "Milan, IT",
+    "coordinates": [9.18951, 45.46427]
+  },
+  {
+    "location": "Brno, CZ",
+    "coordinates": [16.60796, 49.19522]
+  },
+  {
+    "location": "Saint-Cyr-sur-Mer, FR",
+    "coordinates": [5.7012, 43.18048]
+  },
+  {
+    "location": "Roubaix, FR",
+    "coordinates": [3.17456, 50.69421]
+  },
+  {
+    "location": "Cagliari, IT",
+    "coordinates": [9.11917, 39.23054]
+  },
+  {
+    "location": "Rossiglione, IT",
+    "coordinates": [8.66956, 44.56358]
+  },
+  {
+    "location": "Budoni, IT",
+    "coordinates": [9.70384, 40.70467]
+  },
+  {
+    "location": "Ferrara, IT",
+    "coordinates": [11.62057, 44.83804]
+  },
+  {
+    "location": "Stockholm, SE",
+    "coordinates": [18.06871, 59.32938]
+  },
+  {
+    "location": "Kaş, TR",
+    "coordinates": [29.63766, 36.20176]
+  },
+  {
+    "location": "Paris, FR",
+    "coordinates": [2.3488, 48.85341]
+  },
+  {
+    "location": "Alassio, IT",
+    "coordinates": [8.16713, 44.00393]
+  },
+  {
+    "location": "Cluj-Napoca, RO",
+    "coordinates": [23.6, 46.76667]
+  },
+  {
+    "location": "Nantes, FR",
+    "coordinates": [-1.55336, 47.21725]
+  },
+  {
+    "location": "Kitakyushu, JP",
+    "coordinates": [130.85034, 33.85181]
+  },
+  {
+    "location": "Pescara, IT",
+    "coordinates": [14.20283, 42.4584]
+  },
+  {
+    "location": "Antwerpen, BE",
+    "coordinates": [4.40026, 51.22047]
+  },
+  {
+    "location": "Nagoya, JP",
+    "coordinates": [136.90641, 35.18147]
+  },
+  {
+    "location": "Malmö, SE",
+    "coordinates": [13.00073, 55.60587]
+  },
+  {
+    "location": "Sant Boi de Llobregat, ES",
+    "coordinates": [2.03659, 41.34357]
+  },
+  {
+    "location": "Kazan, RU",
+    "coordinates": [49.12214, 55.78874]
+  }
+]

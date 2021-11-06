@@ -4,6 +4,7 @@ import * as icons from './icons';
 import labels from './constants';
 import { format, getMonth, parse } from 'date-fns';
 import { blockProps } from './types';
+import { map as Icon } from './icons';
 
 const Menu = styled.ul`
   padding: 0;
@@ -39,6 +40,19 @@ const Menu = styled.ul`
 
   a:hover {
     text-decoration: underline;
+  }
+  .map {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
   }
 `;
 const MenuItem = styled.li`
@@ -88,14 +102,20 @@ type menuProps = {
   selected: string | number;
   data: Array<blockProps>;
   filter: (a: string | number) => void;
+  showMap: () => void;
 };
 
-export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
+export default memo(function MenuBloc({
+  selected,
+  data,
+  filter,
+  showMap,
+}: menuProps) {
   const [[eventsOlympics, eventsEaa, eventsAswc, eventsTrigames]] = useState<
     Array<number>
   >([
     data.filter(({ location }) => location === 'Tokyo, JP').length,
-    data.filter(({ location }) => location === 'Tallin, EE').length,
+    data.filter(({ location }) => location === 'Tallinn, EE').length,
     data.filter(({ location }) => location === 'Asunción, PY').length,
     data.filter(({ location }) => location === 'Ferrara, IT').length,
   ]);
@@ -181,7 +201,10 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
           );
         })}
       </Menu>
-      <Menu as="div">
+      <Menu
+        as="div"
+        style={{ justifyContent: 'space-between', alignItems: 'center' }}
+      >
         <span>
           Did I miss anything?{' '}
           <a
@@ -192,6 +215,9 @@ export default memo(function MenuBloc({ selected, data, filter }: menuProps) {
             Send me the link
           </a>
         </span>
+        <button title="Show on map" className="map" onClick={showMap}>
+          <Icon />
+        </button>
       </Menu>
     </>
   );
