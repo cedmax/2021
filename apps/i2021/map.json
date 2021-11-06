@@ -180,6 +180,10 @@
     "coordinates": [8.16713, 44.00393]
   },
   {
+    "location": "Ascot, UK",
+    "coordinates": [-0.6748, 51.41082]
+  },
+  {
     "location": "Cluj-Napoca, RO",
     "coordinates": [23.6, 46.76667]
   },
@@ -214,5 +218,9 @@
   {
     "location": "Kazan, RU",
     "coordinates": [49.12214, 55.78874]
+  },
+  {
+    "location": "Oviedo, ES",
+    "coordinates": [-5.84476, 43.36029]
   }
 ]

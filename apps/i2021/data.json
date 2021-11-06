@@ -1299,6 +1299,17 @@
     }
   },
   {
+    "date": ["16/10/2021"],
+    "location": "Ascot, UK",
+    "title": "Marco Ghiani is Britain’s Champion Apprentice",
+    "type": "other",
+    "img": {
+      "slug": "ghiani",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
     "date": ["17/10/2021"],
     "location": "Cluj-Napoca, RO",
     "title": "Group Gold Medals in All Around, 5 Balls, and 4 Clubs & 3 Hoops at the World Challenge Cup",
@@ -1402,6 +1413,19 @@
       "slug": "sinner-euopen",
       "width": 800,
       "height": 427
+    }
+  },
+  {
+    "date": ["28/10/2021"],
+    "location": "London, UK",
+    "title": "Champagne & Sparkling Wine World Championships",
+    "type": "other",
+    "vs": "France",
+    "extended": "Well in excess of 1000 sparkling wines were judged over 2 weeks with Italy taking the top of the leader board spot triumphing with 58 Gold and 129 Silver medals. France followed taking home 52 golds and 50 silver medals.",
+    "img": {
+      "slug": "wine",
+      "width": 800,
+      "height": 545
     }
   },
   {
@@ -1512,6 +1536,18 @@
     }
   },
   {
+    "date": ["4/11/2021"],
+    "location": "Oviedo, ES",
+    "title": "Parmigiano Reggiano gets 126 Medals, 7 of which Super Gold, at the World Cheese Awards",
+    "type": "other",
+    "extended": "The best cheese overall was the Spanish Olavidia from Quesos y Besos, but Parmigiano Reggiano was the most awarded type of cheese",
+    "img": {
+      "slug": "parmigiano",
+      "width": 800,
+      "height": 534
+    }
+  },
+  {
     "date": ["5/11/2021"],
     "location": "Kazan, RU",
     "title": "Michele Lamberti, Nicolò Martinenghi, Marco Orsi and Lorenzo Zazzeri win the Gold Medal and set a new World Record in 4x50 at the European Short Course Championships",
@@ -1531,6 +1567,17 @@
       "slug": "martinenghi",
       "width": 800,
       "height": 533
+    }
+  },
+  {
+    "date": ["5/11/2021"],
+    "location": "Kazan, RU",
+    "title": "Alberto Razzetti wins the Gold Medal in 200m Butterfly Stroke at the European Short Course Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "razzetti",
+      "width": 800,
+      "height": 450
     }
   }
 ]
