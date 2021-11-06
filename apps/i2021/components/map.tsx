@@ -31,7 +31,6 @@ const style = {
 };
 
 type modal = {
-  children: React.ReactNode;
   close: () => void;
   isOpen: boolean;
   data: Array<dataProps>;
