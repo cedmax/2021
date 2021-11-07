@@ -9,6 +9,7 @@ import TimelineIcon from './timeline-icon';
 import { transformDate } from './helpers';
 
 const Olympics = icons.olympics;
+const Escc = icons.escc;
 const Eaa = icons.eaa;
 const Aswc = icons.aswc;
 const TriGames = icons.trigames;
@@ -21,6 +22,12 @@ const getIcon = (location: string) => {
       return (
         <span className="icon-size">
           <Olympics />
+        </span>
+      );
+    case 'Kazan, RU':
+      return (
+        <span className="icon-size icon-size-bk">
+          <Escc />
         </span>
       );
     case 'Tallinn, EE':

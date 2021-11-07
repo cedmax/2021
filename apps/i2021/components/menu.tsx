@@ -111,14 +111,14 @@ export default memo(function MenuBloc({
   filter,
   showMap,
 }: menuProps) {
-  const [[eventsOlympics, eventsEaa, eventsAswc, eventsTrigames]] = useState<
-    Array<number>
-  >([
-    data.filter(({ location }) => location === 'Tokyo, JP').length,
-    data.filter(({ location }) => location === 'Tallinn, EE').length,
-    data.filter(({ location }) => location === 'Asunción, PY').length,
-    data.filter(({ location }) => location === 'Ferrara, IT').length,
-  ]);
+  const [[eventsOlympics, eventsEaa, eventsAswc, eventsTrigames, eventsEscc]] =
+    useState<Array<number>>([
+      data.filter(({ location }) => location === 'Tokyo, JP').length,
+      data.filter(({ location }) => location === 'Tallinn, EE').length,
+      data.filter(({ location }) => location === 'Asunción, PY').length,
+      data.filter(({ location }) => location === 'Ferrara, IT').length,
+      data.filter(({ location }) => location === 'Kazan, RU').length,
+    ]);
   const [availableTypes] = useState<availableTypes>(
     data.reduce((acc, item) => {
       const currentVal = acc[item.type] ? ++acc[item.type] : 1;
@@ -145,11 +145,13 @@ export default memo(function MenuBloc({
     'eaa',
     'aswc',
     'trigames',
+    'escc',
     ...Object.keys(availableTypes).sort(),
   ]);
 
   availableTypes.olympics = eventsOlympics;
   availableTypes.eaa = eventsEaa;
+  availableTypes.escc = eventsEscc;
   availableTypes.trigames = eventsTrigames;
   availableTypes.aswc = eventsAswc;
 

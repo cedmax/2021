@@ -51,6 +51,10 @@ export default memo(function Body({ data }: bodyProps) {
           newList = data.filter(
             ({ location }: opType) => location === 'Tokyo, JP'
           );
+        } else if (newFilter === 'escc') {
+          newList = data.filter(
+            ({ location }: opType) => location === 'Kazan, RU'
+          );
         } else if (newFilter === 'eaa') {
           newList = data.filter(
             ({ location }: opType) => location === 'Tallinn, EE'

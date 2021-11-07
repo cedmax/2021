@@ -8,6 +8,7 @@ const labels: labelsType = {
   martialarts: 'Martial Arts',
   americanfootball: 'American Football',
   olympics: 'Olympics & Paralympics',
+  escc: 'European Short Course Swimming Championships',
   eaa: 'European Athletics U23 Championships',
   aswc: 'Artistic Skating World Championships',
 };

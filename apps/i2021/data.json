@@ -908,7 +908,7 @@
     "date": ["26/9/2021"],
     "location": "Mantova, IT",
     "title": "Motocross of Nations",
-    "type": "motocross",
+    "type": "other",
     "img": {
       "slug": "mxon",
       "width": 800,
@@ -1394,6 +1394,18 @@
   },
   {
     "date": ["24/10/2021"],
+    "location": "Genoa, IT",
+    "title": "Giuseppe Gibboni wins the Paganini International Violin Competition, the first Italian in 24 years",
+    "type": "entertainment",
+    "vs": "South Korea",
+    "img": {
+      "slug": "gibboni",
+      "width": 800,
+      "height": 668
+    }
+  },
+  {
+    "date": ["24/10/2021"],
     "location": "Roubaix, FR",
     "title": "Elia Viviani wins the Gold Medal in Elimination at the UCI Track Cycling World Championships",
     "type": "cycling",
@@ -1527,7 +1539,7 @@
     "date": ["3/11/2021"],
     "location": "Kazan, RU",
     "vs": "Russia",
-    "title": "Martina Carraro wins the Gold Medal in 100m Breaststroke at the European Short Course Championships",
+    "title": "Martina Carraro wins the Gold Medal in 100m Breaststroke",
     "type": "swimming",
     "img": {
       "slug": "carraro",
@@ -1550,7 +1562,7 @@
   {
     "date": ["5/11/2021"],
     "location": "Kazan, RU",
-    "title": "Michele Lamberti, Nicolò Martinenghi, Marco Orsi and Lorenzo Zazzeri win the Gold Medal and set a new World Record in 4x50 at the European Short Course Championships",
+    "title": "Michele Lamberti, Nicolò Martinenghi, Marco Orsi and Lorenzo Zazzeri win the Gold Medal and set a new World Record in 4x50m medley relay",
     "type": "swimming",
     "img": {
       "slug": "4x50",
@@ -1561,7 +1573,7 @@
   {
     "date": ["5/11/2021"],
     "location": "Kazan, RU",
-    "title": "Nicolò Martinenghi wins the Gold Medal in 100m Breaststroke at the European Short Course Championships",
+    "title": "Nicolò Martinenghi wins the Gold Medal in 100m Breaststroke",
     "type": "swimming",
     "img": {
       "slug": "martinenghi",
@@ -1572,12 +1584,45 @@
   {
     "date": ["5/11/2021"],
     "location": "Kazan, RU",
-    "title": "Alberto Razzetti wins the Gold Medal in 200m Butterfly Stroke at the European Short Course Championships",
+    "title": "Alberto Razzetti wins the Gold Medal in 200m Butterfly Stroke",
     "type": "swimming",
     "img": {
       "slug": "razzetti",
       "width": 800,
       "height": 450
+    }
+  },
+  {
+    "date": ["7/11/2021"],
+    "location": "Kazan, RU",
+    "title": "Arianna Castiglioni and Benedetta Pilato win the Gold and Silver Medals in 50m Breaststroke",
+    "type": "swimming",
+    "img": {
+      "slug": "castiglioni",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
+    "date": ["7/11/2021"],
+    "location": "Kazan, RU",
+    "title": "Marco Orsi wins the Gold Medal in 100m Individual Medley",
+    "type": "swimming",
+    "img": {
+      "slug": "orsi",
+      "width": 800,
+      "height": 534
+    }
+  },
+  {
+    "date": ["7/11/2021"],
+    "location": "Kazan, RU",
+    "title": "Gregorio Paltrinieri wins the Gold Medal and sets the new European Record in 800m Freestyle",
+    "type": "swimming",
+    "img": {
+      "slug": "paltrinieri",
+      "width": 800,
+      "height": 532
     }
   }
 ]
