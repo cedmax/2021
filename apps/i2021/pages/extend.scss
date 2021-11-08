@@ -378,7 +378,9 @@ button[disabled] {
 }
 
 .sharer-wrapper {
+  span,
   a {
+    background: white;
     margin: 15px auto 0;
     display: block;
     box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
@@ -387,10 +389,9 @@ button[disabled] {
     height: 35px;
     width: 35px;
     cursor: pointer;
-
-    &.sharer-activator {
-      visibility: visible;
-    }
+  }
+  .sharer-activator {
+    visibility: visible;
   }
 }
 
@@ -441,6 +442,13 @@ svg.icon-sailing {
   background-size: 200px;
   background-blend-mode: soft-light;
   text-indent: -9999px;
+}
+
+.map-loader {
+  background: rgba(191, 214, 223, 0.92) url('/medal.svg') no-repeat center;
+  background-size: 200px;
+  background-blend-mode: soft-light;
+  height: 100%;
 }
 
 .flag-color:nth-child(3n + 1) {

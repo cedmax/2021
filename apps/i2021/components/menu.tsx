@@ -1,10 +1,9 @@
 import { useState, memo } from 'react';
 import styled from 'styled-components';
-import * as icons from './icons';
+import Icon from './icon';
 import labels from './constants';
 import { format, getMonth, parse } from 'date-fns';
 import { blockProps } from './types';
-import { map as Icon } from './icons';
 
 const Menu = styled.ul`
   padding: 0;
@@ -159,7 +158,6 @@ export default memo(function MenuBloc({
     <>
       <Menu>
         {allTypes.map((type) => {
-          const Icon = icons[type];
           return (
             <MenuItem key={type}>
               <button
@@ -175,7 +173,7 @@ export default memo(function MenuBloc({
                   ' vertical-timeline-element-icon-selected'
                 }`}
               >
-                <Icon className={`icon-${type}`} />
+                <Icon type={type} className={`icon-${type}`} />
               </button>
             </MenuItem>
           );
@@ -218,7 +216,7 @@ export default memo(function MenuBloc({
           </a>
         </span>
         <button title="Show on map" className="map" onClick={showMap}>
-          <Icon />
+          <Icon type="map" />
         </button>
       </Menu>
     </>

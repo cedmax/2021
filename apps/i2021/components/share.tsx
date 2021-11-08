@@ -1,15 +1,8 @@
 import { useCallback } from 'react';
 import { useClipboard } from 'use-clipboard-copy';
-import {
-  facebook,
-  linkedin,
-  twitter,
-  tumblr,
-  share as Share,
-  copy as Copy,
-} from './icons';
+import Icon from './icon';
 
-const OpenWindow = ({ shareUrl, url, icon: Icon }) => (
+const OpenWindow = ({ shareUrl, url, icon }) => (
   <a
     href={shareUrl + encodeURIComponent(url)}
     onClick={(e) => {
@@ -21,54 +14,46 @@ const OpenWindow = ({ shareUrl, url, icon: Icon }) => (
       );
     }}
   >
-    <Icon />
+    <Icon type={icon} />
   </a>
 );
 
-const ShareBlock = ({ slug, title }) => {
+const ShareBlock = ({ slug }) => {
   const url = `https://2021.dsgn.it/${slug}`;
 
-  const navigatorShare = useCallback(
-    () =>
-      navigator.share({
-        text: title,
-        url: url,
-      }),
-    [url, title]
-  );
   const clipboard = useClipboard();
   const copyShare = useCallback(() => {
-    clipboard.copy(url); // programmatically copying a value
+    clipboard.copy(url);
   }, [clipboard, url]);
 
   return (
     <>
-      <a className="sharer-activator">
-        <Share />
-      </a>
+      <span className="sharer-activator">
+        <Icon type="share" />
+      </span>
       <div className="sharer">
         <OpenWindow
           url={url}
           shareUrl="https://twitter.com/share?url="
-          icon={twitter}
+          icon="twitter"
         />
         <OpenWindow
           url={url}
           shareUrl="https://www.facebook.com/sharer.php?u="
-          icon={facebook}
+          icon="facebook"
         />
         <OpenWindow
           url={url}
           shareUrl="http://www.tumblr.com/share?s=&v=3&u="
-          icon={tumblr}
+          icon="tumblr"
         />
         <OpenWindow
           url={url}
           shareUrl="https://www.linkedin.com/sharing/share-offsite/?url="
-          icon={linkedin}
+          icon="linkedin"
         />
         <a onClick={copyShare}>
-          <Copy />
+          <Icon type="copy" />
         </a>
       </div>
     </>
