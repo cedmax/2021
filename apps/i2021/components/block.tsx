@@ -95,23 +95,21 @@ export default memo(function Block({
 
       {img && (
         <>
-          <p>
-            <AspectRatio ratio={(img.width / img.height).toFixed(2)}>
-              <LazyLoadImage alt={title} src={`../images/${img.slug}.webp`} />
-              {video && playVideo && (
-                <>
-                  <button
-                    aria-label={`play video of "${title}"`}
-                    onClick={() => playVideo(video)}
-                    className="play"
-                  />
-                  <span className="icon-size icon-video">
-                    <VideoIcon />
-                  </span>
-                </>
-              )}{' '}
-            </AspectRatio>
-          </p>
+          <AspectRatio ratio={(img.width / img.height).toFixed(2)}>
+            <LazyLoadImage alt={title} src={`../images/${img.slug}.webp`} />
+            {video && playVideo && (
+              <>
+                <button
+                  aria-label={`play video of "${title}"`}
+                  onClick={() => playVideo(video)}
+                  className="play"
+                />
+                <span className="icon-size icon-video">
+                  <VideoIcon />
+                </span>
+              </>
+            )}{' '}
+          </AspectRatio>
           {(extended || link) && (
             <p>
               {extended}
