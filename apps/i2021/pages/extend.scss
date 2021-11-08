@@ -109,10 +109,6 @@ button.vertical-timeline-element-icon-selected {
     border-right-style: solid;
     border-right-width: 7px;
   }
-  .react-aspect-ratio-placeholder {
-    margin: 1em 0 0;
-    line-height: 1.6;
-  }
 
   p {
     position: relative;
@@ -435,5 +431,32 @@ svg.icon-sailing {
   h3 {
     padding: 0.2rem 0;
     margin: 0;
+  }
+}
+
+.react-aspect-ratio-placeholder {
+  margin: 1em 0 0;
+  line-height: 1.6;
+  background: url('/medal.svg') no-repeat center;
+  background-size: 200px;
+  background-blend-mode: soft-light;
+  text-indent: -9999px;
+}
+
+.flag-color:nth-child(3n + 1) {
+  .react-aspect-ratio-placeholder {
+    background-color: #008c45;
+  }
+}
+
+.flag-color:nth-child(3n + 2) {
+  .react-aspect-ratio-placeholder {
+    background-color: #f4f5f0;
+  }
+}
+
+.flag-color:nth-child(3n) {
+  .react-aspect-ratio-placeholder {
+    background-color: #cd212a;
   }
 }
