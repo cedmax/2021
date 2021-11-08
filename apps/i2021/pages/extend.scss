@@ -444,6 +444,13 @@ svg.icon-sailing {
   text-indent: -9999px;
 }
 
+.map-loader {
+  background: rgba(191, 214, 223, 0.92) url('/medal.svg') no-repeat center;
+  background-size: 200px;
+  background-blend-mode: soft-light;
+  height: 100%;
+}
+
 .flag-color:nth-child(3n + 1) {
   .react-aspect-ratio-placeholder {
     background-color: #008c45;

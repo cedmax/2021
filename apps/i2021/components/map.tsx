@@ -37,9 +37,11 @@ export default memo(function MapModal({ close, isOpen, data }: modal) {
         <span>close</span>
       </button>
 
-      <Suspense fallback={<div />}>
-        <MapComponent data={data} />
-      </Suspense>
+      <div className="map-loader">
+        <Suspense fallback={<div />}>
+          <MapComponent data={data} />
+        </Suspense>
+      </div>
     </Modal>
   );
 });
