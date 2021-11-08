@@ -18,7 +18,7 @@ const ShareIcon = ({ icon: Icon, slug, title, className }) => {
         {isNativeShare ? (
           <NativeShare slug={slug} title={title} />
         ) : (
-          <Share slug={slug} title={title} />
+          <Share slug={slug} />
         )}
       </div>
     </>

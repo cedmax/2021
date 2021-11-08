@@ -18,27 +18,19 @@ const OpenWindow = ({ shareUrl, url, icon }) => (
   </a>
 );
 
-const ShareBlock = ({ slug, title }) => {
+const ShareBlock = ({ slug }) => {
   const url = `https://2021.dsgn.it/${slug}`;
 
-  const navigatorShare = useCallback(
-    () =>
-      navigator.share({
-        text: title,
-        url: url,
-      }),
-    [url, title]
-  );
   const clipboard = useClipboard();
   const copyShare = useCallback(() => {
-    clipboard.copy(url); // programmatically copying a value
+    clipboard.copy(url);
   }, [clipboard, url]);
 
   return (
     <>
-      <a className="sharer-activator">
+      <span className="sharer-activator">
         <Icon type="share" />
-      </a>
+      </span>
       <div className="sharer">
         <OpenWindow
           url={url}
