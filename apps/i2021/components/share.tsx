@@ -1,15 +1,8 @@
 import { useCallback } from 'react';
 import { useClipboard } from 'use-clipboard-copy';
-import {
-  facebook,
-  linkedin,
-  twitter,
-  tumblr,
-  share as Share,
-  copy as Copy,
-} from './icons';
+import Icon from './icon';
 
-const OpenWindow = ({ shareUrl, url, icon: Icon }) => (
+const OpenWindow = ({ shareUrl, url, icon }) => (
   <a
     href={shareUrl + encodeURIComponent(url)}
     onClick={(e) => {
@@ -21,7 +14,7 @@ const OpenWindow = ({ shareUrl, url, icon: Icon }) => (
       );
     }}
   >
-    <Icon />
+    <Icon type={icon} />
   </a>
 );
 
@@ -44,31 +37,31 @@ const ShareBlock = ({ slug, title }) => {
   return (
     <>
       <a className="sharer-activator">
-        <Share />
+        <Icon type="share" />
       </a>
       <div className="sharer">
         <OpenWindow
           url={url}
           shareUrl="https://twitter.com/share?url="
-          icon={twitter}
+          icon="twitter"
         />
         <OpenWindow
           url={url}
           shareUrl="https://www.facebook.com/sharer.php?u="
-          icon={facebook}
+          icon="facebook"
         />
         <OpenWindow
           url={url}
           shareUrl="http://www.tumblr.com/share?s=&v=3&u="
-          icon={tumblr}
+          icon="tumblr"
         />
         <OpenWindow
           url={url}
           shareUrl="https://www.linkedin.com/sharing/share-offsite/?url="
-          icon={linkedin}
+          icon="linkedin"
         />
         <a onClick={copyShare}>
-          <Copy />
+          <Icon type="copy" />
         </a>
       </div>
     </>

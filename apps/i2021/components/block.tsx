@@ -2,56 +2,48 @@
 import { memo } from 'react';
 import { VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { AspectRatio } from 'react-aspect-ratio'; // Recommended: if you are using React > 15.6
-import * as icons from './icons';
+import Icon from './icon';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { blockProps } from './types';
 import TimelineIcon from './timeline-icon';
 import { transformDate } from './helpers';
-
-const Olympics = icons.olympics;
-const Escc = icons.escc;
-const Eaa = icons.eaa;
-const Aswc = icons.aswc;
-const TriGames = icons.trigames;
-const LocationIcon = icons.location;
-const VideoIcon = icons.video;
 
 const getIcon = (location: string) => {
   switch (location) {
     case 'Tokyo, JP':
       return (
         <span className="icon-size">
-          <Olympics />
+          <Icon type="olympics" />
         </span>
       );
     case 'Kazan, RU':
       return (
         <span className="icon-size icon-size-bk">
-          <Escc />
+          <Icon type="escc" />
         </span>
       );
     case 'Tallinn, EE':
       return (
         <span className="icon-size icon-size-bk">
-          <Eaa />
+          <Icon type="eaa" />
         </span>
       );
     case 'Asunción, PY':
       return (
         <span className="icon-size icon-size-bk">
-          <Aswc />
+          <Icon type="aswc" />
         </span>
       );
     case 'Ferrara, IT':
       return (
         <span className="icon-size icon-size-bk">
-          <TriGames />
+          <Icon type="trigames" />
         </span>
       );
     default:
       return (
         <span className="icon-size icon-size-small">
-          <LocationIcon />
+          <Icon type="location" />
         </span>
       );
   }
@@ -78,7 +70,7 @@ export default memo(function Block({
           className={type}
           title={title}
           slug={img.slug}
-          icon={icons[type]}
+          icon={() => <Icon type={type} />}
         />
       }
     >
@@ -105,7 +97,7 @@ export default memo(function Block({
                   className="play"
                 />
                 <span className="icon-size icon-video">
-                  <VideoIcon />
+                  <Icon type="video" />
                 </span>
               </>
             )}{' '}
