@@ -859,7 +859,7 @@
     "date": ["25/9/2021"],
     "location": "Lyon, FR",
     "title": "Coupe du Monde de la Pâtisserie",
-    "type": "other",
+    "type": "entertainment",
     "vs": "Japan",
     "link": "https://www.facebook.com/CoupeMondePatisserie/posts/4263267760388253",
     "img": {
@@ -1325,7 +1325,7 @@
     "date": ["17/10/2021"],
     "location": "Nantes, FR",
     "title": "Coupe d’Europe de la Boulangerie",
-    "type": "other",
+    "type": "entertainment",
     "img": {
       "slug": "boulangerie",
       "width": 800,
