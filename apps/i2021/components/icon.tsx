@@ -5,7 +5,7 @@ const Icon = ({ type, className }: { type: string; className?: string }) => (
     width="30"
     height="30"
   >
-    <use xlinkHref={`/sprite.svg#${type}`} />
+    <use xlinkHref={`/sprite-v2.svg#${type}`} />
   </svg>
 );
 
