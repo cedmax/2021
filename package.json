@@ -7,6 +7,7 @@
     "build": "ANALYZE=true nx build",
     "export": "nx export",
     "img": "node libs/get-image",
+    "map": "node libs/get-coords",
     "svg": "npx svg-sprite-generator -d ./apps/i2021/public/icons/ -o ./apps/i2021/public/sprite.svg",
     "test": "nx test",
     "serve": "npx serve dist/apps/i2021/exported"

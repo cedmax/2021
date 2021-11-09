@@ -1624,5 +1624,16 @@
       "width": 800,
       "height": 532
     }
+  },
+  {
+    "date": ["7/11/2021"],
+    "location": "Algarve, PT",
+    "title": "Pecco Bagnaia wins the Grand Prix Brembo of Algarve, handing Ducati the MotoGP Constructors' World Championship",
+    "type": "other",
+    "img": {
+      "slug": "ducati",
+      "width": 800,
+      "height": 533
+    }
   }
 ]
