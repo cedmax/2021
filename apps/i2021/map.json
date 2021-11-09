@@ -226,5 +226,9 @@
   {
     "location": "Oviedo, ES",
     "coordinates": [-5.84476, 43.36029]
+  },
+  {
+    "location": "Portimão, PT",
+    "coordinates": [-8.53775, 37.13856]
   }
 ]
