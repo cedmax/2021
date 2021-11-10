@@ -1,0 +1,13 @@
+diff --git a/src/commands/migrate.js b/src/commands/migrate.js
+index fe11e0558eeede06642d21f307ee18c2ca0d24d5..a1e4874846bc9e4a67fd18b9db5021de243bd751 100644
+--- a/src/commands/migrate.js
++++ b/src/commands/migrate.js
+@@ -317,7 +317,7 @@ function createFetcher() {
+     return function f(packageName, packageVersion) {
+         return tslib_1.__awaiter(this, void 0, void 0, function* () {
+             if (!cache[`${packageName}-${packageVersion}`]) {
+-                const dir = tmp_1.dirSync().name;
++                const dir = tmp_1.dirSync({ tmpdir:process.cwd() }).name;
+                 const npmrc = checkForNPMRC();
+                 if (npmrc) {
+                     // Creating a package.json is needed for .npmrc to resolve
