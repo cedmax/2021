@@ -21,7 +21,9 @@ const OpenWindow = ({ shareUrl, url, icon }) => (
 const ShareBlock = ({ slug }) => {
   const url = `https://2021.dsgn.it/${slug}`;
 
-  const clipboard = useClipboard();
+  const clipboard = useClipboard({
+    copiedTimeout: 2500,
+  });
   const copyShare = useCallback(() => {
     clipboard.copy(url);
   }, [clipboard, url]);
@@ -53,7 +55,7 @@ const ShareBlock = ({ slug }) => {
           icon="linkedin"
         />
         <a onClick={copyShare}>
-          <Icon type="copy" />
+          <Icon type={clipboard.copied ? 'check' : 'copy'} />
         </a>
       </div>
     </>
