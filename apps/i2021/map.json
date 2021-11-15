@@ -230,5 +230,9 @@
   {
     "location": "Portimão, PT",
     "coordinates": [-8.53775, 37.13856]
+  },
+  {
+    "location": "Budapest, HU",
+    "coordinates": [19.04045, 47.49835]
   }
 ]
