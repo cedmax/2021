@@ -77,7 +77,7 @@
   {
     "date": ["22/5/2021"],
     "location": "Rotterdam, NL",
-    "title": "Maneskin wins Eurovision",
+    "title": "Måneskin wins Eurovision",
     "type": "entertainment",
     "vs": "France",
     "video": "RVH5dn1cxAQ",
@@ -1626,14 +1626,26 @@
     }
   },
   {
-    "date": ["7/11/2021"],
-    "location": "Portimão, PT",
-    "title": "Pecco Bagnaia wins the Grand Prix Brembo of Algarve, handing Ducati the MotoGP Constructors' World Championship",
-    "type": "other",
+    "date": ["12/11/2021"],
+    "location": "Virtual Event",
+    "title": "Lorenzo Daretti is the 2021 MotoGP eSport World Champion",
+    "type": "gaming",
     "img": {
-      "slug": "ducati",
+      "slug": "daretti",
       "width": 800,
       "height": 533
+    }
+  },
+  {
+    "date": ["14/11/2021"],
+    "location": "Budapest, HU",
+    "title": "Måneskin wins Best Rock MTV European Music Award",
+    "type": "gaming",
+    "extended": "It's the first Italian nomination in one of the international categories in the history of the EMA",
+    "img": {
+      "slug": "ema",
+      "width": 800,
+      "height": 523
     }
   }
 ]
