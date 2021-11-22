@@ -234,5 +234,9 @@
   {
     "location": "Budapest, HU",
     "coordinates": [19.04045, 47.49835]
+  },
+  {
+    "location": "Dubai, AE",
+    "coordinates": [55.30927, 25.07725]
   }
 ]
