@@ -1658,5 +1658,16 @@
       "width": 800,
       "height": 523
     }
+  },
+  {
+    "date": ["21/11/2021"],
+    "location": "Dubai, AE",
+    "title": "Gold Medal for men's team kumite at the World Karate Championships",
+    "type": "martialarts",
+    "img": {
+      "slug": "kumite",
+      "width": 800,
+      "height": 450
+    }
   }
 ]

@@ -8,7 +8,18 @@ const prettier = require('prettier');
 const path = './apps/i2021';
 
 (async () => {
-  const slug = process.argv.slice(2)[0];
+  let slug = process.argv.slice(2)[0];
+
+  if (!slug) {
+    const { userSlug } = await prompt([
+      {
+        type: 'input',
+        name: 'userSlug',
+        message: 'What is the slug for the image?',
+      },
+    ]);
+    slug = userSlug;
+  }
 
   const { url } = await prompt([
     {
