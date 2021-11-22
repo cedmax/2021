@@ -859,7 +859,7 @@
     "date": ["25/9/2021"],
     "location": "Lyon, FR",
     "title": "Coupe du Monde de la Pâtisserie",
-    "type": "entertainment",
+    "type": "food",
     "vs": "Japan",
     "link": "https://www.facebook.com/CoupeMondePatisserie/posts/4263267760388253",
     "img": {
@@ -932,7 +932,7 @@
     "date": ["29/9/2021"],
     "location": "Málaga, ES",
     "title": "Italy beat England in a Cricket match at the European Championship T10",
-    "type": "cricket",
+    "type": "other",
     "extended": "For the 2nd time in history, and the first in 23 years",
     "img": {
       "slug": "cricket",
@@ -1277,7 +1277,7 @@
     "date": ["13/10/2021"],
     "location": "Paris, FR",
     "title": "For the first time, the French consume more mozzarella than camembert",
-    "type": "entertainment",
+    "type": "food",
     "vs": "Camembert",
     "link": "https://www.lefigaro.fr/actualite-france/pour-la-premiere-fois-les-francais-consomment-plus-de-mozzarella-que-de-camembert-20211013",
     "img": {
@@ -1325,7 +1325,7 @@
     "date": ["17/10/2021"],
     "location": "Nantes, FR",
     "title": "Coupe d’Europe de la Boulangerie",
-    "type": "entertainment",
+    "type": "food",
     "img": {
       "slug": "boulangerie",
       "width": 800,
@@ -1431,7 +1431,7 @@
     "date": ["28/10/2021"],
     "location": "London, UK",
     "title": "Champagne & Sparkling Wine World Championships",
-    "type": "entertainment",
+    "type": "food",
     "vs": "France",
     "extended": "Well in excess of 1000 sparkling wines were judged over 2 weeks with Italy taking the top of the leader board spot triumphing with 58 Gold and 129 Silver medals. France followed taking home 52 golds and 50 silver medals.",
     "img": {
@@ -1551,7 +1551,7 @@
     "date": ["4/11/2021"],
     "location": "Oviedo, ES",
     "title": "Parmigiano Reggiano gets 126 Medals, 7 of which Super Gold, at the World Cheese Awards",
-    "type": "entertainment",
+    "type": "food",
     "extended": "The best cheese overall was the Spanish Olavidia from Quesos y Besos, but Parmigiano Reggiano was the most awarded type of cheese",
     "img": {
       "slug": "parmigiano",
