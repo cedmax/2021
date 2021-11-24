@@ -1660,6 +1660,18 @@
     }
   },
   {
+    "date": ["16/11/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Serena Gabrielli wins the Brown/Black Belt Master 1 (49KG) Gold Medal at the World Masters Jiu-Jitsu Championship",
+    "type": "martialarts",
+    "extended": "And Federico Magnaguagno wins the Male Gi Purple Belt Master 4 (94KG) Gold Medal",
+    "img": {
+      "slug": "gabrielli",
+      "width": 800,
+      "height": 800
+    }
+  },
+  {
     "date": ["21/11/2021"],
     "location": "Dubai, AE",
     "title": "Gold Medal for men's team kumite at the World Karate Championships",
