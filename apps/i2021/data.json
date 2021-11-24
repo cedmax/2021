@@ -1669,5 +1669,16 @@
       "width": 800,
       "height": 450
     }
+  },
+  {
+    "date": ["23/11/2021"],
+    "location": "Hatfield Heath, UK",
+    "title": "Giuseppe Dell'Anno wins The Great British Bake off",
+    "type": "food",
+    "img": {
+      "slug": "bake-off",
+      "width": 800,
+      "height": 450
+    }
   }
 ]

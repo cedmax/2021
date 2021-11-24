@@ -238,5 +238,9 @@
   {
     "location": "Dubai, AE",
     "coordinates": [55.30927, 25.07725]
+  },
+  {
+    "location": "Hatfield Heath, UK",
+    "coordinates": [0.21243, 51.81233]
   }
 ]
