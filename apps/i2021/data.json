@@ -1111,7 +1111,7 @@
     "location": "Ferrara, IT",
     "title": "Italy Gold Medals at the SUDS Open Euro TriGames Judo Championsip",
     "type": "martialarts",
-    "extended": "by Davide Migliore (Judo, -60 kg); Francesco Verrengia (Judo, -73 kg) and Martina Tomba (Judo, -52 kg)",
+    "extended": "by Davide Migliore (U60kg); Francesco Verrengia (U73kg) and Martina Tomba (U52kg)",
     "img": {
       "slug": "migliore",
       "width": 800,
@@ -1605,6 +1605,18 @@
   },
   {
     "date": ["7/11/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Assunta Scutto wins the U48kg Judo Junior World Championships",
+    "vs": "Russia",
+    "type": "martialarts",
+    "img": {
+      "slug": "judo",
+      "width": 800,
+      "height": 568
+    }
+  },
+  {
+    "date": ["7/11/2021"],
     "location": "Kazan, RU",
     "title": "Marco Orsi wins the Gold Medal in 100m Individual Medley",
     "type": "swimming",
@@ -1691,6 +1703,30 @@
       "slug": "bake-off",
       "width": 800,
       "height": 450
+    }
+  },
+  {
+    "date": ["16/11/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Assunta Scutto wins the U48kg Gold Medal at the Judo Grand Slam",
+    "vs": "France",
+    "type": "martialarts",
+    "img": {
+      "slug": "scutto",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "date": ["27/11/2021"],
+    "location": "Dordrecht, NL",
+    "title": "Arianna Fontana wins the 500mt Short Track World Cup",
+    "vs": "Canada",
+    "type": "skiing",
+    "img": {
+      "slug": "short-track",
+      "width": 800,
+      "height": 523
     }
   }
 ]
