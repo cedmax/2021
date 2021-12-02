@@ -1728,5 +1728,16 @@
       "width": 800,
       "height": 523
     }
+  },
+  {
+    "date": ["29/11/2021"],
+    "location": "Paris, FR",
+    "title": "Gianluigi Donnarumma wins the Yashin Award",
+    "type": "football",
+    "img": {
+      "slug": "donnarumma",
+      "width": 800,
+      "height": 450
+    }
   }
 ]

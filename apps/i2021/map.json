@@ -228,6 +228,10 @@
     "coordinates": [-5.84476, 43.36029]
   },
   {
+    "location": "Abu Dhabi, AE",
+    "coordinates": [54.39696, 24.45118]
+  },
+  {
     "location": "Portimão, PT",
     "coordinates": [-8.53775, 37.13856]
   },
@@ -236,15 +240,15 @@
     "coordinates": [19.04045, 47.49835]
   },
   {
-    "location": "Abu Dhabi, AE",
-    "coordinates": [54.39696, 24.45118]
-  },
-  {
     "location": "Dubai, AE",
     "coordinates": [55.30927, 25.07725]
   },
   {
     "location": "Hatfield Heath, UK",
     "coordinates": [0.21243, 51.81233]
+  },
+  {
+    "location": "Dordrecht, NL",
+    "coordinates": [4.67361, 51.81]
   }
 ]
