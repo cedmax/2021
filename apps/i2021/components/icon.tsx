@@ -1,4 +1,4 @@
-const currentVersion = 'v5';
+const currentVersion = 'v6';
 
 const Icon = ({ type, className }: { type: string; className?: string }) => (
   <svg
