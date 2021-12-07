@@ -250,5 +250,9 @@
   {
     "location": "Dordrecht, NL",
     "coordinates": [4.67361, 51.81]
+  },
+  {
+    "location": "Treviso, IT",
+    "coordinates": [12.2416, 45.66673]
   }
 ]

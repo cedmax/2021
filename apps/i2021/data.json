@@ -1739,5 +1739,17 @@
       "width": 800,
       "height": 450
     }
+  },
+  {
+    "date": ["6/12/2021"],
+    "location": "Treviso, IT",
+    "title": "Cristina Moscetti wins Dynamic Billard European Ladies 8-Ball Championships",
+    "type": "other",
+    "vs": "Finland",
+    "img": {
+      "slug": "moscetti",
+      "width": 800,
+      "height": 1021
+    }
   }
 ]
