@@ -1537,6 +1537,18 @@
   },
   {
     "date": ["3/11/2021"],
+    "location": "Abu Dhabi, AE",
+    "vs": "Russia",
+    "title": "Claudia Di Blas wins the U21 Gold Medal (U52KG) at the Jiu-Jitsu World Championship",
+    "type": "martialarts",
+    "img": {
+      "slug": "di-blas",
+      "width": 800,
+      "height": 992
+    }
+  },
+  {
+    "date": ["3/11/2021"],
     "location": "Kazan, RU",
     "vs": "Russia",
     "title": "Martina Carraro wins the Gold Medal in 100m Breaststroke",
@@ -1762,6 +1774,19 @@
       "slug": "equipe",
       "width": 800,
       "height": 1064
+    }
+  },
+  {
+    "date": ["12/12/2021"],
+    "location": "Dublin, IE",
+    "title": "Nadia Battocletti wins the U23 Women Gold Medal at the European Cross Country",
+    "type": "athletics",
+    "vs": "Slovenia",
+    "extended": "She won the race and lead the Italian team to winning, sharing the team gold medal Anna Arnaudo (6th), Giovanna Selva (11th), Sara Nestola (33rd), Ludovica Cavalli (36th) and Michela Moretton 48th",
+    "img": {
+      "slug": "cross-country",
+      "width": 800,
+      "height": 600
     }
   }
 ]

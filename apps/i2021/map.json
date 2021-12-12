@@ -220,16 +220,16 @@
     "coordinates": [2.03659, 41.34357]
   },
   {
+    "location": "Abu Dhabi, AE",
+    "coordinates": [54.39696, 24.45118]
+  },
+  {
     "location": "Kazan, RU",
     "coordinates": [49.12214, 55.78874]
   },
   {
     "location": "Oviedo, ES",
     "coordinates": [-5.84476, 43.36029]
-  },
-  {
-    "location": "Abu Dhabi, AE",
-    "coordinates": [54.39696, 24.45118]
   },
   {
     "location": "Portimão, PT",
@@ -254,5 +254,9 @@
   {
     "location": "Treviso, IT",
     "coordinates": [12.2416, 45.66673]
+  },
+  {
+    "location": "Dublin, IE",
+    "coordinates": [-6.24889, 53.33306]
   }
 ]
