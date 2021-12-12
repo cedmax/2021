@@ -6,7 +6,7 @@
     "start": "nx serve",
     "build": "ANALYZE=true nx build",
     "export": "nx export",
-    "img": "node libs/get-image && yarn map",
+    "img": "node libs/get-image $@ && yarn map",
     "map": "node libs/get-coords",
     "svg": "./libs/svg.sh $@",
     "test": "nx test",

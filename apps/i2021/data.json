@@ -1751,5 +1751,17 @@
       "width": 800,
       "height": 1021
     }
+  },
+  {
+    "date": ["10/12/2021"],
+    "location": "Paris, FR",
+    "title": "L'Équipe dedicates the front cover to Italian sport results",
+    "type": "other",
+    "link": "https://www.lequipe.fr/abonnement/kiosque/le-magazine/5663ce5e-959b-4bd8-8c4d-ddc432ad8caa",
+    "img": {
+      "slug": "equipe",
+      "width": 800,
+      "height": 1064
+    }
   }
 ]
