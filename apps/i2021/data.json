@@ -501,7 +501,7 @@
   {
     "date": ["25/8/2021"],
     "location": "Tokyo, JP",
-    "title": "Carlotta Gilli and Alessia Berra Gold and Silver Medals in S13 100m butterfly",
+    "title": "Carlotta Gilli and Alessia Berra Gold and Silver Medals in S13 100m Butterfly",
     "vs": "Russia",
     "type": "swimming",
     "img": {
@@ -1787,6 +1787,17 @@
       "slug": "cross-country",
       "width": 800,
       "height": 600
+    }
+  },
+  {
+    "date": ["16/12/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Alberto Razzetti wins the 200m Butterfly (setting a new Italian Record) at the Short Course World Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "razzetti-2",
+      "width": 800,
+      "height": 534
     }
   }
 ]
