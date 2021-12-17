@@ -1777,6 +1777,18 @@
     }
   },
   {
+    "date": ["10/12/2021"],
+    "location": "Saint-Maur, FR",
+    "title": "Alice Volpi wins the Foil Fencing World Cup",
+    "type": "fencing",
+    "vs": "USA",
+    "img": {
+      "slug": "volpi",
+      "width": 800,
+      "height": 670
+    }
+  },
+  {
     "date": ["12/12/2021"],
     "location": "Dublin, IE",
     "title": "Nadia Battocletti wins the U23 Women Gold Medal at the European Cross Country",
@@ -1790,6 +1802,30 @@
     }
   },
   {
+    "date": ["12/12/2021"],
+    "location": "Saint-Maur, FR",
+    "title": "Alice Volpi, Erica Cipressa, Camilla Mancini e Martina Favaretto win the team Foil Fencing World Cup",
+    "type": "fencing",
+    "vs": "Japan",
+    "img": {
+      "slug": "fioretto",
+      "width": 800,
+      "height": 586
+    }
+  },
+  {
+    "date": ["15/12/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Martina De Memme, Giulia Gabrielleschi, Domenico Acerena and Gregorio Paltrinieri win \"The President's Relay\" – mixed 4x1500 – at the FINA World Championships",
+    "type": "swimming",
+    "vs": "Hungary",
+    "img": {
+      "slug": "presidents-relay",
+      "width": 800,
+      "height": 787
+    }
+  },
+  {
     "date": ["16/12/2021"],
     "location": "Abu Dhabi, AE",
     "title": "Alberto Razzetti wins the 200m Butterfly (setting a new Italian Record) at the Short Course World Championships",
@@ -1798,6 +1834,18 @@
       "slug": "razzetti-2",
       "width": 800,
       "height": 534
+    }
+  },
+  {
+    "date": ["16/12/2021"],
+    "location": "Mussanah, OM",
+    "title": "Federico Alan Pilloni wins the Windsurfer Bic Techno 293+ at the 50th Youth Sailing World Championships",
+    "type": "sailing",
+    "vs": "United Kingdom",
+    "img": {
+      "slug": "pilloni",
+      "width": 800,
+      "height": 533
     }
   },
   {
