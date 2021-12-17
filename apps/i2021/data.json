@@ -1799,5 +1799,18 @@
       "width": 800,
       "height": 534
     }
+  },
+  {
+    "date": ["18/12/2021"],
+    "location": "Worldwide",
+    "title": "The Economist crowns Italy 'Country of the Year'",
+    "type": "entertainment",
+    "extended": "“That honour goes to Italy. Not for the prowess of its footballers, who won Europe’s big trophy, nor its pop stars, who won the Eurovision song contest, but for its politics. The Economist has often criticised Italy for picking leaders, such as Silvio Berlusconi, who could usefully have followed the Eurovision-winning song’s admonition to “shut up and behave”. Because of weak governance, Italians were poorer in 2019 than they had been in 2000. Yet this year, Italy changed.”",
+    "link": "https://www.economist.com/leaders/2021/12/18/which-is-the-economists-country-of-the-year-for-2021",
+    "img": {
+      "slug": "economist",
+      "width": 800,
+      "height": 600
+    }
   }
 ]
