@@ -170,6 +170,13 @@ button.vertical-timeline-element-icon-selected {
     background: #f4f5f0;
     color: black;
     box-shadow: 0 3px 0 #bbb;
+
+    a,
+    a:link,
+    a:hover,
+    a:visited {
+      color: black;
+    }
   }
   .vertical-timeline-element-content-arrow {
     border-right-color: #f4f5f0;

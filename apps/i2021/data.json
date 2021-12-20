@@ -1311,6 +1311,19 @@
   },
   {
     "date": ["17/10/2021"],
+    "location": "London, UK",
+    "title": "The city of Milan wins The Earthshot Prize \"Build a Waste-free World\"",
+    "type": "other",
+    "link": "https://earthshotprize.org/london-2021/the-earthshot-prize-winners-finalists/waste-free/#city-of-milan",
+    "extended": "Milan is the first major city to enforce a city-wide food waste policy encompassing public agencies, food banks, charities, NGOs, universities and private businesses. And it is working. Today the city has three Food Waste Hubs, each recovering about 130 tonnes of food per year or 350 kg per day, an estimated 260,000 meals equivalent.",
+    "img": {
+      "slug": "milan",
+      "width": 800,
+      "height": 534
+    }
+  },
+  {
+    "date": ["17/10/2021"],
     "location": "Cluj-Napoca, RO",
     "title": "Group Gold Medals in All Around, 5 Balls, and 4 Clubs & 3 Hoops at the World Challenge Cup",
     "type": "gymnastic",
@@ -1859,6 +1872,53 @@
       "slug": "economist",
       "width": 800,
       "height": 600
+    }
+  },
+  {
+    "date": ["18/12/2021"],
+    "location": "Borehamwood, UK",
+    "title": "Giovanni Pernice and Rose Ayling-Ellis won Strictly Come Dancing",
+    "type": "entertainment",
+    "link": "https://twitter.com/bbcstrictly/status/1472313935340654604",
+    "video": "https://www.youtube.com/watch?v=O1GYplm3wqY",
+    "img": {
+      "slug": "strictly-come-dancing",
+      "width": 800,
+      "height": 800
+    }
+  },
+  {
+    "date": ["18/12/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Matteo Rivolta wins the 100m Butterfly at the Short Course World Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "rivolta",
+      "width": 800,
+      "height": 533
+    }
+  },
+  {
+    "date": ["19/12/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Deplano, Zazzeri, Frigo and Miressi win the 4x50 Freestyle Relay at the Short Course World Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "freestyle-relay",
+      "width": 800,
+      "height": 450
+    }
+  },
+  {
+    "date": ["19/12/2021"],
+    "location": "Borehamwood, UK",
+    "title": "The coach Giovanni Guidetti leads Vakifbank Istanbul to win the Volleyball Women's Club World Championship",
+    "type": "volleyball",
+    "extended": "Funnily enough, they had to beat an Italian team – Conegliano – and yet here we are, with an Italian at the top",
+    "img": {
+      "slug": "guidetti",
+      "width": 800,
+      "height": 1000
     }
   }
 ]

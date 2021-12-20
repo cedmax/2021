@@ -262,5 +262,9 @@
   {
     "location": "Dublin, IE",
     "coordinates": [-6.24889, 53.33306]
+  },
+  {
+    "location": "Borehamwood, UK",
+    "coordinates": [-0.27762, 51.65468]
   }
 ]
