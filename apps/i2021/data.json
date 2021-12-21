@@ -1829,7 +1829,7 @@
   {
     "date": ["15/12/2021"],
     "location": "Abu Dhabi, AE",
-    "title": "Martina De Memme, Giulia Gabrielleschi, Domenico Acerena and Gregorio Paltrinieri win \"The President's Relay\" – mixed 4x1500 – at the FINA World Championships",
+    "title": "Martina De Memme, Giulia Gabrielleschi, Domenico Acerena and Gregorio Paltrinieri win \"The President's Relay\" – mixed 4x1500 – Gold Medal at the FINA World Championships",
     "type": "swimming",
     "vs": "Hungary",
     "img": {
@@ -1841,7 +1841,7 @@
   {
     "date": ["16/12/2021"],
     "location": "Abu Dhabi, AE",
-    "title": "Alberto Razzetti wins the 200m Butterfly (setting a new Italian Record) at the Short Course World Championships",
+    "title": "Alberto Razzetti wins the 200m Butterfly Gold Medal (setting a new Italian Record) at the Short Course World Championships",
     "type": "swimming",
     "img": {
       "slug": "razzetti-2",
@@ -1852,7 +1852,7 @@
   {
     "date": ["16/12/2021"],
     "location": "Mussanah, OM",
-    "title": "Federico Alan Pilloni wins the Windsurfer Bic Techno 293+ at the 50th Youth Sailing World Championships",
+    "title": "Federico Alan Pilloni wins the Windsurfer Bic Techno 293+ Gold Medal at the 50th Youth Sailing World Championships",
     "type": "sailing",
     "vs": "United Kingdom",
     "img": {
@@ -1890,7 +1890,7 @@
   {
     "date": ["18/12/2021"],
     "location": "Abu Dhabi, AE",
-    "title": "Matteo Rivolta wins the 100m Butterfly at the Short Course World Championships",
+    "title": "Matteo Rivolta wins the 100m Butterfly Gold Medal at the Short Course World Championships",
     "type": "swimming",
     "img": {
       "slug": "rivolta",
@@ -1901,7 +1901,7 @@
   {
     "date": ["19/12/2021"],
     "location": "Abu Dhabi, AE",
-    "title": "Deplano, Zazzeri, Frigo and Miressi win the 4x50 Freestyle Relay at the Short Course World Championships",
+    "title": "Leonardo Deplano, Lorenzo Zazzeri, Manuel Frigo and Alessandro Miressi win the 4x50 Freestyle Relay Gold Medal at the Short Course World Championships",
     "type": "swimming",
     "img": {
       "slug": "freestyle-relay",
@@ -1919,6 +1919,28 @@
       "slug": "guidetti",
       "width": 800,
       "height": 1000
+    }
+  },
+  {
+    "date": ["21/12/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Lorenzo Mora, Nicolo Martinenghi, Matteo Rivolta and Alessandro Miressi win the 4x50 Medley Relay Gold Medal at the Short Course World Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "medley-relay",
+      "width": 800,
+      "height": 534
+    }
+  },
+  {
+    "date": ["21/12/2021"],
+    "location": "Abu Dhabi, AE",
+    "title": "Alessandro Miressi wins the 100mt Freestyle Gold Medal at Short Course World Championships",
+    "type": "swimming",
+    "img": {
+      "slug": "miressi",
+      "width": 800,
+      "height": 532
     }
   }
 ]
